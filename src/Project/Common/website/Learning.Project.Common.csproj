@@ -61,6 +61,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App_Config\Include\Project\Project.Serialization.Common.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

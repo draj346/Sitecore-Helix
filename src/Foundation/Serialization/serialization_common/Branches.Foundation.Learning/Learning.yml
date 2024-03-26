@@ -1,0 +1,14 @@
+﻿---
+ID: "aeeeb512-fb28-4a2a-9981-8e4dfcd5ba65"
+Parent: "e24c4a00-08d6-41c8-b60e-e7990b21697a"
+Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
+Path: /sitecore/templates/Branches/Foundation/Learning
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240326T080152Z
