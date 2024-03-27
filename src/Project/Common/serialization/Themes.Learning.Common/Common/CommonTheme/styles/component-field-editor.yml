@@ -1,0 +1,31 @@
+﻿---
+ID: "25ff3570-ce2f-41b1-909f-32797b161cca"
+Parent: "041f436c-615b-4bd5-ac57-8e194021a67d"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/Learning/Common/CommonTheme/styles/component-field-editor"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/25FF3570CE2F41B1909F32797B161CCA.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "ec9556f5-de65-41a6-a2db-2300beedd2a3"
+  Value: LyogYnJlYWtwb2ludHMgKi8KLmZpZWxkLWVkaXRvciB7CiAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKfQoKLmZpZWxkLWVkaXRvciAuZmllbGQtdGFibGUgewogIHdpZHRoOiAxMDAlOwogIGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cn0KCi5maWVsZC1lZGl0b3IgLmZpZWxkLXRhYmxlIHRhYmxlIHsKICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7CiAgdGFibGUtbGF5b3V0OiBmaXhlZDsKfQoKLmZpZWxkLWVkaXRvciAuZmllbGQtdGFibGUgdGJvZHkgewogIGJvcmRlcjogbm9uZTsKICBiYWNrZ3JvdW5kOiBub25lOwp9CgouZmllbGQtZWRpdG9yIC5maWVsZC10YWJsZSB0Ym9keSB0ciB7CiAgYmFja2dyb3VuZDogbm9uZTsKfQoKLmZpZWxkLWVkaXRvciAuZmllbGQtdGFibGUgdGggewogIGNvbG9yOiAjMDAwOwogIHBhZGRpbmc6IDVweCAxMHB4OwogIHRleHQtYWxpZ246IGxlZnQ7CiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTsKfQoKLmZpZWxkLWVkaXRvciAuZmllbGQtdGFibGUgdGQgewogIGNvbG9yOiAjNzQ3NDc0OwogIHBhZGRpbmc6IDVweCAxMHB4OwogIHRleHQtYWxpZ246IGxlZnQ7CiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTsKfQoKLmZpZWxkLWVkaXRvci5wb3NpdGlvbi1yaWdodCAuZmllbGQtdGFibGUgdGQgewogIHRleHQtYWxpZ246IHJpZ2h0Owp9CgouZmllbGQtZWRpdG9yLnBvc2l0aW9uLWNlbnRlciAuZmllbGQtdGFibGUgdGQgewogIHRleHQtYWxpZ246IGNlbnRlcjsKfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 761
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T120421Z

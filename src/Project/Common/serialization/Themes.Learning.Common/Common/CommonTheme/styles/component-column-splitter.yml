@@ -1,0 +1,31 @@
+﻿---
+ID: "dedcecc2-6d3a-46bd-94b2-1fa4dd4abcfa"
+Parent: "041f436c-615b-4bd5-ac57-8e194021a67d"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/Learning/Common/CommonTheme/styles/component-column-splitter"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/DEDCECC26D3A46BD94B21FA4DD4ABCFA.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "3e335d99-d06c-4934-b502-3a42d527b958"
+  Value: LnJvdy5jb2x1bW4tc3BsaXR0ZXIgewogIG1hcmdpbi1sZWZ0OiAwOwogIG1hcmdpbi1yaWdodDogMDsKICBtYXgtd2lkdGg6IG5vbmU7Cn0KCi5yb3cuY29sdW1uLXNwbGl0dGVyID4gZGl2IHsKICBwYWRkaW5nLWxlZnQ6IDA7CiAgcGFkZGluZy1yaWdodDogMDsKfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 152
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T120420Z
