@@ -1,0 +1,25 @@
+﻿---
+ID: "1d343fda-3722-4d36-a212-51c8801bbcad"
+Parent: "15392a31-3b45-466d-9b0a-4c9ae4aeded3"
+Template: "15392a31-3b45-466d-9b0a-4c9ae4aeded3"
+Path: /sitecore/templates/Project/Learning/Default/Page Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {15392A31-3B45-466D-9B0A-4C9AE4AEDED3}
+    {3A9CA7BA-223E-41AF-8F25-A0FF6215D6A0}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240325T184824Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
