@@ -1,0 +1,33 @@
+﻿---
+ID: "ed12b54f-debc-4bbe-803c-c08e0a77bf78"
+Parent: "7a1e64ec-da01-4337-beed-a93c4763e9a9"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Base Themes/Learning Core Libraries/scripts/jqueryuitouch-punchmin"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/5532150582D24DEE8A4567006CC65293.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  Value: LyohCiAqIGpRdWVyeSBVSSBUb3VjaCBQdW5jaCAwLjIuMwogKgogKiBDb3B5cmlnaHQgMjAxMeKAkzIwMTQsIERhdmUgRnVyZmVybwogKiBEdWFsIGxpY2Vuc2VkIHVuZGVyIHRoZSBNSVQgb3IgR1BMIFZlcnNpb24gMiBsaWNlbnNlcy4KICoKICogRGVwZW5kczoKICogIGpxdWVyeS51aS53aWRnZXQuanMKICogIGpxdWVyeS51aS5tb3VzZS5qcwogKi8KIWZ1bmN0aW9uKGEpe2Z1bmN0aW9uIGYoYSxiKXtpZighKGEub3JpZ2luYWxFdmVudC50b3VjaGVzLmxlbmd0aD4xKSl7YS5wcmV2ZW50RGVmYXVsdCgpO3ZhciBjPWEub3JpZ2luYWxFdmVudC5jaGFuZ2VkVG91Y2hlc1swXSxkPWRvY3VtZW50LmNyZWF0ZUV2ZW50KCJNb3VzZUV2ZW50cyIpO2QuaW5pdE1vdXNlRXZlbnQoYiwhMCwhMCx3aW5kb3csMSxjLnNjcmVlblgsYy5zY3JlZW5ZLGMuY2xpZW50WCxjLmNsaWVudFksITEsITEsITEsITEsMCxudWxsKSxhLnRhcmdldC5kaXNwYXRjaEV2ZW50KGQpfX1pZihhLnN1cHBvcnQudG91Y2g9Im9udG91Y2hlbmQiaW4gZG9jdW1lbnQsYS5zdXBwb3J0LnRvdWNoKXt2YXIgZSxiPWEudWkubW91c2UucHJvdG90eXBlLGM9Yi5fbW91c2VJbml0LGQ9Yi5fbW91c2VEZXN0cm95O2IuX3RvdWNoU3RhcnQ9ZnVuY3Rpb24oYSl7dmFyIGI9dGhpczshZSYmYi5fbW91c2VDYXB0dXJlKGEub3JpZ2luYWxFdmVudC5jaGFuZ2VkVG91Y2hlc1swXSkmJihlPSEwLGIuX3RvdWNoTW92ZWQ9ITEsZihhLCJtb3VzZW92ZXIiKSxmKGEsIm1vdXNlbW92ZSIpLGYoYSwibW91c2Vkb3duIikpfSxiLl90b3VjaE1vdmU9ZnVuY3Rpb24oYSl7ZSYmKHRoaXMuX3RvdWNoTW92ZWQ9ITAsZihhLCJtb3VzZW1vdmUiKSl9LGIuX3RvdWNoRW5kPWZ1bmN0aW9uKGEpe2UmJihmKGEsIm1vdXNldXAiKSxmKGEsIm1vdXNlb3V0IiksdGhpcy5fdG91Y2hNb3ZlZHx8ZihhLCJjbGljayIpLGU9ITEpfSxiLl9tb3VzZUluaXQ9ZnVuY3Rpb24oKXt2YXIgYj10aGlzO2IuZWxlbWVudC5iaW5kKHt0b3VjaHN0YXJ0OmEucHJveHkoYiwiX3RvdWNoU3RhcnQiKSx0b3VjaG1vdmU6YS5wcm94eShiLCJfdG91Y2hNb3ZlIiksdG91Y2hlbmQ6YS5wcm94eShiLCJfdG91Y2hFbmQiKX0pLGMuY2FsbChiKX0sYi5fbW91c2VEZXN0cm95PWZ1bmN0aW9uKCl7dmFyIGI9dGhpcztiLmVsZW1lbnQudW5iaW5kKHt0b3VjaHN0YXJ0OmEucHJveHkoYiwiX3RvdWNoU3RhcnQiKSx0b3VjaG1vdmU6YS5wcm94eShiLCJfdG91Y2hNb3ZlIiksdG91Y2hlbmQ6YS5wcm94eShiLCJfdG91Y2hFbmQiKX0pLGQuY2FsbChiKX19fShqUXVlcnkpOw==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1291
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: "application/x-javascript"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1300
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: js
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160509T120136Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "a08d5da8-206f-4855-b83f-1f0f175231c6"
+Parent: "d907e0e1-f1ad-4614-9166-ef14183fe03b"
+Template: "78086ca4-8985-45eb-8aa7-b2948d2a0e06"
+Path: /sitecore/media library/Base Themes/Learning Core Libraries
+DB: master
+SharedFields:
+- ID: "1123bac0-6b46-4faa-b684-8423c13e4004"
+  Hint: CompositeLayout
+  Value: "{837FB415-3A7C-41EA-822C-F4D742A840AA}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Learning Core Libraries
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160429T112137Z

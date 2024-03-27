@@ -1,0 +1,18 @@
+﻿---
+ID: "a54cc3cd-58fa-4a51-9d4d-f410ae7f27c6"
+Parent: "a08d5da8-206f-4855-b83f-1f0f175231c6"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Base Themes/Learning Core Libraries/Fonts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190527T090008Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

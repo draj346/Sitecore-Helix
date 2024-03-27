@@ -1,0 +1,14 @@
+﻿---
+ID: "ae00d25c-d4fd-4854-8fcc-8fc9eb3e516a"
+Parent: "a08d5da8-206f-4855-b83f-1f0f175231c6"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Base Themes/Learning Core Libraries/Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170510T065857Z
