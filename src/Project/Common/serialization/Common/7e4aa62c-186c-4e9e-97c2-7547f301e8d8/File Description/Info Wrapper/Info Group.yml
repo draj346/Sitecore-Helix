@@ -1,0 +1,22 @@
+﻿---
+ID: "88f58995-9224-456e-95e4-55d530888c76"
+Parent: "9144aa10-18ee-454e-a20d-a3cf24d05ac8"
+Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
+Path: "/sitecore/content/Learning/Common/Presentation/Rendering Variants/Media Link/Icon-Name-Date and Download link/File Description/Info Wrapper/Info Group"
+DB: master
+BranchID: "630530a2-bfbf-4538-8fc0-41f4e5a5a2b8"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F2DF5B2E-6956-4E63-850F-78B1E0BBE42A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023804Z

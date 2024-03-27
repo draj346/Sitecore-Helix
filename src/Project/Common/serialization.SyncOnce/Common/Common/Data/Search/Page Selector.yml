@@ -1,0 +1,19 @@
+﻿---
+ID: "23da664d-3d2d-47de-8861-2a480c7f2238"
+Parent: "7b191436-1ed8-4df5-9957-0b2bb022998e"
+Template: "3cb0d374-029b-4eeb-ba8b-ed75b0c25188"
+Path: /sitecore/content/Learning/Common/Data/Search/Page Selector
+DB: master
+BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{30D2D0BD-EAA7-4517-A076-94AD9D78A92A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023821Z

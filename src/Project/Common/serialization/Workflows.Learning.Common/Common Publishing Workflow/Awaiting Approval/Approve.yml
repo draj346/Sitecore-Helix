@@ -1,0 +1,29 @@
+﻿---
+ID: "4c8541d6-9a2a-4133-9022-8cec14218541"
+Parent: "1cb92908-ce94-4696-b08a-9a4b36c9aa02"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Common Publishing Workflow/Awaiting Approval/Approve
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/check.png
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{59A29D8C-E25C-41EB-B380-5E046D40082D}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pd|+workflowCommand:execute|pe|+workflowCommand:execute|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T025233Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

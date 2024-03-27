@@ -1,0 +1,14 @@
+﻿---
+ID: "b1bc0f2b-95d5-4fe8-a500-c1980f984a83"
+Parent: "035bb3d7-fff7-4927-84f3-5d970d63913c"
+Template: "1ef29b63-5b98-463c-b3c8-66dfe99bd641"
+Path: /sitecore/content/Learning/Common/Data/Tabs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023753Z

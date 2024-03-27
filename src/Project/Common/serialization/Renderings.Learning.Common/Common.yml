@@ -1,0 +1,14 @@
+﻿---
+ID: "4d477608-fa7e-4f3b-ac5b-7ddfc4384c9c"
+Parent: "1a87da33-4f63-425c-9075-66b53912c85e"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/Project/Learning/Common
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T024049Z

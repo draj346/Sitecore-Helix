@@ -1,0 +1,14 @@
+﻿---
+ID: "0f46d35f-73fb-4104-aaae-6cddc37886a8"
+Parent: "8d1d1549-9602-4bfc-aa2a-436790e59f47"
+Template: "c2dc4690-af44-48c7-bb21-90d1ad246732"
+Path: /sitecore/content/Learning/Common/Settings/Redirects
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023741Z

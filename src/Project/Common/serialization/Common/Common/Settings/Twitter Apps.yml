@@ -1,0 +1,14 @@
+﻿---
+ID: "f082ad5f-e507-454c-8344-f229a6a263b7"
+Parent: "8d1d1549-9602-4bfc-aa2a-436790e59f47"
+Template: "456067df-fc7d-4639-9177-41f69e81c927"
+Path: /sitecore/content/Learning/Common/Settings/Twitter Apps
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023818Z

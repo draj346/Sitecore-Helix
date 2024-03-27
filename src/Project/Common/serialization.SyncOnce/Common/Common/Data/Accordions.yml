@@ -1,0 +1,14 @@
+﻿---
+ID: "37708f76-2bbd-47ff-974a-cb39616f7108"
+Parent: "035bb3d7-fff7-4927-84f3-5d970d63913c"
+Template: "68c00cb0-320b-4324-903a-f6ad56a2a105"
+Path: /sitecore/content/Learning/Common/Data/Accordions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023752Z

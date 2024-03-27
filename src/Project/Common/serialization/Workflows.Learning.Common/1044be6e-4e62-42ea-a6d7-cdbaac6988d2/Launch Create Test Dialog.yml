@@ -1,0 +1,14 @@
+﻿---
+ID: "3b845af3-2c51-427d-adfd-874a82d4db10"
+Parent: "1044be6e-4e62-42ea-a6d7-cdbaac6988d2"
+Template: "dc773c4f-df6c-4ff0-927d-bc4069003687"
+Path: /sitecore/system/Workflows/Common Publishing Workflow/Awaiting Approval/Approve with Test/Launch Create Test Dialog
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140219T142805

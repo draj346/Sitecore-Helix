@@ -1,0 +1,14 @@
+﻿---
+ID: "be786408-34b8-4797-8746-9b1927cee05c"
+Parent: "2e41efd0-0c0b-47ea-afaf-7165dea398d1"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/Learning/Common
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023826Z

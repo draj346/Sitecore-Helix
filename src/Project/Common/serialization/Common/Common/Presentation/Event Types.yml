@@ -1,0 +1,14 @@
+﻿---
+ID: "a13e74e2-61b4-4be8-b95d-f9d5c5df985e"
+Parent: "81ca6ca5-a5f3-4471-bfad-4e9f4b1e2c26"
+Template: "fd612519-1c44-48b7-a44a-d582e22c38dd"
+Path: /sitecore/content/Learning/Common/Presentation/Event Types
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023755Z

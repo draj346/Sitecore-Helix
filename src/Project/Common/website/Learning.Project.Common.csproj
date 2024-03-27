@@ -61,7 +61,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Project\Project.Serialization.Common.config" />
+    <Content Include="App_Config\Include\Project\Project.Common.Serialization.config" />
+    <Content Include="App_Config\Include\Project\Project.Common.Serialization.SyncOnce.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
