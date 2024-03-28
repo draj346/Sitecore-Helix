@@ -1,0 +1,19 @@
+﻿---
+ID: "c730641a-9f8e-46ba-be69-e742c2d92a14"
+Parent: "7b191436-1ed8-4df5-9957-0b2bb022998e"
+Template: "df757e41-d77e-4125-bad0-aa2e75ee4085"
+Path: /sitecore/content/Learning/Common/Data/Search/Checklist Filter
+DB: master
+BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3F0D79A3-62DE-4C9C-9C44-66E3E73AB9CD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240327T023821Z

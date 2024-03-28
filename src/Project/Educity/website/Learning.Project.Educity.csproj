@@ -97,6 +97,8 @@
     <Reference Include="System.Xml.ReaderWriter" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Project\Project.Educity.Serialization.config" />
+    <Content Include="App_Config\Include\Project\Project.Educity.Serialization.SyncOnce.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

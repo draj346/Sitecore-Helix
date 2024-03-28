@@ -1,0 +1,14 @@
+﻿---
+ID: "b5e72439-9da8-4867-b056-6a54438e7bd1"
+Parent: "7e5ebdb0-a9bb-4608-8e69-cda61e8fa529"
+Template: "26fce9bf-0256-458d-8281-a713a5bf5520"
+Path: /sitecore/content/Learning/Educity/Presentation/Cache Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145722Z

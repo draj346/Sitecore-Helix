@@ -1,0 +1,14 @@
+﻿---
+ID: "595a27bd-d606-45a5-95aa-e6929203dc41"
+Parent: "1e8e0273-2b57-42d5-b8a5-7888d3708589"
+Template: "dc773c4f-df6c-4ff0-927d-bc4069003687"
+Path: /sitecore/system/Workflows/Educity Publishing Workflow/Awaiting Approval/Approve with Test/Launch Create Test Dialog
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140219T142805

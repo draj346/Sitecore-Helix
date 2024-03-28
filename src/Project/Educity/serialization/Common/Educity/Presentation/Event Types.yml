@@ -1,0 +1,14 @@
+﻿---
+ID: "c33c5a46-84f7-4c44-8d3f-3f19f70e772a"
+Parent: "7e5ebdb0-a9bb-4608-8e69-cda61e8fa529"
+Template: "fd612519-1c44-48b7-a44a-d582e22c38dd"
+Path: /sitecore/content/Learning/Educity/Presentation/Event Types
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145736Z

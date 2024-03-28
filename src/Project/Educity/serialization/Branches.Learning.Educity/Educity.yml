@@ -1,0 +1,14 @@
+﻿---
+ID: "2020506f-d3e6-4b89-bdfb-cdf193ea7c5d"
+Parent: "f8507f7b-6603-4db7-8daf-e2629f05849d"
+Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
+Path: /sitecore/templates/Branches/Project/Learning/Educity
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T150435Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "dd60c735-7862-433d-be05-0ecc825a3cba"
+Parent: "153614a9-ca37-46c4-8290-0cc42ad341ce"
+Template: "44936c95-bca9-4fb3-9d98-2066a5fbbb4d"
+Path: /sitecore/content/Learning/Educity/Settings/Scopes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145758Z

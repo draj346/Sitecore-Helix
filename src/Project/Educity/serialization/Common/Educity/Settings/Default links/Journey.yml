@@ -1,0 +1,22 @@
+﻿---
+ID: "aa402e50-7be1-4665-9a5e-75f7f3c1502f"
+Parent: "268503e6-7ec4-449f-94f5-5fa917274e69"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Learning/Educity/Settings/Default links/Journey
+DB: master
+BranchID: "26ae263a-97d7-4156-97e2-4b515a45b2ea"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/graph_connection_directed.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9F50B421-BB6D-40E3-97D0-ECDF0DCEB9AB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145749Z

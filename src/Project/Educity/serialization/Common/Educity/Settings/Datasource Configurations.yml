@@ -1,0 +1,14 @@
+﻿---
+ID: "ceac9442-f9b8-4a97-b94e-9b35ff4012cc"
+Parent: "153614a9-ca37-46c4-8290-0cc42ad341ce"
+Template: "f86fe270-00a4-492f-bfaf-5bf27e40ce13"
+Path: /sitecore/content/Learning/Educity/Settings/Datasource Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145719Z
