@@ -63,6 +63,7 @@
   <ItemGroup>
     <Content Include="Learning.Environment.CMS.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <None Include="Properties\PublishProfiles\LocalXM.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
