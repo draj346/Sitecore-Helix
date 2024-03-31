@@ -1,0 +1,23 @@
+﻿---
+ID: "bc9385e8-accf-4078-b7e0-c3329f57cdbe"
+Parent: "18fa48ed-47ec-41e3-b9f1-3bb825e553c6"
+Template: "7dd9ece5-9461-498d-8721-7cbea8111b5e"
+Path: /sitecore/content/Learning/Educity/Data/POIs/My Location POI
+DB: master
+BranchID: "58a9b55e-88b8-49a3-918b-99f3b6534c95"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1EAE825C-8C4C-4491-AF83-2B51835865CA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145737Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

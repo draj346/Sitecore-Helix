@@ -29,7 +29,6 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@sitecore-feaas/clientside": "^0.5.17",
     "@sitecore-jss/sitecore-jss-nextjs": "~21.7.0",
     "bootstrap": "^5.2.3",
     "graphql": "~15.8.0",

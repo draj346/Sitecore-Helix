@@ -1,0 +1,14 @@
+﻿---
+ID: "2809381f-7ca5-4dfd-81cf-537ac477c0e6"
+Parent: "93717319-1f3a-43ca-b1ac-2dc1a3c0ec03"
+Template: "8302b292-e67b-4396-ba95-b4f8289249fc"
+Path: /sitecore/content/Learning/Educity/Data/Maps
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145741Z

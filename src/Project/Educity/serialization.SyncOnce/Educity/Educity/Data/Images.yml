@@ -1,0 +1,14 @@
+﻿---
+ID: "bc463627-17bd-4c1c-b98f-66824048aeeb"
+Parent: "93717319-1f3a-43ca-b1ac-2dc1a3c0ec03"
+Template: "861d0715-e397-4114-870a-7fbb1fe8c9d6"
+Path: /sitecore/content/Learning/Educity/Data/Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145742Z

@@ -1,0 +1,19 @@
+﻿---
+ID: "2b25262c-c562-4740-92a7-46e413e5c563"
+Parent: "8e00c121-6b2a-468d-93b0-c0c0bedbda5e"
+Template: "9d46c5c3-aaee-46aa-b406-a1806302116e"
+Path: /sitecore/content/Learning/Educity/Data/Search/Dropdown Filter
+DB: master
+BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{AE5CC139-C6CA-4BFA-865B-445FE691DA3A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145807Z

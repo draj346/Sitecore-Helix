@@ -1,0 +1,25 @@
+﻿---
+ID: "89d5f6a2-e54e-4a57-a57d-d7f9af119206"
+Parent: "d617f513-fa27-40be-a2cc-f4aed267534f"
+Template: "0d0a50e3-3f1e-45c7-8a0f-4e81a5dea80c"
+Path: /sitecore/content/Learning/Educity/Home
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240328T145716Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Educity
+    - ID: "6dd8666b-670a-461e-a9a5-12a8df103de0"
+      Hint: Title
+      Value: Educity
