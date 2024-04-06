@@ -87,7 +87,7 @@
     "next:start": "next start",
     "scaffold": "ts-node --project tsconfig.scripts.json scripts/scaffold-component/index.ts",
     "start": "cross-env NODE_ENV=development JSS_MODE=disconnected \"npm-run-all --serial bootstrap --parallel next:dev start:disconnected-proxy start:watch-components\"",
-    "start:connected": "cross-env NODE_ENV=development npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
+    "start:connected": "cross-env NODE_EXTRA_CA_CERTS=C:\\certificates\\SIFRoot.cer NODE_ENV=development npm-run-all --serial bootstrap --parallel next:dev start:watch-components",
     "start:disconnected-proxy": "ts-node --project tsconfig.scripts.json ./scripts/disconnected-mode-proxy.ts",
     "start:production": "cross-env-shell NODE_ENV=production npm-run-all --serial bootstrap next:build next:start",
     "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch"
