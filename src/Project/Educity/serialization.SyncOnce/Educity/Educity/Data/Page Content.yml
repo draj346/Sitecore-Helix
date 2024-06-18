@@ -1,0 +1,18 @@
+﻿---
+ID: "89a070b9-93d3-4a73-9119-216b38a80f53"
+Parent: "93717319-1f3a-43ca-b1ac-2dc1a3c0ec03"
+Template: "5066b657-8c1e-451f-b102-1b43ae2264b7"
+Path: /sitecore/content/Learning/Educity/Data/Page Content
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240608T153228Z

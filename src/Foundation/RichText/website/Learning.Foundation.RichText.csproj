@@ -43,6 +43,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.ExperienceEditor">
+      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\xm103cm.dev.local\bin\Sitecore.ExperienceEditor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -61,9 +64,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\Foundation.Custom.Fields.config" />
+    <Content Include="scripts\image.js" />
+    <Content Include="scripts\lozad.min.js" />
+    <None Include="Views\web.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fields\RenderedLazyLoadImage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Fields\LazyLoadImage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Fields\RenderedLazyLoadImageField.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +91,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack">
+      <Version>1.4.9.5</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.AspNet.Mvc">
       <Version>5.2.4</Version>
     </PackageReference>
@@ -97,6 +116,7 @@
       <Version>10.3.1</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

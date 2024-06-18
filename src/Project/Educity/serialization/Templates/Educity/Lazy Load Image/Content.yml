@@ -1,0 +1,14 @@
+﻿---
+ID: "293ca645-90b6-457f-86c1-7e23bd38f2b0"
+Parent: "e322771f-70ab-4f80-92b9-640be8508e95"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning/Educity/Lazy Load Image/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240608T153358Z
