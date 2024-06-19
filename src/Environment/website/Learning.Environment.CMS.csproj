@@ -86,6 +86,10 @@
       <Project>{86557448-c12d-45a7-b22f-e1554a8b9f27}</Project>
       <Name>Learning.Feature.Forms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Foundation\CustomFields\website\Learning.Foundation.CustomFields.csproj">
+      <Project>{8fb744a4-657b-4a68-8691-a9c928d3f499}</Project>
+      <Name>Learning.Foundation.CustomFields</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Foundation\DependencyInjection\website\Learning.Foundation.DependencyInjection.csproj">
       <Project>{4c1be5de-8577-4726-8b51-21c519a58964}</Project>
       <Name>Learning.Foundation.DependencyInjection</Name>

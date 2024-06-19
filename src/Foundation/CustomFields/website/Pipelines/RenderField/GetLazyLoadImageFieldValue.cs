@@ -1,20 +1,16 @@
-﻿using Sitecore;
-using Sitecore.Collections;
+﻿using Sitecore.Collections;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
-using Sitecore.Diagnostics;
 using Sitecore.Pipelines.RenderField;
-using Sitecore.Sites;
-using Sitecore.Web;
 using Sitecore.Xml.Xsl;
 
-namespace Learning.Foundation.RichText.Fields
+namespace Learning.Foundation.Pipelines.RenderField
 {
-    public class RenderedLazyLoadImage
+    public class GetLazyLoadImageFieldValue
     {
         protected virtual ImageRenderer CreateRenderer() => new ImageRenderer();
         private static readonly string _TitleFieldName = "title";
-        protected virtual string TitleFieldName => RenderedLazyLoadImage._TitleFieldName;
+        protected virtual string TitleFieldName => GetLazyLoadImageFieldValue._TitleFieldName;
 
         public void Process(RenderFieldArgs args)
         {
@@ -24,7 +20,7 @@ namespace Learning.Foundation.RichText.Fields
                 this.ConfigureRenderer(args, renderer);
                 this.SetRenderFieldResult(renderer.Render(), args);
 
-                if (!RenderedLazyLoadImage.CanRenderField(args))
+                if (!GetLazyLoadImageFieldValue.CanRenderField(args))
                 {
                     string image = args.Result.FirstPart;
                     image = image.Replace("src", "data-src");

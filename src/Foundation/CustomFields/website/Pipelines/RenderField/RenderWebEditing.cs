@@ -21,16 +21,16 @@ using System.IO;
 using System.Web;
 using System.Web.UI;
 
-namespace Learning.Foundation.RichText.Fields
+namespace Learning.Foundation.Pipelines.RenderField
 {
-    public class RenderedLazyLoadImageField
+    public class RenderWebEditing
     {
         public void Process(RenderFieldArgs args)
         {
             if (args != null && (args.FieldTypeKey == "lazy load image"))
             {
                 Assert.ArgumentNotNull((object)args, nameof(args));
-                if (!RenderedLazyLoadImageField.CanRenderField(args))
+                if (!RenderWebEditing.CanRenderField(args))
                     return;
                 Field field = args.Item.Fields[args.FieldName];
                 Item obj = field.Item;
@@ -55,7 +55,7 @@ namespace Learning.Foundation.RichText.Fields
         /// </returns>
         public static bool CanRenderField(RenderFieldArgs args)
         {
-            if (!RenderedLazyLoadImageField.CanWebEdit(args) && !args.WebEditParameters.ContainsKey("sc-highlight-contentchange") || args.Item == null || !RenderedLazyLoadImageField.CanEditItem(args.Item))
+            if (!RenderWebEditing.CanWebEdit(args) && !args.WebEditParameters.ContainsKey("sc-highlight-contentchange") || args.Item == null || !RenderWebEditing.CanEditItem(args.Item))
                 return false;
             Field field = args.Item.Fields[args.FieldName];
             return field != null && field.CanUserWrite(Context.User);
@@ -100,20 +100,20 @@ namespace Learning.Foundation.RichText.Fields
             Assert.ArgumentNotNull((object)output, nameof(output));
             Assert.ArgumentNotNull((object)args, nameof(args));
             Assert.ArgumentNotNull((object)controlID, nameof(controlID));
-            Tag fieldTag = RenderedLazyLoadImageField.CreateFieldTag("code", args, controlID);
+            Tag fieldTag = RenderWebEditing.CreateFieldTag("code", args, controlID);
             fieldTag.Class = "scpm";
             fieldTag.Add("kind", "open").Add("type", "text/sitecore").Add("chromeType", nameof(field));
             string str = args.Result.FirstPart;
             if (string.IsNullOrEmpty(str))
             {
                 fieldTag.Add("scWatermark", "true");
-                string defaultText = RenderedLazyLoadImageField.GetDefaultText(args);
+                string defaultText = RenderWebEditing.GetDefaultText(args);
                 str = defaultText;
                 if (StringUtil.RemoveTags(defaultText) == defaultText)
                     str = "<span class='scTextWrapper'>" + defaultText + "</span>";
             }
             this.AddParameters(fieldTag, args);
-            string fieldData = RenderedLazyLoadImageField.GetFieldData(args, field, controlID);
+            string fieldData = RenderWebEditing.GetFieldData(args, field, controlID);
             fieldTag.InnerHtml = fieldData;
             output.Write(fieldTag.ToString());
             output.Write(str);
@@ -137,16 +137,16 @@ namespace Learning.Foundation.RichText.Fields
             Assert.ArgumentNotNull((object)output, nameof(output));
             Assert.ArgumentNotNull((object)args, nameof(args));
             Assert.ArgumentNotNull((object)controlID, nameof(controlID));
-            string fieldData = RenderedLazyLoadImageField.GetFieldData(args, field, controlID);
+            string fieldData = RenderWebEditing.GetFieldData(args, field, controlID);
             if (args.Before.Length > 0)
                 output.Write(args.Before);
             output.Write("<span class=\"scChromeData\">{0}</span>", (object)fieldData);
-            Tag fieldTag = RenderedLazyLoadImageField.CreateFieldTag(this.GetEditableElementTagName(args), args, controlID);
+            Tag fieldTag = RenderWebEditing.CreateFieldTag(this.GetEditableElementTagName(args), args, controlID);
             fieldTag.Class = "scWebEditInput";
             if (!args.DisableWebEditContentEditing)
                 fieldTag.Add("contenteditable", "true");
             string str1 = args.Result.FirstPart;
-            string defaultText = RenderedLazyLoadImageField.GetDefaultText(args);
+            string defaultText = RenderWebEditing.GetDefaultText(args);
             fieldTag.Add("scDefaultText", defaultText);
             if (string.IsNullOrEmpty(str1))
             {
@@ -221,7 +221,7 @@ namespace Learning.Foundation.RichText.Fields
                     @string = obj["Default Text"];
                 }
                 if (string.Compare(args.RenderParameters["show-title-when-blank"], "true", StringComparison.InvariantCultureIgnoreCase) == 0)
-                    @string = RenderedLazyLoadImageField.GetFieldDisplayName(args) + ": " + @string;
+                    @string = RenderWebEditing.GetFieldDisplayName(args) + ": " + @string;
             }
             return @string;
         }
@@ -295,7 +295,7 @@ namespace Learning.Foundation.RichText.Fields
                 args1.CustomData["fieldWebEditParameters"] = (object)args.WebEditParameters;
                 GetChromeDataPipeline.Run(args1);
                 ChromeData chromeData = args1.ChromeData;
-                RenderedLazyLoadImageField.SetCommandParametersValue((IEnumerable<WebEditButton>)chromeData.Commands, field, controlID);
+                RenderWebEditing.SetCommandParametersValue((IEnumerable<WebEditButton>)chromeData.Commands, field, controlID);
                 return chromeData.ToJson();
             }
         }

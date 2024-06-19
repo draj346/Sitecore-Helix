@@ -6,12 +6,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4509FDF6-3983-4F0B-9736-0F712015F689}</ProjectGuid>
+    <ProjectGuid>{8FB744A4-657B-4A68-8691-A9C928D3F499}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Learning.Foundation.RichText</RootNamespace>
-    <AssemblyName>Learning.Foundation.RichText</AssemblyName>
+    <RootNamespace>Learning.Foundation.CustomFields</RootNamespace>
+    <AssemblyName>Learning.Foundation.CustomFields</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -64,9 +64,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="scripts\image.js" />
+    <None Include="scripts\lozad.min.js" />
+    <Content Include="App_Config\Include\Foundation\Foundation.CustomFields.LazyLoadImage.config" />
+    <None Include="Sitecore Package\Lazy Load Image Field Template-1.zip" />
+    <None Include="Sitecore Package\Lazy Load Image Theme-1.zip" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pipelines\RenderField\GetLazyLoadImageFieldValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shell\Applications\ContentEditor\LazyLoadImage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pipelines\RenderField\RenderWebEditing.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +92,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack">
+      <Version>1.4.9.5</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.AspNet.Mvc">
       <Version>5.2.4</Version>
     </PackageReference>
@@ -101,7 +118,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Config\Include\Foundation\" />
     <Folder Include="Views\" />
   </ItemGroup>
   <PropertyGroup>

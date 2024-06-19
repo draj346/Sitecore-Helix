@@ -1,7 +1,7 @@
 ﻿using Sitecore.Shell.Applications.ContentEditor;
 using Sitecore.Web.UI.Sheer;
 
-namespace Learning.Foundation.RichText.Fields
+namespace Learning.Foundation.Shell.Applications.ContentEditor
 {
     public class LazyLoadImage : Image
     {
