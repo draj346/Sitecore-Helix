@@ -114,10 +114,6 @@
       <Project>{5e65d4dc-b7c5-4ada-baf0-067aaae22bd2}</Project>
       <Name>Learning.Project.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Project\Educity\website\Learning.Project.Educity.csproj">
-      <Project>{9cb85fa9-911c-42f0-a72c-5aa01a2b38fa}</Project>
-      <Name>Learning.Project.Educity</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="RichardSzalay.Helix.Publishing.WebRoot">
