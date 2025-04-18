@@ -1,0 +1,28 @@
+﻿---
+ID: "18cd50f8-287f-4726-93df-4eeb2b6f48c6"
+Parent: "02ce2b65-59a2-49ab-be4c-3ba8516205ed"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Learning JSS/Default/Partial Design Folder
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_selection.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{25F01F50-5534-44F9-B1BA-BCBB60B2D13D}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{AAB084F5-A082-4B3B-83A8-8384247BFC17}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241012T181644Z

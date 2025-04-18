@@ -86,10 +86,6 @@
       <Project>{86557448-c12d-45a7-b22f-e1554a8b9f27}</Project>
       <Name>Learning.Feature.Forms</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Foundation\CustomFields\website\Learning.Foundation.CustomFields.csproj">
-      <Project>{8fb744a4-657b-4a68-8691-a9c928d3f499}</Project>
-      <Name>Learning.Foundation.CustomFields</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Foundation\DependencyInjection\website\Learning.Foundation.DependencyInjection.csproj">
       <Project>{4c1be5de-8577-4726-8b51-21c519a58964}</Project>
       <Name>Learning.Foundation.DependencyInjection</Name>
@@ -97,6 +93,10 @@
     <ProjectReference Include="..\..\Foundation\Log\website\Learning.Foundation.Log.csproj">
       <Project>{3d552572-86e6-49d8-919d-6dff64c471bf}</Project>
       <Name>Learning.Foundation.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Foundation\RenderingContents\website\Learning.Foundation.RenderingContents.csproj">
+      <Project>{4413d784-4b16-47c1-a8c4-66a46b3ba4ab}</Project>
+      <Name>Learning.Foundation.RenderingContents</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Foundation\RichText\website\Learning.Foundation.RichText.csproj">
       <Project>{4509fdf6-3983-4f0b-9736-0f712015f689}</Project>
@@ -113,10 +113,6 @@
     <ProjectReference Include="..\..\Project\Common\website\Learning.Project.Common.csproj">
       <Project>{5e65d4dc-b7c5-4ada-baf0-067aaae22bd2}</Project>
       <Name>Learning.Project.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Project\Educity\website\Learning.Project.Educity.csproj">
-      <Project>{9cb85fa9-911c-42f0-a72c-5aa01a2b38fa}</Project>
-      <Name>Learning.Project.Educity</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

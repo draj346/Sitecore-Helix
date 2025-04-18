@@ -1,0 +1,18 @@
+﻿---
+ID: "f773f534-2af7-4dd2-ac11-574994efbe12"
+Parent: "5a6f8abf-3b8f-4dc3-b817-f34f7512976d"
+Template: "5a6f8abf-3b8f-4dc3-b817-f34f7512976d"
+Path: /sitecore/templates/Project/Learning JSS/Default/Headless Tenant/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241012T181644Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

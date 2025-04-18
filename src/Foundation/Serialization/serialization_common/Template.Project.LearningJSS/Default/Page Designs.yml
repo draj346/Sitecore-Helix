@@ -1,0 +1,25 @@
+﻿---
+ID: "0c1af9cd-338e-4f5c-8823-87fc7392eeb7"
+Parent: "02ce2b65-59a2-49ab-be4c-3ba8516205ed"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Learning JSS/Default/Page Designs
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_chart.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{DAAF41FD-96DB-4892-BE99-F62F16D036C4}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{F9878471-DA5F-47AA-A9AF-E15F42C20E0E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241012T181644Z

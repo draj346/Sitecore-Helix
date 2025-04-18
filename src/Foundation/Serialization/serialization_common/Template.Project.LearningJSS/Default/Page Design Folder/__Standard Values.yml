@@ -1,0 +1,21 @@
+﻿---
+ID: "7f243fa9-3e64-4ae2-95da-144f436b3132"
+Parent: "39e1c97a-1c6f-43cb-b7f9-453847af6f29"
+Template: "39e1c97a-1c6f-43cb-b7f9-453847af6f29"
+Path: /sitecore/templates/Project/Learning JSS/Default/Page Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {39E1C97A-1C6F-43CB-B7F9-453847AF6F29}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241012T181644Z

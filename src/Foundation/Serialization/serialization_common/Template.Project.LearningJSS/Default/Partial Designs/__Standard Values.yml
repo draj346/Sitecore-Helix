@@ -1,0 +1,21 @@
+﻿---
+ID: "9162200a-07e3-4e1b-a5cc-9e93d6f89855"
+Parent: "6202b07a-9fda-4b99-9697-7911c78cde7b"
+Template: "6202b07a-9fda-4b99-9697-7911c78cde7b"
+Path: /sitecore/templates/Project/Learning JSS/Default/Partial Designs/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {18CD50F8-287F-4726-93DF-4EEB2B6F48C6}
+    {FD2059FD-6043-4DFE-8C04-E2437CE87634}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241012T181644Z

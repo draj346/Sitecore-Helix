@@ -1,0 +1,27 @@
+﻿---
+ID: "3a635c80-db5f-49f0-80d9-5604267e97b1"
+Parent: "3414093b-896e-4b56-8a41-8a2afce509f4"
+Template: "e24e0789-a058-48bf-abb6-c69c0e60b6b7"
+Path: /sitecore/content/Learning/Common/Data/Link Lists/Link List/Link 1
+DB: master
+BranchID: "6fe30845-72fc-4a2b-93e8-64b8eaff3152"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{194F150F-8626-4AEC-80C0-8F2529826D30}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T151744Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "dd05144a-bd66-4ea3-956a-4b7104daaba3"
+      Hint: Link
+      Value: |
+        <link text="Home" anchor="asas" linktype="internal" class="" title=""  querystring="" id="{47BEE6EE-5E89-49B1-909D-08D64D4058D7}" />
