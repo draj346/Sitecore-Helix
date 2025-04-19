@@ -1,0 +1,14 @@
+﻿---
+ID: "da7c2ba3-2768-47b7-b7f2-52a368f452bd"
+Parent: "98a020c0-43c5-4739-996e-160add1f5160"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Placeholder Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T165512Z

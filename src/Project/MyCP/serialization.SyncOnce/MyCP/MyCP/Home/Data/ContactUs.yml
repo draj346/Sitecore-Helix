@@ -1,0 +1,38 @@
+﻿---
+ID: "e612b366-3c50-44a9-8a6c-5d0483d1c9ae"
+Parent: "24c14510-38cd-433f-80aa-dcdc9a0c22ab"
+Template: "a47d9b7e-c92b-412c-98ee-30d3c2b2a6a0"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Data/ContactUs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06ba0328-2631-42e2-8625-a640948a57fd"
+      Hint: CTAIcon
+      Value: |
+        <image mediaid="{B3A59857-28F6-47F2-A686-977273C9B84C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250404T144510Z
+    - ID: "27853f1b-2c13-454e-9158-42479c02d24f"
+      Hint: Contacts
+      Value: "{94427EE9-A2E4-49CF-9624-09D200903D8E}|{84DADC6E-613C-481A-BA51-280F240EACB3}|{1585F508-E4C4-4A56-8E88-F3E99010468D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "Still have questions?"
+    - ID: "d1b18b8e-f5e0-4cfe-b89b-73ac75214a69"
+      Hint: CTADescription
+      Value: "Hours—8:30 AM to 5:30 PM (ET), Monday–Friday"
+    - ID: "d6a732e7-b07d-4711-bc08-d06da662b555"
+      Hint: Icon
+      Value: |
+        <image mediaid="{82435062-BB38-45EE-BAD2-C4637FDF2259}" />
+    - ID: "d78eb956-56bd-4870-970e-e3a2fc6b05d9"
+      Hint: CTATitle
+      Value: Call us now

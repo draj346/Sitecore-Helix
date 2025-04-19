@@ -1,0 +1,27 @@
+﻿---
+ID: "57efcae6-2e14-4b15-a3f6-1a9213bcf509"
+Parent: "703d944c-40b5-4bc8-b574-76856b4a7015"
+Template: "1f6cdc76-a523-4b5c-94c0-20ae23885a33"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Working Hours/Full Day
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250412T100813Z
+    - ID: "4df1c3c7-96e4-4547-970d-873768f46abe"
+      Hint: Day
+      Value: "Monday–Friday:"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "627b17d0-b146-465e-b9c1-d33d2ef8140a"
+      Hint: Time
+      Value: "8:30 AM–10:00 PM ET"
+    - ID: "7e4e46d7-6253-4d73-8443-06323a430bb1"
+      Hint: Title
+      Value: Hours

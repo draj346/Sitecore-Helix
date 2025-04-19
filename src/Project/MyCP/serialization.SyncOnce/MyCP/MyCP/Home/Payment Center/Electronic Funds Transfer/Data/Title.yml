@@ -1,0 +1,24 @@
+﻿---
+ID: "17241853-036b-4763-9da5-98a34ccc3b55"
+Parent: "9f3e5dab-f24c-4e22-bde4-053327f66060"
+Template: "649e2fe0-0155-4180-90c8-2062e716e0e2"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Payment Center/Electronic Funds Transfer/Data/Title
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T065847Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: Pay a current bill with EFT–Bank Account Deduction
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Electronic Funds Transfer

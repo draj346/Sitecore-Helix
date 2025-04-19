@@ -1,0 +1,54 @@
+﻿---
+ID: "3b42e249-22b8-4ebe-be0b-7090e529ae4c"
+Parent: "aa6e84bd-9ea3-4400-b4e9-15b6998c5251"
+Template: "96588962-5d57-4bb2-a701-b67c1c511788"
+Path: /sitecore/content/Learning JSS/MyCP/Home/FAQs
+DB: master
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Type: Checklist
+  Value: 
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{F436D17B-1C07-44DA-A995-3CDAD993222A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{094F36AA-B485-44A4-9644-3E2CD2CCBA17}"
+              p:before="*"
+              s:ds="local:/Data/FAQs with Tabs"
+              s:id="{F00BC7CC-94F0-4730-9DA8-862F25A67398}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7B4922DA91-7C00-4783-B157-34EE66B852E9%7D&amp;CacheClearingBehavior=Clear%20on%20publish"
+              s:ph="/headless-main/sxa-main/placeholder-content-0-1"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{8673FA58-065C-4589-A32D-9D4E165EC44E}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Title"
+              s:id="{EBD6B732-09B8-4791-9DA6-F13B4739BA2C}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B20DA079B-B4B1-4AAA-8E36-D4E1927EA19B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish"
+              s:ph="/headless-main/sxa-main/placeholder-heading-0-1"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T175437Z
+    - ID: "3ee80800-66c2-48dc-bcdd-dda9af2c8a1c"
+      Hint: Title
+      Value: FAQs
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: FAQs

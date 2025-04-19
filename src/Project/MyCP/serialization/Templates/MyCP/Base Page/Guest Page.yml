@@ -1,0 +1,25 @@
+﻿---
+ID: "96588962-5d57-4bb2-a701-b67c1c511788"
+Parent: "787a9c81-6a32-46ca-8e72-34cfa6fb9f66"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Base Page/Guest Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/brickwall.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{0FA029CF-427F-4F7A-A1DB-DD526E92FE94}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{CCCA6EF0-C8D0-42FB-96AC-AB3CDB2C405A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241012T181644Z

@@ -1,0 +1,27 @@
+﻿---
+ID: "1acd2f12-fac6-4708-9234-d12db7c2b1f1"
+Parent: "80920e55-9269-4f41-8319-ddd5e9a75841"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Claims/How can I get a claim form
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T155831Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p>Most of the insurance documents we issue include a claim form, which is called a "Claimant's Statement For Life Insurance Death Benefits". If you do not already have this form you can<a href="/Get-a-Form" target="_self"> download one here</a>. If you are unable to download the form, please let us know by&nbsp;<a href="/Customer-Service" target="_self">telephone</a> and we will promptly send one to you.</p>
+            <p>Once you have downloaded the form, print it out, complete the form and&nbsp;<a href="#" data-bs-target="#collapse-{24574958-654F-4B7F-A66D-11FD0495006B}" class="faq-jumplink">mail</a>&nbsp;it to the address shown.</p>
+            <p>NOTE: These forms are PDF files. In order to download and view any PDF files, you will need Acrobat Reader software. If you do not have Acrobat Reader and wish to download it for free, click&nbsp;<a rel="noopener noreferrer" href="https://get.adobe.com/reader/" target="_blank">here</a>&nbsp;to visit the Adobe Acrobat Reader website.</p>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "How can I get a claim form?"

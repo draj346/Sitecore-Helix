@@ -1,0 +1,45 @@
+﻿---
+ID: "ab6f2116-6fa5-4e44-a7d7-a0bc3992156f"
+Parent: "57229f47-d833-413e-a6cc-03a2f8dffa4f"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Partial Designs/Guest/Header
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p
+              uid="{3CA94F89-A26A-4E22-B583-62CAB4CA861F}"
+              p:before="*"
+              s:key="headless-header"
+              s:md="{81B8E749-BDCA-4A71-9A5F-872937AB3E38}" />
+            <r
+              uid="{A3FC9163-6D18-49A1-9FC7-7BF733A6097A}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Header"
+              s:id="{C9B76451-5BBA-4105-911B-9EB5D433FF44}"
+              s:par=""
+              s:ph="headless-header"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T184606Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

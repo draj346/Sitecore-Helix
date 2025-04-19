@@ -1,0 +1,26 @@
+﻿---
+ID: "a3c0441a-25aa-4f65-8071-af47c8b8e87e"
+Parent: "8aa7d792-f88b-414c-a500-70816c3e1efe"
+Template: "0ef22fd9-c694-4369-aa30-cf7cc9d943c6"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Payment Center/Data/Payment Center/Electronic Funds Transfer/Automatic Electronic Funds Transfer
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T085742Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p><a href="/Payment-Center/Automatic-Electronic-Funds-Transfer"><strong>Sign-up online to switch to recurring EFT billing</strong></a></p>

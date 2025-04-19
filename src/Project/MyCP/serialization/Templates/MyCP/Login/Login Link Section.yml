@@ -1,0 +1,22 @@
+﻿---
+ID: "ac6692c3-4359-4075-acd1-d3f537db5760"
+Parent: "f92321d4-b99b-413f-9074-b5e1d8eff877"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Login/Login Link Section
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/lightbulb_on.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{5597FC68-D88B-488B-A9FA-E2E0C4795F26}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250330T150246Z

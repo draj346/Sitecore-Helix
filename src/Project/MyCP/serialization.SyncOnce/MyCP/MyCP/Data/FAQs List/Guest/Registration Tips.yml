@@ -1,0 +1,26 @@
+﻿---
+ID: "0e57df3f-b6b3-4011-a8e5-d56a66dbd1f7"
+Parent: "f5676ccc-9331-4495-af6d-1574227d3242"
+Template: "f554b092-0234-4086-a41a-824507f790fd"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Guest/Registration Tips
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250401T104914Z
+    - ID: "4bba0a33-37d3-45a1-b170-93d837c3e865"
+      Hint: Name
+      Value: Registration Tips
+    - ID: "64b9b7b8-4d3a-4541-89cf-388468802977"
+      Hint: Key
+      Value: "registration-tips-tab"
+    - ID: "7e3b5bb4-f4ff-4b3f-8bf9-637fe46f4f11"
+      Hint: Questions
+      Value: "{247705E4-7014-45B3-987B-776D70AB9736}|{7B5F254A-CD1C-4DB2-9D32-F029FA246B1B}|{CFDA0FBE-D365-4831-B817-ACDCDC9F448D}|{C338E043-6C3F-48A9-827F-75BE2927574E}|{FD75390B-FFB5-4928-811F-6532BE3B1EB6}|{578ED829-A678-4A0F-A9FD-70F025FBDE2C}|{D414865D-9B56-417F-AEB0-2B7D902386BF}|{88A46017-234C-4E07-AD82-ABCFDAA7414D}|{5C3D8A47-2E50-4642-BAD3-62614E2439BC}"
+    - ID: "ffb694e6-c28f-41ab-9add-bdb98edc87e9"
+      Hint: Value
+      Value: "registration-tips"

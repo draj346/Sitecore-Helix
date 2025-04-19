@@ -1,0 +1,18 @@
+﻿---
+ID: "5c0d0560-4ec4-405a-a9d2-8004dba7ace6"
+Parent: "66c76562-a55f-41be-9138-2fa653d0fa12"
+Template: "966b041f-d956-4f71-a40a-68869a7ba6b9"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Navigation Filters/Hide Breadcrumb
+DB: master
+SharedFields:
+- ID: "ee62cfbf-5b46-4f64-8334-207b9bd3ff96"
+  Hint: Key
+  Value: Hide Breadcrumb
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250412T082555Z

@@ -1,0 +1,27 @@
+﻿---
+ID: "f554b092-0234-4086-a41a-824507f790fd"
+Parent: "54ddacaf-e825-49e0-91fa-1abdea690549"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/FAQ/FAQs
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/coffeebean.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {70BB6ADA-84F0-4741-BCFF-378BA0E4462D}
+    {5597FC68-D88B-488B-A9FA-E2E0C4795F26}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{3D3B1670-423B-4268-B26F-6E6684CCCF4D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T153217Z

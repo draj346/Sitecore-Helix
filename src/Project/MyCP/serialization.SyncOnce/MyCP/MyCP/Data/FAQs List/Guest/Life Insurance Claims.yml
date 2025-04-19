@@ -1,0 +1,26 @@
+﻿---
+ID: "7584cbb8-6bc2-4f6b-8412-68fce2236232"
+Parent: "f5676ccc-9331-4495-af6d-1574227d3242"
+Template: "f554b092-0234-4086-a41a-824507f790fd"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Guest/Life Insurance Claims
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250401T104817Z
+    - ID: "4bba0a33-37d3-45a1-b170-93d837c3e865"
+      Hint: Name
+      Value: Life Insurance Claims– Frequently Asked Questions
+    - ID: "64b9b7b8-4d3a-4541-89cf-388468802977"
+      Hint: Key
+      Value: "insurance-claims-tab"
+    - ID: "7e3b5bb4-f4ff-4b3f-8bf9-637fe46f4f11"
+      Hint: Questions
+      Value: "{5406CBC4-CEEF-4156-A772-5DA73926DD30}|{B5AF57C3-14BF-4B8A-B12D-5BF95B41BF20}|{24574958-654F-4B7F-A66D-11FD0495006B}|{E188A0AA-5756-4C09-A6BA-39795E509453}|{5F56BB24-79AB-4676-8DD1-E3DC1F68E726}|{7757D70D-E4C9-4A48-9FAD-CA054769388B}|{0151A36C-341D-41B6-A451-FD05099BBCBD}|{1ACD2F12-FAC6-4708-9234-D12DB7C2B1F1}"
+    - ID: "ffb694e6-c28f-41ab-9add-bdb98edc87e9"
+      Hint: Value
+      Value: "insurance-claims"

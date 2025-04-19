@@ -1,0 +1,24 @@
+﻿---
+ID: "9436d3db-26bd-4fff-b5b4-fea9f6b1a333"
+Parent: "95ba1622-9272-4579-906e-502e320b04a7"
+Template: "649e2fe0-0155-4180-90c8-2062e716e0e2"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Payment Center/Credit Card/Data/Title
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T065640Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: Complete and submit the form below to have a premium payment charged to a credit card.
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Credit Card

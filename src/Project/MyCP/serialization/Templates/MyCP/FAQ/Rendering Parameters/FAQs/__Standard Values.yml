@@ -1,0 +1,18 @@
+﻿---
+ID: "225d6aa5-5f10-4aca-9a6f-3c7a41dd35c9"
+Parent: "405ce094-7255-4de3-99ea-00584f2d0b8a"
+Template: "405ce094-7255-4de3-99ea-00584f2d0b8a"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/FAQ/Rendering Parameters/FAQs/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250401T102437Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

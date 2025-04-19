@@ -1,0 +1,21 @@
+﻿---
+ID: "ef25df59-6f8a-4295-9699-8056ed99e54f"
+Parent: "283799ca-6819-46bb-b78e-5b8d8dda5b83"
+Template: "906d7868-d688-4f89-9278-6dbb3847b0e3"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Payment Center/Data/Payment Center/Credit Card Payment
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T085848Z
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Credit Card Payment

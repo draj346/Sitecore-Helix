@@ -1,0 +1,20 @@
+﻿---
+ID: "8aa7d792-f88b-414c-a500-70816c3e1efe"
+Parent: "283799ca-6819-46bb-b78e-5b8d8dda5b83"
+Template: "906d7868-d688-4f89-9278-6dbb3847b0e3"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Payment Center/Data/Payment Center/Electronic Funds Transfer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T085627Z
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: EFT (automatic bank account deduction)
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Electronic Funds Transfer

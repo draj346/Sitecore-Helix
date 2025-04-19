@@ -1,0 +1,14 @@
+﻿---
+ID: "7c165b07-e55a-4408-814c-12a1155ecfab"
+Parent: "26b21814-e766-4a55-83c6-e913f745fec6"
+Template: "f7a45276-87f1-4ea5-bf25-e3c7cb7aa993"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T165516Z

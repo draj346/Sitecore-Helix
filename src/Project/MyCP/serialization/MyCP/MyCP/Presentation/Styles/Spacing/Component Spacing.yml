@@ -1,0 +1,22 @@
+﻿---
+ID: "ed99d5b0-47c1-4801-8121-fb4b33da46ec"
+Parent: "9eb15028-5894-4bd8-98c4-6a46d25fd39c"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Styles/Spacing/Component Spacing
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "component-spacing"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Type: TreelistEx
+  Value: "{F00BC7CC-94F0-4730-9DA8-862F25A67398}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250401T114709Z

@@ -1,0 +1,39 @@
+﻿---
+ID: "29ba181f-ec20-4fe5-b9f8-34605f33ab98"
+Parent: "24c14510-38cd-433f-80aa-dcdc9a0c22ab"
+Template: "ac6692c3-4359-4075-acd1-d3f537db5760"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Data/Login Link Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12b20d2e-514e-4c2e-95b4-38460ded6d27"
+      Hint: LogoutLinkSectionTitle
+      Value: Here are some useful links
+    - ID: "1d95e7ca-223f-4506-bdeb-7e5d88a46dbe"
+      Hint: WelcomeTitle
+      Value: Welcome to Colonial Penn<sup>®</sup> Program
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T053816Z
+    - ID: "28faec79-bfb1-403c-bf16-f1a472c98957"
+      Hint: LoginLinkSectionTitle
+      Value: Or, skip logging in and get what you need in few key steps
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6611ae1f-8e5f-4acb-ba6c-683df2a9a7d3"
+      Hint: Links
+      Value: "{0833107E-B5EB-42DE-B938-A1045F9A5FB3}|{CFBA6B1A-2E25-40E4-ACEA-F9C120858683}"
+    - ID: "7074bc08-07a5-4f9c-8f93-40604c7d84cc"
+      Hint: LogoutTitle
+      Value: You have successfully logged out of your account
+    - ID: "c4e0973b-4c3d-4f27-b838-96565e9c560d"
+      Hint: LogoutMessage
+      Value: Thank you for using myColonialPenn
+    - ID: "c6db250e-4d2b-42f3-8ef8-c657460eba26"
+      Hint: LoginTitle
+      Value: "Log in to your account now!"

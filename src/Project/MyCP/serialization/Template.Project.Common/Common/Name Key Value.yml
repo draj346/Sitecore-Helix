@@ -1,0 +1,22 @@
+﻿---
+ID: "70bb6ada-84f0-4741-bcff-378ba0e4462d"
+Parent: "817dcb16-a23b-4c7f-9a71-f612f2a56187"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Learning JSS/Common/Name Key Value
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/form_green.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{AF2AD050-B9C5-4797-981D-41699E21007B}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T153154Z

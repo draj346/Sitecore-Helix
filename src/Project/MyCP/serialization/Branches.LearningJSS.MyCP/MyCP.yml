@@ -1,0 +1,14 @@
+﻿---
+ID: "38e620ec-68cd-46c0-820d-79dc0ba55e18"
+Parent: "e9fcc64c-d85d-4ebf-97f4-704bbf176d58"
+Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
+Path: /sitecore/templates/Branches/Project/Learning JSS/MyCP
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250418T060821Z

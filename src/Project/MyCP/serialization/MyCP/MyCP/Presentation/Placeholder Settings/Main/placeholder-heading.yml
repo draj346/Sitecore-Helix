@@ -1,0 +1,25 @@
+﻿---
+ID: "54ed2dd4-d938-4984-bf8e-9ebd2aaa4a86"
+Parent: "2e28daf7-c731-42b3-9e1c-d9211906776d"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: "/sitecore/content/Learning JSS/MyCP/Presentation/Placeholder Settings/Main/placeholder-heading"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "placeholder-heading"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {B12C9187-AD0A-4F3D-B996-89396BC0E395}
+    {01F46465-5EA9-475D-BE6F-5D4470F1EBEF}
+    {EBD6B732-09B8-4791-9DA6-F13B4739BA2C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250330T145057Z

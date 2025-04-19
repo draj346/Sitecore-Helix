@@ -1,0 +1,30 @@
+﻿---
+ID: "63e4e2d4-70f6-48c3-82d5-73f24520942c"
+Parent: "5c3d60fc-e5e7-4acf-9f6c-1d4f5747cfba"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Services/How do I change my payment method
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T160451Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <ul>
+                <li>To sign up online for automatic bank account deduction <a href="/Payment-Center/Electronic-Funds-Transfer" target="_self">click here</a>.</li>
+                <li>To download and mail us the automatic bank account deduction Authorization Form, <a href="/Get-a-Form" target="_self">click here</a>.</li>
+                <li>To request recurring credit card billing please<a href="/Customer-Service" target="_self"> call us</a> toll free.</li>
+                <li>To switch to direct bill, or for help selecting a billing plan that's right for you please <a href="/Customer-Service" target="_self">call us</a> toll free.</li>
+            </ul>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "How do I change my payment method?"

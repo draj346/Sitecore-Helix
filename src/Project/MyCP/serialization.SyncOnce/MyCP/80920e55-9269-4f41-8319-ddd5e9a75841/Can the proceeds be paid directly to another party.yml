@@ -1,0 +1,24 @@
+﻿---
+ID: "0151a36c-341d-41b6-a451-fd05099bbcbd"
+Parent: "80920e55-9269-4f41-8319-ddd5e9a75841"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Claims/Can the proceeds be paid directly to another party
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T155801Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: <p>Life insurance proceeds can be paid directly to a funeral home, cemetery or other entity if the beneficiary executes an assignment of proceeds instrument. Funeral homes and cemeteries typically have their own assignment of proceeds forms. In order for us to honor an assignment of proceeds, the beneficiary's signature must be witnessed by a notary public affirming the identity of the person that signed the assignment. Additionally, all policy/certificate numbers subject to assignment must be written on the assignment and the specific maximum amount to be paid by assignment must be clearly stated.</p>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "Can the proceeds be paid directly to another party?"

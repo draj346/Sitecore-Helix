@@ -1,0 +1,37 @@
+﻿---
+ID: "c40d3f30-9d86-477a-8158-6e9849135be2"
+Parent: "54410494-5c75-4414-b66c-c502b051ef7d"
+Template: "9e101c3b-da81-489c-b2cf-14fb956d627a"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Partial Designs/Customer/Header/Data/Header
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ac794a4-8b89-420f-8919-865c923f540c"
+      Hint: Logo
+      Value: |
+        <image mediaid="{C893E24A-2E14-44BD-911D-FD6A2A0A877A}" />
+    - ID: "1f8d3f5e-9028-4d22-85da-5396ea7bdd19"
+      Hint: Links
+      Value: "{CBEFDBB0-5CC6-4DF2-AF3C-2B671B33DD1D}|{A0E3B8C9-7719-44D9-A6FA-40ECA90C3C80}|{102E6A6A-ED12-4B00-8F7B-390657ECBE4A}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T191421Z
+    - ID: "414c210c-0c63-4454-9510-0ea4dd4bce6e"
+      Hint: Login
+      Value: |
+        <link text="Login" linktype="external" url="https://ecsso.mycno.com/cpl/secure/login" anchor="" target="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e1afcb3f-8706-4180-9aba-c1e15f426a72"
+      Hint: Search
+      Value: |
+        <link text="Search" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F4114C31-E802-4D49-8527-EB4491456C16}" />

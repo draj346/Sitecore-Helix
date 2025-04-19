@@ -1,0 +1,21 @@
+﻿---
+ID: "4df1c3c7-96e4-4547-970d-873768f46abe"
+Parent: "8c4a0b47-e094-483f-9053-425e21c7baf8"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Contacts/Hour/Hour Content/Day
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250403T031903Z

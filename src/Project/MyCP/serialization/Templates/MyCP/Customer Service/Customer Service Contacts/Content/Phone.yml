@@ -1,0 +1,24 @@
+﻿---
+ID: "1fd634ff-cd83-42ed-a0ce-d9a155892396"
+Parent: "51ccc0cf-347c-4eae-8ee8-e5378e7343a9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Customer Service/Customer Service Contacts/Content/Phone
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "query:$site/*[@@name='Data']//*[@@templateid='{CFDED1F1-AA2E-4996-A501-B58934556205}']/*"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplink
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250412T095623Z

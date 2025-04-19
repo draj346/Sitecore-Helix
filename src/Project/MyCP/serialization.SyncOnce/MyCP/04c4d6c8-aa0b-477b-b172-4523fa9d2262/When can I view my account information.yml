@@ -1,0 +1,29 @@
+﻿---
+ID: "cfda0fbe-d365-4831-b817-acdcdc9f448d"
+Parent: "04c4d6c8-aa0b-477b-b172-4523fa9d2262"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Registration Tips/When can I view my account information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T160015Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p>Except during the 10:30 PM to 11:00 PM ET timeframe, your policy information can be viewed anytime.</p>
+            <p>Please note, due to system maintenance, your account may occasionally be temporarily unavailable, and you will see a message asking you to login at a later time.</p>
+            <p>Initial registration is not available between 10:30 PM and 11:30 PM ET</p>
+            <p><strong>Please note that you can pay your bill online at anytime</strong> - just click <a href="/Payment-Center" data-discover="true">Pay My Bill</a>.</p>
+        
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "When can I view my account information?"

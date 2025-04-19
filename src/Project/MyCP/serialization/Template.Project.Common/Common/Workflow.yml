@@ -1,0 +1,14 @@
+﻿---
+ID: "2fd44b70-fcc8-44e1-b0df-6d631020c124"
+Parent: "817dcb16-a23b-4c7f-9a71-f612f2a56187"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Learning JSS/Common/Workflow
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T153909Z

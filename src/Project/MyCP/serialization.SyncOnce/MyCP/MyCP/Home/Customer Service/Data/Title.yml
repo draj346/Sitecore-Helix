@@ -1,0 +1,24 @@
+﻿---
+ID: "b3f2ac35-9b7d-42a8-bfbe-875e5e7f809d"
+Parent: "a6437589-29e1-488a-ae29-e90274356bf0"
+Template: "649e2fe0-0155-4180-90c8-2062e716e0e2"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Customer Service/Data/Title
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250412T152245Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: Give us a call and one of our representatives would be happy to assist you.
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: We’re here for you.

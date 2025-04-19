@@ -1,0 +1,14 @@
+﻿---
+ID: "9bb4b383-0b32-42a0-83ef-621782dfbc20"
+Parent: "70bb6ada-84f0-4741-bcff-378ba0e4462d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/Common/Name Key Value/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T153222Z

@@ -1,0 +1,24 @@
+﻿---
+ID: "8ac2fb17-f300-4cc3-b753-6bb5c6a8a678"
+Parent: "e62071e0-b5b9-4da8-a2e6-bb4b94a78f0e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Form/State
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Flags/32x32/flag_somalia.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {AF2AD050-B9C5-4797-981D-41699E21007B}
+    {5597FC68-D88B-488B-A9FA-E2E0C4795F26}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T140013Z

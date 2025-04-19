@@ -1,0 +1,14 @@
+﻿---
+ID: "195a0f06-56e8-4cb8-9fe7-561aa0c82da3"
+Parent: "26b21814-e766-4a55-83c6-e913f745fec6"
+Template: "407e3c27-a99c-4e10-9d7c-4a565e4d2a99"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Login Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T054148Z

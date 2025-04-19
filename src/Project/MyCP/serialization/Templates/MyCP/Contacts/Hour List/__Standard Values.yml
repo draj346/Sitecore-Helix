@@ -1,0 +1,23 @@
+﻿---
+ID: "cb1c4958-d9d2-49bf-9137-280a80535f66"
+Parent: "41748128-6c89-47e0-9691-252b4cc5ac5e"
+Template: "41748128-6c89-47e0-9691-252b4cc5ac5e"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Contacts/Hour List/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{1F6CDC76-A523-4B5C-94C0-20AE23885A33}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T155840Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

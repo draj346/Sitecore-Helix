@@ -1,0 +1,21 @@
+﻿---
+ID: "585da67d-15dc-4e38-816a-8d51b61d0b1e"
+Parent: "a6218e56-56b4-45e4-9066-dd2268f20109"
+Template: "649e2fe0-0155-4180-90c8-2062e716e0e2"
+Path: /sitecore/content/Learning JSS/MyCP/Home/FAQs/Data/Title
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250405T112249Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Frequently Asked Questions

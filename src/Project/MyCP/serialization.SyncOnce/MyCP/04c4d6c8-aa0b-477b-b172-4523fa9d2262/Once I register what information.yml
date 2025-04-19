@@ -1,0 +1,31 @@
+﻿---
+ID: "247705e4-7014-45b3-987b-776d70ab9736"
+Parent: "04c4d6c8-aa0b-477b-b172-4523fa9d2262"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Registration Tips/Once I register what information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T155908Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p>You will be able to see a list of all of your policies, with the following information for each policy:</p>
+            <ul>
+                <li>Coverage amount</li>
+                <li>Premium paid-to date</li>
+                <li>Cash value</li>
+                <li>Loan information</li>
+            </ul>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "Once I register, what information about my policy will be available?"

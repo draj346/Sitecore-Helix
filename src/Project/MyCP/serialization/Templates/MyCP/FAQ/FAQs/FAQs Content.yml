@@ -1,0 +1,14 @@
+﻿---
+ID: "f60bd4aa-7f23-44aa-bc55-db129955c674"
+Parent: "f554b092-0234-4086-a41a-824507f790fd"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/FAQ/FAQs/FAQs Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T153633Z

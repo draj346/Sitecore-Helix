@@ -1,0 +1,27 @@
+﻿---
+ID: "73bf4454-5d5c-47db-8ade-341b224ffa51"
+Parent: "2e28daf7-c731-42b3-9e1c-d9211906776d"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: "/sitecore/content/Learning JSS/MyCP/Presentation/Placeholder Settings/Main/placeholder-content"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "placeholder-content"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {F00BC7CC-94F0-4730-9DA8-862F25A67398}
+    {B516F3A4-9B85-427A-A404-E623EFEA1B74}
+    {0E3C52CC-67DD-4CA0-8CC3-2635061D3168}
+    {79F9171D-FB66-4202-8848-09381107AEF9}
+    {FE7423C1-EFA6-40FB-831E-BC17AFBC6007}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250330T145125Z

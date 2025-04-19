@@ -1,0 +1,27 @@
+﻿---
+ID: "b6c96f93-a691-466a-8c91-61a044646c73"
+Parent: "2d3bc228-f669-4ced-acae-c8087a98c5c9"
+Template: "d34197be-1255-4818-b4c2-2406fa23ed2a"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Customer Service/Add Coverage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fd634ff-cd83-42ed-a0ce-d9a155892396"
+      Hint: Phone
+      Value: "{84DADC6E-613C-481A-BA51-280F240EACB3}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250412T150854Z
+    - ID: "3cf260c5-779e-42b7-9468-0dd7443663bc"
+      Hint: Hour
+      Value: "{57EFCAE6-2E14-4B15-A3F6-1A9213BCF509}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Add Coverage

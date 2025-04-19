@@ -1,0 +1,14 @@
+﻿---
+ID: "703d944c-40b5-4bc8-b574-76856b4a7015"
+Parent: "26b21814-e766-4a55-83c6-e913f745fec6"
+Template: "41748128-6c89-47e0-9691-252b4cc5ac5e"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Working Hours
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250412T100801Z

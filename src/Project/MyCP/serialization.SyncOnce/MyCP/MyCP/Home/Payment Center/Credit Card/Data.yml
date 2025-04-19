@@ -1,0 +1,18 @@
+﻿---
+ID: "95ba1622-9272-4579-906e-502e320b04a7"
+Parent: "11b6668e-68ca-4c49-bd39-c03945b631b4"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Payment Center/Credit Card/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T065640Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

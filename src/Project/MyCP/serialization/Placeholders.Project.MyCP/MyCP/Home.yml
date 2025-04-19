@@ -1,0 +1,14 @@
+﻿---
+ID: "772fef79-45e2-46ce-9a39-a15f286c7db2"
+Parent: "efdfef53-29b2-42a7-bab8-3e336d728903"
+Template: "c3b037a0-46e5-4b67-ac7a-a144b962a56f"
+Path: /sitecore/layout/Placeholder Settings/Project/Learning JSS/MyCP/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T053434Z

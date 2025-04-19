@@ -1,0 +1,14 @@
+﻿---
+ID: "469567c0-8669-4366-a5b3-282dc00603a2"
+Parent: "26b21814-e766-4a55-83c6-e913f745fec6"
+Template: "cfded1f1-aa2e-4996-a501-b58934556205"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Contact List
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250403T032113Z

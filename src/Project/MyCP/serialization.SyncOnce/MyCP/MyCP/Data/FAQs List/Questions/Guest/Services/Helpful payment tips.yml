@@ -1,0 +1,38 @@
+﻿---
+ID: "33360c48-fd91-4d4a-aed8-39b620fe50da"
+Parent: "5c3d60fc-e5e7-4acf-9f6c-1d4f5747cfba"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Services/Helpful payment tips
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T160640Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <ul>
+              <li>Be sure to write your account number or case file number on your check or money order.</li>
+              <li>Mail your payment at least 10 days before it's due.</li>
+              <li>Making payment on more than one plan? Be sure to list all account numbers or case file number and include the billing notice for each account or case file.</li>
+              <li>Missing your bill or payment coupon? </li>
+            </ul>
+            <p><strong>Just write your account number(s) or case file number on your check or money order and mail it to:</strong></p>
+            <p>Colonial Penn Life Insurance Company<br />
+            P.O. Box 371850<br />
+            Pittsburgh, PA 15250-7850</p>
+            <p><strong>New York policyholders, please use this address:</strong><br />
+            Bankers Conseco Life Insurance Company<br />
+            P.O. Box 371854<br />
+            Pittsburgh, PA 15250-7854</p>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Helpful payment tips

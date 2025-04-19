@@ -1,0 +1,19 @@
+﻿---
+ID: "3dcf1cf6-f1b9-466d-b465-a78ddcaabaed"
+Parent: "98a020c0-43c5-4739-996e-160add1f5160"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Styles
+DB: master
+BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{47019583-10DF-46B6-BDCC-1741BECC3CDA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T165514Z

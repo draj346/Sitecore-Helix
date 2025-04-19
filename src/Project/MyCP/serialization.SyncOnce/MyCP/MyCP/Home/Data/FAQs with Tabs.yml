@@ -1,0 +1,27 @@
+﻿---
+ID: "7d76e673-ae87-4e6e-af46-d04b537f52ed"
+Parent: "24c14510-38cd-433f-80aa-dcdc9a0c22ab"
+Template: "66d917d7-6f8e-42a6-bdc5-90e6ab564afd"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Data/FAQs with Tabs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250401T114221Z
+    - ID: "3ded75f2-aa1d-4e93-8e72-412a28addf9c"
+      Hint: Limit
+      Value: 6
+    - ID: "7e146644-6200-4d43-a2b5-be72a0f63630"
+      Hint: Faqs
+      Value: "{0E57DF3F-B6B3-4011-A8E5-D56A66DBD1F7}|{8D2001E6-259C-44A0-87DF-61F70361228D}|{7584CBB8-6BC2-4F6B-8412-68FCE2236232}"
+    - ID: "a9a0d9b9-7f36-4072-84ef-b307f6f4a033"
+      Hint: ShowAllTabLabel
+      Value: 
+    - ID: "c0dc568f-3ca3-49d7-ae08-4c8996327f95"
+      Hint: ViewAllBtn
+      Value: |
+        <link text="View All FAQs" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{3B42E249-22B8-4EBE-BE0B-7090E529AE4C}" />

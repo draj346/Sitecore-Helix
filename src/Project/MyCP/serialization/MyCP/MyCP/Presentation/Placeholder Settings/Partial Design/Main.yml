@@ -1,0 +1,22 @@
+﻿---
+ID: "01b97190-a392-49c2-8358-3bac8a73a0c2"
+Parent: "be792ebd-8ef0-4823-a5c3-c62f421a4d51"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Placeholder Settings/Partial Design/Main
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-main"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{A1FE770E-8897-47C9-93A3-02EA8992ACE0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250327T081206Z

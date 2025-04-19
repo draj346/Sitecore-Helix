@@ -1,0 +1,58 @@
+﻿---
+ID: "4645d3f9-e225-4ee1-a71a-f9bef0278441"
+Parent: "5c3d60fc-e5e7-4acf-9f6c-1d4f5747cfba"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Services/How do I contact you
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T160519Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p>Confused about whether to call us, or write us?</p>
+            <p><strong>Please call us toll-free when:</strong></p>
+            <ul>
+                <li>you have questions about benefits or premium payments</li>
+                <li>you have a question about your coverage</li>
+                <li>you feel you can no longer keep your coverage active</li>
+                <li>you change your address</li>
+                <li>you want to request a form (some forms can be <a rel="noopener noreferrer" href="/Get-a-Form" target="_self">downloaded</a> from this site)</li>
+            </ul>
+            <p><strong>Our toll free customer service line is:</strong><br />
+            1-800-523-9100<br />
+            8:30 AM to 5:30 PM ET<br />
+            Monday - Friday</p>
+            <p><strong>New York policyholders, please call us toll free at:</strong><br />
+            1-800-323-4542<br />
+            8:30 AM to 5:30 PM ET<br />
+            Monday - Friday</p>
+            <p><strong>Please write us:</strong></p>
+            <ul>
+                <li>to request forms</li>
+                <li>to change your beneficiary (you can also&nbsp;<a rel="noopener noreferrer" href="/Get-a-Form" target="_self">download</a> the Change of Beneficiary Form from this website)</li>
+                <li>to notify us of the death of an insured</li>
+                <li>if you have lost your policy</li>
+            </ul>
+            <p><strong>Our mailing address is:</strong><br />
+            Colonial Penn Life Insurance Company<br />
+            Policyholder Services<br />
+            PO Box 1918<br />
+            Carmel, IN 46082-9903</p>
+            <p><strong>New York policyholders, please write to us at:</strong><br />
+            Bankers Conseco Life Insurance Company<br />
+            Policyholder Services<br />
+            PO Box 1918<br />
+            Carmel, IN 46082-9903</p>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "How do I contact you?"

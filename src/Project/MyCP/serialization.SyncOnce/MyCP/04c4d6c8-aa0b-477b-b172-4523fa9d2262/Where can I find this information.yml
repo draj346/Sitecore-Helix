@@ -1,0 +1,25 @@
+﻿---
+ID: "578ed829-a678-4a0f-a9fd-70f025fbde2c"
+Parent: "04c4d6c8-aa0b-477b-b172-4523fa9d2262"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Registration Tips/Where can I find this information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T160235Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p>For your added security we do not display beneficiary names online.  For information on your beneficiary, please call us.  Our toll-free number is 1-800-523-9100.  NY residents, please call 1-800-323-4542.  To change your beneficiary you can&nbsp;<a href="/Get-a-Form" target="_self">download a form</a> and mail it to us.</p>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "I am looking at my account, but I do not see the name of the beneficiary for my policy. Where can I find this information?"

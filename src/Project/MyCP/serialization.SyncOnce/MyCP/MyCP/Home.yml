@@ -1,0 +1,86 @@
+﻿---
+ID: "aa6e84bd-9ea3-4400-b4e9-15b6998c5251"
+Parent: "4c511cb8-44cc-4de7-ab73-da2208358a15"
+Template: "7de31298-6fe9-4679-a3a9-95690e8747ed"
+Path: /sitecore/content/Learning JSS/MyCP/Home
+DB: master
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Type: Checklist
+  Value: "{5C0D0560-4EC4-405A-A9D2-8004DBA7ACE6}"
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{F436D17B-1C07-44DA-A995-3CDAD993222A}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{820ED5AB-817A-4E30-8EEA-EC9C28046638}"
+              p:before="*"
+              s:ds="local:/Data/FAQs with Tabs"
+              s:id="{F00BC7CC-94F0-4730-9DA8-862F25A67398}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles=%7BED99D5B0-47C1-4801-8121-FB4B33DA46EC%7D%7C%7BC637DB75-F37B-48F7-A771-7E6DDF37C20C%7D"
+              s:ph="/headless-main/sxa-main/placeholder-content-0-1"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{FE596473-EB73-4A02-BBF1-4969D3F76000}"
+              p:after="r[@uid='{820ED5AB-817A-4E30-8EEA-EC9C28046638}']"
+              s:ds="local:/Data/ContactUs"
+              s:id="{B516F3A4-9B85-427A-A404-E623EFEA1B74}"
+              s:par=""
+              s:ph="/headless-main/sxa-main/placeholder-content-0-1"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{2CE75870-7436-49F7-9454-7A6395C899D8}"
+              p:after="r[@uid='{FE596473-EB73-4A02-BBF1-4969D3F76000}']"
+              s:ds="local:/Data/Login"
+              s:id="{318BC228-8DF7-486F-ACDC-793DD8056DD7}"
+              s:par=""
+              s:ph="/headless-main/sxa-main/placeholder-heading-0-1/login-placeholder-{B7D857EE-C76F-49C0-800B-7E5205BB1325}-0"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{6E575EFF-6834-4ABD-871A-BCC563080C7D}"
+              p:after="r[@uid='{2CE75870-7436-49F7-9454-7A6395C899D8}']"
+              s:ds="local:/Data/Register Banner"
+              s:id="{B12C9187-AD0A-4F3D-B996-89396BC0E395}"
+              s:par=""
+              s:ph="/headless-main/sxa-main/placeholder-heading-0-1"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{B7D857EE-C76F-49C0-800B-7E5205BB1325}"
+              p:after="*[1=2]"
+              s:ds="local:/Data/Login Link Section"
+              s:id="{01F46465-5EA9-475D-BE6F-5D4470F1EBEF}"
+              s:par=""
+              s:ph="/headless-main/sxa-main/placeholder-heading-0-1"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T165510Z
+    - ID: "3ee80800-66c2-48dc-bcdd-dda9af2c8a1c"
+      Hint: Title
+      Value: MyCP
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: MyCP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

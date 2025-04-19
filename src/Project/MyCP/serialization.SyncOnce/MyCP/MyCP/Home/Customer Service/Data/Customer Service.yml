@@ -1,0 +1,21 @@
+﻿---
+ID: "017ef0d5-e80a-40f3-be20-01f4ca3f8631"
+Parent: "a6437589-29e1-488a-ae29-e90274356bf0"
+Template: "5ec252f1-8340-4d0f-95ce-b2e4f61ee1d8"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Customer Service/Data/Customer Service
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250412T153448Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8628a1dd-4c2d-4ec7-b420-e8a8f86647cc"
+      Hint: Contacts
+      Value: "{B6C96F93-A691-466A-8C91-61A044646C73}|{A860B6EC-0F0E-44AD-9395-C78B2DECF6A1}|{C218A1BD-373D-439C-9B7B-0112EA17D1F0}"

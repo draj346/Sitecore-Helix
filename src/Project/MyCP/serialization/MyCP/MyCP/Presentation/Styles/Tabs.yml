@@ -1,0 +1,14 @@
+﻿---
+ID: "197441f7-f1ee-455a-82c2-cc3c876c4ff8"
+Parent: "3dcf1cf6-f1b9-466d-b465-a78ddcaabaed"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Styles/Tabs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250401T114613Z

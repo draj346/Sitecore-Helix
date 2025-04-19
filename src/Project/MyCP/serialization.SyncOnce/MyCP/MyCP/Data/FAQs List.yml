@@ -1,0 +1,18 @@
+﻿---
+ID: "ba02db12-3432-4c5f-9d32-827f44fb2184"
+Parent: "26b21814-e766-4a55-83c6-e913f745fec6"
+Template: "9c84d716-9ee1-49e5-8624-20b937c05bca"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250401T104659Z

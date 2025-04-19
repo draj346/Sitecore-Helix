@@ -1,0 +1,24 @@
+﻿---
+ID: "1f8d3f5e-9028-4d22-85da-5396ea7bdd19"
+Parent: "fec10f47-b904-4d82-992f-fcfb1db6582c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Header/Header/Content/Links
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "query:$site/*[@@name='Data']//*[@@templateid='{BB1A929E-AC0C-48F6-A446-A79250A0124D}']/*"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Multiroot Treelist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T154949Z

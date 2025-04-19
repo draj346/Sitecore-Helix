@@ -1,0 +1,14 @@
+﻿---
+ID: "036d0748-32ae-4af0-9534-5c29eaa06a53"
+Parent: "26b21814-e766-4a55-83c6-e913f745fec6"
+Template: "8fe7f8dc-cb5d-42c2-99f8-76608c243f10"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Promos
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T165517Z

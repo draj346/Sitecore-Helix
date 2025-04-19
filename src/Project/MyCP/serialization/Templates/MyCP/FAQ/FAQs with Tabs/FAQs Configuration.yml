@@ -1,0 +1,18 @@
+﻿---
+ID: "2c3834e7-3efb-4361-986f-05899c97db94"
+Parent: "66d917d7-6f8e-42a6-bdc5-90e6ab564afd"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/FAQ/FAQs with Tabs/FAQs Configuration
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250401T105436Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "e01d00e8-5c7a-46c4-8b64-0c5abe2fcce7"
+Parent: "7769eb92-4d4f-4ff0-ac79-d21dabbe99d6"
+Template: "f3c3550f-e347-4290-9966-03168ab05698"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Header Links/Get a Form
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T175837Z
+    - ID: "4129b181-fe33-46f2-abff-f9c9ed4aba2b"
+      Hint: Link
+      Value: |
+        <link class="" id="{63E53DAE-8342-45AE-8398-5118757628E3}" querystring="" anchor="" target="" title="" linktype="internal" text="Get a Form" url="/Learning JSS/MyCP/Home/Get a Form" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: Download &amp; print the form

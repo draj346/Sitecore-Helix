@@ -1,0 +1,24 @@
+﻿---
+ID: "0ef22fd9-c694-4369-aa30-cf7cc9d943c6"
+Parent: "41703b12-ddea-4f0a-b9ea-42f19d329d59"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Payment Center/Payment Link
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/flash.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {4F36856A-2069-47ED-BE42-7C668CFEFA5C}
+    {5597FC68-D88B-488B-A9FA-E2E0C4795F26}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T083533Z

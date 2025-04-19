@@ -1,0 +1,14 @@
+﻿---
+ID: "0056a10e-92d3-4a44-a5e9-f8982e7f1ad2"
+Parent: "4f36856a-2069-47ed-be42-7c668cfefa5c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/Common/Banner/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T153222Z

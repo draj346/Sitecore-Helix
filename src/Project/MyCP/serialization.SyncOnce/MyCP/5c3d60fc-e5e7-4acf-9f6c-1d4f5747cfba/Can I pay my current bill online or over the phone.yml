@@ -1,0 +1,29 @@
+﻿---
+ID: "09b9fb72-550a-48a7-a378-6498d17602c1"
+Parent: "5c3d60fc-e5e7-4acf-9f6c-1d4f5747cfba"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Services/Can I pay my current bill online or over the phone
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T160614Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p>You can pay a current bill either online or over the phone using automatic bank account deduction or a credit or debit card.</p>
+            <ul>
+                <li>You can pay by phone 24 hours a day, 7 days a week, by calling 1-800-523-9100. Our automated system will direct you through the process. You will need to have your policy number or numbers, and your credit/debit card or bank account number and bank routing number handy.</li>
+                <li>To pay online, please&nbsp;<a href="/Payment-Center" target="_self">click here</a>.</li>
+            </ul>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "Can I pay my current bill online or over the phone?"

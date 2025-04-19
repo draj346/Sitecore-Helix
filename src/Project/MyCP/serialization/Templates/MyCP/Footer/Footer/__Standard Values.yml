@@ -1,0 +1,26 @@
+﻿---
+ID: "ad9a7706-4937-4ffa-a94d-5b5634949800"
+Parent: "26d49488-7195-41fd-adc8-e25933cc6340"
+Template: "26d49488-7195-41fd-adc8-e25933cc6340"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Footer/Footer/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{4DF78AD3-EED8-4ACA-961B-E658EDEF75C2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "041549cc-7337-413b-8711-3d0838801f7c"
+      Hint: Copyrights
+      Value: "Copyright © 2011-@DynamicYear All Rights Reserved."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250323T114737Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

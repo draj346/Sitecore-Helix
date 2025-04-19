@@ -1,0 +1,26 @@
+﻿---
+ID: "33ca1617-f772-4e4f-9082-a4b528a2fccc"
+Parent: "9c84d716-9ee1-49e5-8624-20b937c05bca"
+Template: "9c84d716-9ee1-49e5-8624-20b937c05bca"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/FAQ/FAQs List/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {F554B092-0234-4086-A41A-824507F790FD}
+    {9C84D716-9EE1-49E5-8624-20B937C05BCA}
+    {00DC8565-5E31-4CCC-974D-5EAFCDC6A791}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T155840Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

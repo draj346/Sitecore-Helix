@@ -1,0 +1,14 @@
+﻿---
+ID: "beefd7a7-bfb1-4556-87d0-d0aa957a034e"
+Parent: "2164758d-7f39-4b92-839d-b459f2a096da"
+Template: "18cd50f8-287f-4726-93df-4eeb2b6f48c6"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Partial Designs/Customer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T184602Z

@@ -1,0 +1,24 @@
+﻿---
+ID: "7d1980ed-f200-47c7-a97a-8e8e9a7fdeeb"
+Parent: "06436cf4-bd18-41a7-bcfb-a0aeb30ffd09"
+Template: "8ac2fb17-f300-4cc3-b753-6bb5c6a8a678"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Forms/States/Wyoming
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T140727Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "64b9b7b8-4d3a-4541-89cf-388468802977"
+      Hint: Key
+      Value: WY
+    - ID: "ffb694e6-c28f-41ab-9add-bdb98edc87e9"
+      Hint: Value
+      Value: Wyoming (WY)

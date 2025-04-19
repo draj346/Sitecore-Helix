@@ -1,0 +1,18 @@
+﻿---
+ID: "f436d17b-1c07-44da-a995-3cdad993222a"
+Parent: "64633303-6196-4907-8def-1ab70d32fccc"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Page Designs/Guest Page
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{AB6F2116-6FA5-4E44-A7D7-A0BC3992156F}|{332B15DA-6745-4C43-AA27-79149121E094}|{C7430F04-EA60-41C4-931D-B26926C0E6BC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T184723Z

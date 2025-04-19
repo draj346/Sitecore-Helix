@@ -1,0 +1,22 @@
+﻿---
+ID: "cfba6b1a-2e25-40e4-acea-f9c120858683"
+Parent: "195a0f06-56e8-4cb8-9fe7-561aa0c82da3"
+Template: "4df78ad3-eed8-4aca-961b-e658edef75c2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Login Links/Make online payments
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "082a2905-bf45-44ba-bd3e-ef09c4131775"
+      Hint: Link
+      Value: |
+        <link text="Make online payments" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9D0F23C5-3861-4CBA-9E64-A040CA4086B6}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T054229Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

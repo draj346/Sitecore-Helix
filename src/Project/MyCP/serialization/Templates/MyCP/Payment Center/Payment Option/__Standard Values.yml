@@ -1,0 +1,23 @@
+﻿---
+ID: "148007d2-be1c-4081-a9a9-b57dd9c5c913"
+Parent: "906d7868-d688-4f89-9278-6dbb3847b0e3"
+Template: "906d7868-d688-4f89-9278-6dbb3847b0e3"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Payment Center/Payment Option/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{0EF22FD9-C694-4369-AA30-CF7CC9D943C6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T083652Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

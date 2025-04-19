@@ -1,0 +1,33 @@
+﻿---
+ID: "59dac082-ef93-45eb-a79e-33fd589f34ac"
+Parent: "24c14510-38cd-433f-80aa-dcdc9a0c22ab"
+Template: "03628382-30ad-47cb-8ce5-225c9f4ce9df"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Data/Register Banner
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250324T060822Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p class="p-small">
+        <span>
+        IMPORTANT NOTICE: A recent technical issue may have resulted in delayed delivery of electronic documents to your account. We apologize for any inconvenience this may have caused. Log-in now to your account to review all recent policy documents and take any necessary actions. If you need to make an immediate premium payment you can make or schedule a payment online now.
+        </span>
+        </p>
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: 
+    - ID: "d6a732e7-b07d-4711-bc08-d06da662b555"
+      Hint: Icon
+      Value: |
+        <image mediaid="{E40CDEFD-9879-476B-994A-5C859C7320C7}" ></image>

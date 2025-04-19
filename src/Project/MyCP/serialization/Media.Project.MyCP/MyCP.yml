@@ -1,0 +1,18 @@
+﻿---
+ID: "fe7c2137-ec69-4974-84df-7289ed24f918"
+Parent: "03a8b9fe-4dde-42e9-bd66-886962b99188"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Learning JSS/MyCP
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T165510Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "f928796c-df46-4468-b72f-c464b065f0f4"
+Parent: "50329028-6c3d-4189-a210-26f67cbe242f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Form/Get a Form/Form List Options/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T144637Z

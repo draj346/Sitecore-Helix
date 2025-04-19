@@ -1,0 +1,24 @@
+﻿---
+ID: "a0e3b8c9-7719-44d9-a6fa-40eca90c3c80"
+Parent: "7769eb92-4d4f-4ff0-ac79-d21dabbe99d6"
+Template: "f3c3550f-e347-4290-9966-03168ab05698"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Header Links/Resources
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1735df3c-3755-4e8c-82c6-8181c749acf0"
+      Hint: Child
+      Value: "{E01D00E8-5C7A-46C4-8B64-0C5ABE2FCCE7}|{46C637B3-5E68-4F08-9D83-CC542A6E5F7F}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T180121Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Resources

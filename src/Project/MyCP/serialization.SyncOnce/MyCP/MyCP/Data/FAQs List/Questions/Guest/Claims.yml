@@ -1,0 +1,14 @@
+﻿---
+ID: "80920e55-9269-4f41-8319-ddd5e9a75841"
+Parent: "39687ceb-db0f-4222-adab-8fc31795dbbc"
+Template: "00dc8565-5e31-4ccc-974d-5eafcdc6a791"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Claims
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T154221Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "3de82f7f-6d91-43a4-ac99-3d45642b3981"
+Parent: "cfded1f1-aa2e-4996-a501-b58934556205"
+Template: "cfded1f1-aa2e-4996-a501-b58934556205"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Contacts/Contact List/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A47D9B7E-C92B-412C-98EE-30D3C2B2A6A0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T155840Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

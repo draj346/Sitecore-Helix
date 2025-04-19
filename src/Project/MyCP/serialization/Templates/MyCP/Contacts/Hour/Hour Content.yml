@@ -1,0 +1,14 @@
+﻿---
+ID: "8c4a0b47-e094-483f-9053-425e21c7baf8"
+Parent: "1f6cdc76-a523-4b5c-94c0-20ae23885a33"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Contacts/Hour/Hour Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250403T031617Z

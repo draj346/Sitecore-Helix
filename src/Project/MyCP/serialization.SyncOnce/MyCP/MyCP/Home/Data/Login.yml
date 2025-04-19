@@ -1,0 +1,30 @@
+﻿---
+ID: "8f8a3f76-8837-4871-931a-f98260ee982c"
+Parent: "24c14510-38cd-433f-80aa-dcdc9a0c22ab"
+Template: "2cbc7f4f-5492-4fd6-b54b-9237fad06c2a"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Data/Login
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0975fab3-a507-4039-ab83-5932d7b5d613"
+      Hint: Login
+      Value: Login Now
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T122547Z
+    - ID: "33078c49-b209-4d96-ae3f-5ad1ed0c3266"
+      Hint: ForgetPassword
+      Value: "Forgot Password?"
+    - ID: "35c58ef6-9ebb-4ad8-b88c-b17268068063"
+      Hint: Register
+      Value: Register Now
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Account Login

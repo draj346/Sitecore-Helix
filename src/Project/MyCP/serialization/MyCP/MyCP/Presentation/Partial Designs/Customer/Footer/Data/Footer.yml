@@ -1,0 +1,18 @@
+﻿---
+ID: "e7d8f6e6-6e1e-4853-a7ed-c1c6d53c9eb8"
+Parent: "690782c9-be08-4724-ad72-10c1b8812399"
+Template: "26d49488-7195-41fd-adc8-e25933cc6340"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Partial Designs/Customer/Footer/Data/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250323T115216Z
+    - ID: "d6743ab6-add0-4c02-97ad-edda3657829b"
+      Hint: Logo
+      Value: |
+        <image mediaid="{C893E24A-2E14-44BD-911D-FD6A2A0A877A}" />

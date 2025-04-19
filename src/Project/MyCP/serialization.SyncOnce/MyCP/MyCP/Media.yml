@@ -1,0 +1,25 @@
+﻿---
+ID: "c0684276-5f9c-4b6b-9058-85bb564c7087"
+Parent: "4c511cb8-44cc-4de7-ab73-da2208358a15"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: /sitecore/content/Learning JSS/MyCP/Media
+DB: master
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Type: Treelist
+  Value: |
+    {FE7C2137-EC69-4974-84DF-7289ED24F918}
+    {42A6DF52-028C-495C-9629-7B41357181B3}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A7F39EA2-9018-4622-891D-CB65627E5AF2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250320T165510Z

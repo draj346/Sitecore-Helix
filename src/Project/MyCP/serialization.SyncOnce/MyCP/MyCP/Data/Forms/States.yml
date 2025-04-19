@@ -1,0 +1,19 @@
+﻿---
+ID: "06436cf4-bd18-41a7-bcfb-a0aeb30ffd09"
+Parent: "095e2f0a-af76-4347-83e8-8eccb8400218"
+Template: "d64c0b98-7f0d-4e22-bfa4-50f813ca45be"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Forms/States
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{8AC2FB17-F300-4CC3-B753-6BB5C6A8A678}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T140637Z

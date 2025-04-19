@@ -1,0 +1,64 @@
+﻿---
+ID: "da294d6e-733b-4193-b938-3b705afb15b1"
+Parent: "beefd7a7-bfb1-4556-87d0-d0aa957a034e"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/Learning JSS/MyCP/Presentation/Partial Designs/Customer/Main
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: main
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p
+              uid="{ACFC10A6-D2BD-4831-904A-BF6CDEBB4F4D}"
+              p:before="*"
+              s:key="headless-main"
+              s:md="{01B97190-A392-49C2-8358-3BAC8A73A0C2}" />
+            <p
+              uid="{AE2561E7-33BC-4AB0-B71F-2138C815E4A7}"
+              p:after="p[@uid='{ACFC10A6-D2BD-4831-904A-BF6CDEBB4F4D}']"
+              s:key="/headless-main/placeholder-breadcrumb-0-1"
+              s:md="{8ABCB345-9C02-4D6E-A890-6C6B1CF274D9}" />
+            <p
+              uid="{24FE3F0F-1713-4237-8667-8DBCF170FE82}"
+              p:after="p[@uid='{AE2561E7-33BC-4AB0-B71F-2138C815E4A7}']"
+              s:key="/headless-main/placeholder-heading-0-1"
+              s:md="{54ED2DD4-D938-4984-BF8E-9EBD2AAA4A86}" />
+            <p
+              uid="{1FB8D1E2-7B43-441C-A8C0-32FCEF49885D}"
+              p:after="p[@uid='{24FE3F0F-1713-4237-8667-8DBCF170FE82}']"
+              s:key="/headless-main/placeholder-content-0-1"
+              s:md="{73BF4454-5D5C-47DB-8ADE-341B224FFA51}" />
+            <r
+              uid="{8424D3C5-5A04-4F4E-A721-AB872180E130}"
+              p:after="p[@uid='{1FB8D1E2-7B43-441C-A8C0-32FCEF49885D}']"
+              s:id="{BF0955D9-152D-423A-B686-B1775BFDCD66}"
+              s:par="CacheClearingBehavior=Clear on publish"
+              s:ph="/headless-main/placeholder-breadcrumb-0-1" />
+            <r
+              uid="{4C8C1551-FAD6-4A98-842C-2D2C9B966917}"
+              p:after="*[1=2]"
+              s:id="{A1FE770E-8897-47C9-93A3-02EA8992ACE0}"
+              s:par="CacheClearingBehavior=Clear+on+publish&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250327T081206Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

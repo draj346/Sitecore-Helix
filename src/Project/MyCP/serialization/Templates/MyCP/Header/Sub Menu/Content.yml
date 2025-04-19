@@ -1,0 +1,14 @@
+﻿---
+ID: "8b9f9b9d-e80c-477c-aef7-d128ac4dbf24"
+Parent: "f3c3550f-e347-4290-9966-03168ab05698"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Header/Sub Menu/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T155056Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "cea3be2b-ee80-42bd-ae40-572faa89c6fa"
+Parent: "6cf37688-2ec2-408e-a345-1bc1934c4d0b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Payment Center/Payment Center/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T084903Z

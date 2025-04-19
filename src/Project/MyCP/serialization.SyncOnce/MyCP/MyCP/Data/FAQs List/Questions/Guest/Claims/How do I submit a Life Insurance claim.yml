@@ -1,0 +1,35 @@
+﻿---
+ID: "24574958-654f-4b7f-a66d-11fd0495006b"
+Parent: "80920e55-9269-4f41-8319-ddd5e9a75841"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Claims/How do I submit a Life Insurance claim
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T154449Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p>Most life insurance claims can be processed upon receipt of a claimant's statement completed by the named beneficiary(s), and a certified death certificate for the insured. The original insurance contract(s) should also be returned, if available. Only one death certificate is required regardless of the number of policies or certificates. These documents should be sent to:</p>
+            <p>Colonial Penn Life Insurance Company<br />
+            Life Claims Dept<br />
+            PO Box 1918<br />
+            Carmel, IN 46082-1918</p>
+            <p><strong>For NY Residents:</strong><br />
+            Bankers Conseco Life Insurance Company<br />
+            Life Claims Dept<br />
+            PO Box 1918<br />
+            Carmel, IN 46082-1918</p>
+        
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "How do I submit a Life Insurance claim?"

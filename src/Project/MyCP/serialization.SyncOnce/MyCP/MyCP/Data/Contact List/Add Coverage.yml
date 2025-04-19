@@ -1,0 +1,29 @@
+﻿---
+ID: "84dadc6e-613c-481a-ba51-280f240eacb3"
+Parent: "469567c0-8669-4366-a5b3-282dc00603a2"
+Template: "535715ec-bc65-4ef6-b0cd-74c6ceb0a226"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Contact List/Add Coverage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "082a2905-bf45-44ba-bd3e-ef09c4131775"
+      Hint: Link
+      Value: |
+        <link text="1-877-877-8052" linktype="anchor" url="tel:+18778778052" anchor="tel:+18778778052" title="Add Coverage" class="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250403T032133Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Phone
+    - ID: "d6a732e7-b07d-4711-bc08-d06da662b555"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A544BA15-75B7-4731-9B43-2B200D0E2BD3}" />

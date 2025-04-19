@@ -1,0 +1,22 @@
+﻿---
+ID: "283799ca-6819-46bb-b78e-5b8d8dda5b83"
+Parent: "a6ed7494-76ee-4428-936e-39b3fb0d4519"
+Template: "6cf37688-2ec2-408e-a345-1bc1934c4d0b"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Payment Center/Data/Payment Center
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T085102Z
+    - ID: "b59119e0-e9c4-4162-943f-1fa96fdd5194"
+      Hint: Disclaimer
+      Value: |
+        <p><em>*For Medicare Supplement plans issued in 2010 or later, please call</em><a href="tel:+18008002254"><em> 1-800-800-2254 </em></a><em>for customer service for your policy. You cannot pay online at this website.</em></p>

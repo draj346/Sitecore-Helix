@@ -1,0 +1,26 @@
+﻿---
+ID: "4d747351-d5ac-4b40-a60c-021ae2d70e55"
+Parent: "088e7db3-d9cf-47c0-8275-81802a87f805"
+Template: "50329028-6c3d-4189-a210-26f67cbe242f"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Forms/Get a Form List/PA Claim Form for Life Insurance Death Benefits
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T150710Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "89d2a8a7-ce71-4acb-b58f-8152dcf33179"
+      Hint: File
+      Value: |
+        <file mediaid="{25FC2F63-7475-48F6-9466-6D63F3A59A98}" src="-/media/25FC2F63747548F694666D63F3A59A98.ashx" />
+    - ID: "8b918f62-dbe8-49fe-b433-fc7207d610c9"
+      Hint: States
+      Type: Multilist
+      Value: "{3940EF91-4B73-41D5-A132-5D7E4A89289B}"

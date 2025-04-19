@@ -1,0 +1,26 @@
+﻿---
+ID: "191e7e5e-9869-4c7f-8a78-5008036f3db9"
+Parent: "088e7db3-d9cf-47c0-8275-81802a87f805"
+Template: "50329028-6c3d-4189-a210-26f67cbe242f"
+Path: /sitecore/content/Learning JSS/MyCP/Data/Forms/Get a Form List/NY Booklet Grief Brochure
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T150710Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "89d2a8a7-ce71-4acb-b58f-8152dcf33179"
+      Hint: File
+      Value: |
+        <file mediaid="{400D5892-F2A0-4ED1-9347-99E22D9BFF31}" src="-/media/400D5892F2A04ED1934799E22D9BFF31.ashx" />
+    - ID: "8b918f62-dbe8-49fe-b433-fc7207d610c9"
+      Hint: States
+      Type: Multilist
+      Value: "{1A2F3C77-0661-4262-A52C-7AEF6BCBBAB3}"

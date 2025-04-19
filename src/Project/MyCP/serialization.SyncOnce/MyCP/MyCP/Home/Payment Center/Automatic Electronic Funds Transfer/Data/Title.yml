@@ -1,0 +1,24 @@
+﻿---
+ID: "82c8a92c-9986-4485-9436-10674d6ee3a2"
+Parent: "b6f7d613-3210-44a1-b4c4-e8500c34052f"
+Template: "649e2fe0-0155-4180-90c8-2062e716e0e2"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Payment Center/Automatic Electronic Funds Transfer/Data/Title
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250413T064715Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: Switch to recurring EFT billing–Automatic Bank Account Deduction
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: Electronic Funds Transfer

@@ -1,0 +1,28 @@
+﻿---
+ID: "e188a0aa-5756-4c09-a6ba-39795e509453"
+Parent: "80920e55-9269-4f41-8319-ddd5e9a75841"
+Template: "507ebf15-9232-4a4c-8f5f-836730b8bad2"
+Path: /sitecore/content/Learning JSS/MyCP/Data/FAQs List/Questions/Guest/Claims/What should I do if the beneficiary is no longer living
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250331T154747Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8fe809db-dd54-4589-9dc4-0f9d6a62ee88"
+      Hint: Description
+      Value: |
+        <p style="color: #323232; background-color: #ffffff;">If the primary beneficiary dies before the insured, the benefits are payable to the contingent (or secondary) beneficiary. If no provisions were made for a contingent beneficiary, the benefits are payable to the estate of the insured.</p>
+            <p style="color: #323232; background-color: #ffffff;">If the primary beneficiary passed away after the insured (but before benefits were paid), the benefits are payable to the estate of the beneficiary.</p>
+            <p style="color: #323232; background-color: #ffffff;">If benefits are payable to an estate, the court appointed representative should complete the claimant's statement, and a copy of the appointment document should be provided with the other documents requested. Refer to&nbsp;<a href="#" style="color: #14578f;" data-bs-target="#collapse-{24574958-654F-4B7F-A66D-11FD0495006B}" class="faq-jumplink">"How Do I Submit A Life Insurance Claim"</a>&nbsp;for claim filing instructions.</p>
+        
+    - ID: "9e056eaf-3802-4878-98c8-92f8ec699126"
+      Hint: Heading
+      Value: "What should I do if the beneficiary is no longer living?"

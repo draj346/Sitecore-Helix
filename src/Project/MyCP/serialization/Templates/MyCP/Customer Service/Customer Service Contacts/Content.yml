@@ -1,0 +1,14 @@
+﻿---
+ID: "51ccc0cf-347c-4eae-8ee8-e5378e7343a9"
+Parent: "d34197be-1255-4818-b4c2-2406fa23ed2a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Learning JSS/MyCP/Customer Service/Customer Service Contacts/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250412T095601Z
