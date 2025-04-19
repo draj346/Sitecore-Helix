@@ -1,0 +1,383 @@
+
+  
+  /* breakpoints */
+  /**
+  regular -> "OpenSans-Regular",
+  italic -> "OpenSans-Regular-Italic",
+  medium -> "OpenSans-Medium",
+  semibold -> "OpenSans-SemiBold",
+  bold -> "OpenSans-Bold",
+  extrabold -> "OpenSans-ExtraBold",
+  To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+  **/
+  @media (min-width: 992px) {
+    .before-login header .backdrop {
+      transition: opacity 0.25s ease-in-out;
+      background: rgba(0, 0, 0, 0.5);
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 2;
+    }
+  }
+  .before-login header .header .navbar {
+    z-index: 1030;
+  }
+  .before-login header .header .navbar.navbar-expand-lg {
+    padding: 20px 0px;
+    box-shadow: 0px 1px 0px #DCDCDC;
+    background-color: #ffffff;
+  }
+  @media (min-width: 768px) {
+    .before-login header .header .navbar.navbar-expand-lg {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .before-login header .header .navbar.navbar-expand-lg {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container li .nav-link {
+    color: #333333;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container li .nav-link:hover {
+    color: #0057af;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container li .nav-link.active {
+      position: relative;
+      color: #0057af;
+    }
+    .before-login header .header .navbar.navbar-expand-lg .container li .nav-link.active::before {
+      content: "";
+      border-bottom-width: 3px;
+      border-bottom-style: solid;
+      border-bottom-color: #EF3E33;
+      width: 100%;
+      position: absolute;
+      bottom: -10px;
+      border-radius: 5px;
+      right: -2px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container li .nav-link.active span {
+    position: relative;
+    color: #0057af;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container li .nav-link.active span::before {
+    content: "";
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #EF3E33;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    border-radius: 5px;
+    right: -2px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container li .nav-link.active span::before {
+      content: none;
+    }
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section {
+      flex-basis: 100%;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .navbar-toggler {
+    --bs-border-width: 0;
+    background: url("/images/hamburger_1.svg") no-repeat left top;
+    width: 28px;
+    height: 28px;
+    left: 15px;
+    top: 24px;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .navbar-brand {
+    padding: 0 0 0 20px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .navbar-brand {
+      padding-left: 0;
+      --bs-navbar-brand-margin-end: 40px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .navbar-brand img {
+    max-height: 35px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .navbar-brand img {
+      max-height: 45px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .navbar-brand img {
+      max-height: 38px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start {
+    --bs-offcanvas-width: 100%;
+    --bs-offcanvas-border-width: 0;
+    --bs-offcanvas-padding-x: 15px;
+  }
+  @media (min-width: 768px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start {
+      --bs-offcanvas-padding-x: 24px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body {
+    --bs-offcanvas-padding-y: 0;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body {
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu {
+      display: flex;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item:not(:last-child) {
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link {
+    --bs-navbar-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0;
+    position: relative;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link::after {
+    content: " ";
+    background: url("/images/right-arrow.svg") no-repeat left center;
+    width: 8px;
+    height: 12px;
+    right: 0px;
+    position: absolute;
+    top: 6px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link::after {
+      content: none;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link[aria-expanded=true]::after {
+    width: 12px;
+    background-image: url("/images/up-arrow.svg");
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link[aria-expanded=true] span {
+    position: relative;
+    color: #0057af;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link[aria-expanded=true] span::before {
+    content: "";
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #EF3E33;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    border-radius: 5px;
+    right: -2px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link[aria-expanded=true] span::before {
+      content: none;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link[aria-expanded=true] + .mega-menu-dropdown .container .mega-menu {
+    margin-top: 30px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link[aria-expanded=true] + .mega-menu-dropdown .container .mega-menu {
+      margin-top: 40px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link.active + .mega-menu-dropdown .container .mega-menu {
+    margin-top: 30px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .nav-link.active + .mega-menu-dropdown .container .mega-menu {
+      margin-top: 40px;
+    }
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .collapsing {
+      transition: none;
+    }
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown {
+      position: fixed;
+      box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.03);
+      background-color: #ffffff;
+      overflow-x: hidden;
+      width: 100%;
+      border: none;
+      top: 81px;
+      border-radius: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+  @media (min-width: 1200px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown {
+      top: 101px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu {
+    margin-top: 20px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu .mega-menu-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu .mega-menu-item:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu .mega-menu-item a {
+    margin-bottom: 5px;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu .mega-menu-item a::after {
+    content: " ";
+    background: url("/images/right-arrow-hover.svg") no-repeat left center;
+    width: 12px;
+    height: 12px;
+    right: 0px;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu .mega-menu-item a:hover {
+    color: #333333;
+    text-decoration: underline;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu .mega-menu-item a:hover::after {
+    margin-left: 15px;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav.header-menu .nav-item .mega-menu-dropdown .container .mega-menu .mega-menu-item p {
+    margin-bottom: 0;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav .header-search {
+    display: none;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav .header-search {
+      display: block;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav .login-button {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav .login-button {
+      width: auto;
+      margin-top: 0;
+      margin-left: 30px;
+      margin-right: 40px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav .login-button .btn {
+    width: 100%;
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+  @media (min-width: 992px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-body .navbar-nav .login-button .btn {
+      width: auto;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-header {
+    --bs-offcanvas-padding-y: 20px;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-section .offcanvas-start .offcanvas-header .navbar-toggler {
+    background: url("/images/close-sidebar.svg") no-repeat left top;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-right {
+    flex-direction: row;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .before-login header .header .navbar.navbar-expand-lg .container .navbar-right li:not(:first-child) {
+      margin-left: 30px;
+    }
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-right li.header-search a {
+    text-decoration: none;
+    position: relative;
+    padding: 0 0 0 29px;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-right li.header-search a::after {
+    content: " ";
+    position: absolute;
+    background: url("/images/search.svg") no-repeat left center;
+    left: 0;
+    top: -1px;
+    height: 24px;
+    width: 24px;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-right li.header-search a:hover::after {
+    background-image: url("/images/search-hover.svg");
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-right li.header-search a.active {
+    position: relative;
+    color: #0057af;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-right li.header-search a.active::before {
+    content: "";
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #EF3E33;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    border-radius: 5px;
+    right: -2px;
+  }
+  .before-login header .header .navbar.navbar-expand-lg .container .navbar-right li.login-button .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    line-height: 22px;
+  }
+  

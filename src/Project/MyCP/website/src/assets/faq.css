@@ -1,0 +1,325 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.component-faq {
+    align-items: center;
+    margin-bottom: 40px;
+    /* breakpoints */
+    /**
+    regular -> "OpenSans-Regular",
+    italic -> "OpenSans-Regular-Italic",
+    medium -> "OpenSans-Medium",
+    semibold -> "OpenSans-SemiBold",
+    bold -> "OpenSans-Bold",
+    extrabold -> "OpenSans-ExtraBold",
+    To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+    **/
+    /* breakpoints */
+    /**
+    regular -> "OpenSans-Regular",
+    italic -> "OpenSans-Regular-Italic",
+    medium -> "OpenSans-Medium",
+    semibold -> "OpenSans-SemiBold",
+    bold -> "OpenSans-Bold",
+    extrabold -> "OpenSans-ExtraBold",
+    To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+    **/
+  }
+  @media (min-width: 992px) {
+    .component-faq {
+      border: 0;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .before-login .component-faq .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .component-faq .faq-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  @media (min-width: 992px) {
+    .component-faq .faq-container {
+      width: 83.33333333%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .component-faq .faq-container {
+      width: 66.66666667%;
+    }
+  }
+  .component-faq .faq-container .accordion-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .component-faq .heading-faq {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    .component-faq .heading-faq {
+      text-align: center;
+    }
+  }
+  @media (min-width: 992px) {
+    .component-faq .heading-faq {
+      margin-bottom: 40px;
+    }
+  }
+  .component-faq .heading-faq p {
+    margin-top: 10px;
+  }
+  .component-faq .nav-faq {
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #DCDCDC;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+  }
+  .component-faq .nav-faq::-webkit-scrollbar {
+    display: none;
+  }
+  .component-faq .faq-cta {
+    margin-top: 40px;
+  }
+  .component-faq .faq-cta .btn {
+    border: none;
+    padding: 19px 30px;
+    line-height: 22px;
+  }
+  .component-faq .tab-content .accordion {
+    --bs-accordion-active-color: #333333;
+  }
+  .component-faq .tab-content .accordion .accordion-item {
+    --bs-accordion-color: #333333;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-header {
+    text-align: left;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-header .accordion-button {
+    font-size: inherit;
+    box-shadow: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: none;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-padding-x: 0;
+    --bs-accordion-btn-padding-y: 20px;
+    --bs-accordion-btn-color: #333333;
+    align-items: flex-start;
+    padding-right: 32px;
+    position: relative;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-header .accordion-button:after {
+    --bs-accordion-btn-icon-width: 12px;
+    --bs-accordion-btn-icon: none;
+    display: inline-block;
+    font: normal normal 900 14px "Font Awesome 6 Free";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f078";
+    display: block;
+    right: 2px;
+    color: #0057af;
+    margin-top: 4px;
+    position: absolute;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    --bs-accordion-btn-padding-x: 0;
+    --bs-accordion-btn-padding-y: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+    background-image: none;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-header .accordion-button .accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-header .accordion-button:hover {
+    color: #0057af;
+  }
+  .component-faq .tab-content .accordion .accordion-item:first-child {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #DCDCDC;
+  }
+  .component-faq .tab-content .accordion .accordion-item:last-of-type {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #DCDCDC;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-body {
+    --bs-accordion-body-padding-y: 0;
+    --bs-accordion-body-padding-x: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-body a {
+    font-family: inherit;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-body ul li {
+    padding-left: 30px;
+    position: relative;
+  }
+  @media (min-width: 1200px) {
+    .component-faq .tab-content .accordion .accordion-item .accordion-body ul li {
+      padding-left: 25px;
+    }
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-body ul li:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    width: 4px;
+    height: 4px;
+    border-radius: 25px;
+    background-color: #333333;
+  }
+  @media (min-width: 1200px) {
+    .component-faq .tab-content .accordion .accordion-item .accordion-body ul li:before {
+      left: 0px;
+    }
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-body p {
+    margin-bottom: 15px;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-body p:last-child {
+    margin-bottom: 0;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-body p + ul {
+    padding-top: 0px;
+  }
+  .component-faq .tab-content .accordion .accordion-item .accordion-body ul + p {
+    margin-top: 15px;
+  }
+  .component-faq .tab-content .faq-exp-col-btn {
+    padding-bottom: 30px;
+    padding-top: 0px;
+    display: inline-flex;
+    width: 100%;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  @media (min-width: 768px) {
+    .component-faq .tab-content .faq-exp-col-btn {
+      gap: 30px;
+      justify-content: flex-end;
+    }
+  }
+  @media (min-width: 1440px) {
+    .component-faq .tab-content .faq-exp-col-btn {
+      padding-top: 10px;
+    }
+  }
+  .component-faq .tab-content .faq-exp-col-btn .btn-faq-mini {
+    padding: 9px 10px;
+    line-height: 20.4px;
+    width: auto;
+  }
+  @media (min-width: 992px) {
+    .component-faq .tab-content .faq-exp-col-btn .btn-faq-mini {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      line-height: 19.4px;
+    }
+  }
+  .component-faq .tab-content .faq-exp-col-btn .btn-faq-mini::before {
+    color: #0057af;
+  }
+  .component-faq .tab-content .faq-exp-col-btn .btn-faq-mini:hover::before {
+    color: #ffffff;
+  }
+  .component-faq .tab-content .faq-exp-col-btn .btn-faq-mini:not(:disabled):not(.disabled):focus::before {
+    color: #ffffff;
+  }
+  .component-faq .tab-content .faq-exp-col-btn .btn-faq-mini:last-child {
+    margin-left: 10px;
+  }
+  @media (min-width: 768px) {
+    .component-faq .tab-content .faq-exp-col-btn .btn-faq-mini:last-child {
+      margin-left: 0px;
+    }
+  }
+  .component-faq.full-width .tab-content .faq-exp-col-btn {
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 768px) {
+    .component-faq.full-width .tab-content .faq-exp-col-btn {
+      flex-wrap: nowrap;
+    }
+  }
+  @media (min-width: 992px) {
+    .component-faq.full-width .tab-content .faq-exp-col-btn {
+      padding-top: 0px;
+    }
+  }
+  .component-faq.full-width .tab-content .faq-exp-col-btn .h4 {
+    margin-bottom: 0;
+    flex: 1 1 100%;
+  }
+  @media (min-width: 768px) {
+    .component-faq.full-width .tab-content .faq-exp-col-btn .h4 {
+      margin-right: auto;
+      flex: unset;
+      max-width: 380px;
+    }
+  }
+  @media (min-width: 992px) {
+    .component-faq.full-width .tab-content .faq-exp-col-btn .h4 {
+      max-width: 450px;
+    }
+  }
+  @media (min-width: 992px) {
+    .after-login .component-faq.full-width .tab-content .faq-exp-col-btn .h4 {
+      max-width: 380px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .after-login .component-faq.full-width .tab-content .faq-exp-col-btn .h4 {
+      max-width: 450px;
+    }
+  }
+  .component-faq.full-width .tab-content .accordion-flush {
+    margin-bottom: 40px;
+  }
+  @media (min-width: 992px) {
+    .component-faq.full-width .tab-content .accordion-flush {
+      margin-bottom: 60px;
+    }
+  }
+  .component-faq.full-width .faq-container {
+    width: 100%;
+  }
+  @media (min-width: 992px) {
+    .component-faq.full-width .faq-container .accordion-container {
+      width: 83.33333333%;
+    }
+  }
+  @media (min-width: 1200px) {
+    .component-faq.full-width .faq-container .accordion-container {
+      width: 66.66666667%;
+    }
+  }
+  @media (min-width: 992px) {
+    .component-faq.with-remove-tab-width .tab-nav .common-tablist a {
+      max-width: 220px;
+      white-space: break-spaces;
+      height: 100%;
+    }
+  }
+  

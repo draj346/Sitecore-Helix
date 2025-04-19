@@ -1,0 +1,274 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.before-login footer .footer-component {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #DCDCDC;
+  }
+  .before-login footer .footer-component a {
+    color: #333333;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-family: "OpenSans-Regular";
+  }
+  .before-login footer .footer-component a:hover {
+    text-decoration: underline;
+  }
+  .before-login footer .footer-component .logo {
+    padding: 30px 0;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    .before-login footer .footer-component .logo {
+      text-align: left;
+    }
+  }
+  .before-login footer .footer-component .logo img {
+    width: 174px;
+  }
+  .before-login footer .footer-component .footer-links {
+    padding: 30px 0;
+  }
+  @media (min-width: 768px) {
+    .before-login footer .footer-component .footer-links {
+      padding-top: 0px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (min-width: 992px) {
+    .before-login footer .footer-component .footer-links {
+      padding-top: 0;
+    }
+  }
+  @media (min-width: 1200px) {
+    .before-login footer .footer-component .footer-links {
+      padding: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    .before-login footer .footer-component .footer-links .link {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 0 60px;
+    }
+  }
+  @media (min-width: 992px) {
+    .before-login footer .footer-component .footer-links .link {
+      display: block;
+      gap: 0;
+      justify-content: flex-end;
+    }
+  }
+  .before-login footer .footer-component .footer-links .link li:not(:last-child) {
+    padding-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    .before-login footer .footer-component .footer-links .link li:not(:last-child) {
+      padding-right: 0;
+      padding-bottom: 15px;
+    }
+  }
+  @media (min-width: 992px) {
+    .before-login footer .footer-component .footer-links .link li:not(:last-child) {
+      padding-right: 60px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .before-login footer .footer-component .footer-links .link li:not(:last-child) {
+      padding: 0;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .before-login footer .footer-component .footer-links .link li:nth-child(3) {
+      padding-right: 0;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .before-login footer .footer-component .footer-links .link li:nth-child(4) {
+      padding-right: 0;
+    }
+  }
+  @media (min-width: 768px) {
+    .before-login footer .footer-component .footer-links .link li {
+      display: inline-block;
+      padding-bottom: 15px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .before-login footer .footer-component .footer-links .link li {
+      padding-bottom: 0;
+    }
+  }
+  @media (min-width: 1200px) {
+    .before-login footer .footer-component .footer-links .link li + li::before {
+      content: "|";
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+  }
+  .before-login footer .footer-component .footer-links .link li a.with-bs-icon::after {
+    font-size: 12px;
+    -webkit-text-stroke: 0;
+    font-weight: 600 !important;
+  }
+  .before-login footer .footer-component .copyrights {
+    padding: 20px 0;
+    background-color: #f2f2f2;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #DCDCDC;
+  }
+  .after-login footer .footer-links {
+    padding: 30px 0;
+  }
+  @media (min-width: 768px) {
+    .after-login footer .footer-links {
+      padding-top: 0px;
+      padding-bottom: 15px;
+    }
+  }
+  @media (min-width: 992px) {
+    .after-login footer .footer-links {
+      padding-top: 0;
+    }
+  }
+  @media (min-width: 1200px) {
+    .after-login footer .footer-links {
+      padding: 0;
+    }
+  }
+  .after-login footer .footer-links .link {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: 768px) {
+    .after-login footer .footer-links .link {
+      flex-direction: row;
+    }
+  }
+  .after-login footer .footer-links .link li {
+    padding: 5px 0;
+  }
+  @media (min-width: 768px) {
+    .after-login footer .footer-links .link li {
+      padding: 20px 0;
+    }
+  }
+  .after-login footer .footer-links .link li:first-child {
+    margin-right: auto;
+  }
+  @media (min-width: 1200px) {
+    .after-login footer .footer-links .link li + li::before {
+      content: "|";
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+  }
+  .after-login footer .footer-links .link li a.with-bs-icon::after {
+    font-size: 12px;
+    -webkit-text-stroke: 0;
+    font-weight: 600 !important;
+  }
+  @media (min-width: 768px) {
+    .after-login footer .footer-flex {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  }
+  @media (min-width: 992px) {
+    .after-login footer .footer-flex {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .after-login footer .footer-flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  .after-login footer .footer-flex .footer-links {
+    padding: 15px 0;
+  }
+  @media (min-width: 768px) {
+    .after-login footer .footer-flex .footer-links {
+      padding: 22px 0;
+    }
+  }
+  @media (min-width: 992px) {
+    .after-login footer .footer-flex .footer-links {
+      padding: 12px 15px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .after-login footer .footer-flex .footer-links {
+      padding: 10px 15px;
+      order: 2;
+    }
+  }
+  @media (min-width: 768px) {
+    .after-login footer .footer-flex .footer-links .link {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 0 60px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .after-login footer .footer-flex .footer-links .link {
+      display: inline-block;
+      gap: 0 0;
+    }
+  }
+  .after-login footer .footer-flex .footer-links .link li {
+    padding: 15px 0;
+  }
+  .after-login footer .footer-flex .footer-links .link li:first-child {
+    margin-right: inherit;
+  }
+  .after-login footer .footer-flex .footer-links .link li a {
+    font-family: "OpenSans-Regular";
+    color: #333333;
+    text-decoration: none;
+  }
+  .after-login footer .footer-flex .footer-links .link li a:hover {
+    text-decoration: underline;
+  }
+  @media (min-width: 768px) {
+    .after-login footer .footer-flex .footer-links .link li {
+      padding: 8px 0 7px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .after-login footer .footer-flex .footer-links .link li {
+      padding: 10px 0;
+    }
+  }
+  .after-login footer .footer-flex .copyrights {
+    padding: 0 0 30px;
+  }
+  @media (min-width: 768px) {
+    .after-login footer .footer-flex .copyrights {
+      padding: 1px 0 30px;
+    }
+  }
+  @media (min-width: 992px) {
+    .after-login footer .footer-flex .copyrights {
+      padding: 11px 15px 20px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .after-login footer .footer-flex .copyrights {
+      order: 1;
+      padding: 22px 30px 21px;
+    }
+  }
+  

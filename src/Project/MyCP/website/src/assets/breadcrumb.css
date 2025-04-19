@@ -1,0 +1,222 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.breadcrumb {
+    --bs-breadcrumb-padding-x: 15px;
+    --bs-breadcrumb-item-padding-x: 5px;
+    --bs-breadcrumb-margin-bottom: 0;
+  }
+  .breadcrumb.component {
+    background: transparent;
+    display: none;
+    margin-top: 15px;
+  }
+  .breadcrumb.component:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media (min-width: 768px) {
+    .breadcrumb.component {
+      display: flex;
+    }
+  }
+  .breadcrumb.component.breadcrumb-navigation {
+    overflow: visible;
+  }
+  .breadcrumb.component a {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "OpenSans-SemiBold";
+    color: #0057af;
+    letter-spacing: 0px;
+    display: inline-block;
+  }
+  .breadcrumb.component ol {
+    list-style: none;
+  }
+  .breadcrumb.component .field-title {
+    display: inline-block;
+  }
+  .breadcrumb.component .separator {
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .breadcrumb.component li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    float: left;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 0;
+  }
+  .breadcrumb.component li::before {
+    content: none;
+  }
+  .breadcrumb.component li > .navigation-title {
+    display: inline-block;
+  }
+  .breadcrumb.component li > .navigation-title > a:hover {
+    text-decoration: none;
+    color: #003366;
+  }
+  .breadcrumb.component li.last span {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: "OpenSans-SemiBold";
+    color: #333333;
+    display: inline-block;
+  }
+  .breadcrumb.component li.last .separator {
+    display: none;
+  }
+  .breadcrumb.component li.item-hide:hover > ol {
+    display: none;
+  }
+  .breadcrumb.component li:hover > ol {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: auto;
+    z-index: 100;
+  }
+  .breadcrumb.component li > ol {
+    box-sizing: border-box;
+    display: none;
+    margin: 0;
+    background: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+  }
+  .breadcrumb.component li > ol li {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    float: none;
+    margin: 0;
+    padding: 2px 20px;
+    width: 100%;
+    min-width: 140px;
+    cursor: pointer;
+  }
+  .breadcrumb.component li > ol li .fa {
+    float: left;
+  }
+  .breadcrumb.component li > ol li:hover {
+    background: #ffffff;
+    color: #003366;
+  }
+  .breadcrumb.component li > ol li:hover a {
+    color: #003366 !important;
+  }
+  .breadcrumb.component li > ol li:before {
+    font-size: 14px;
+    display: inline-block;
+    font: normal normal 600 14px "Font Awesome 6 Free";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateY(-50%);
+    position: absolute;
+    content: "\f0ac";
+    top: 50%;
+    left: 2px;
+  }
+  .breadcrumb.component li > ol li > a {
+    display: block;
+    padding: 2px 0 2px 10px;
+  }
+  .breadcrumb.component li > ol li:last-child {
+    border-bottom-width: 0;
+  }
+  @media (min-width: 768px) {
+    .breadcrumb.container {
+      --bs-breadcrumb-padding-x: 0;
+    }
+  }
+  @media (min-width: 992px) {
+    .breadcrumb.container {
+      --bs-breadcrumb-padding-x: 15px;
+    }
+  }
+  
+  /* breakpoints */
+  /**
+  regular -> "OpenSans-Regular",
+  italic -> "OpenSans-Regular-Italic",
+  medium -> "OpenSans-Medium",
+  semibold -> "OpenSans-SemiBold",
+  bold -> "OpenSans-Bold",
+  extrabold -> "OpenSans-ExtraBold",
+  To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+  **/
+  .breadcrumb.triangle-separator .separator {
+    display: inline-block;
+    font: normal normal 600 14px "Font Awesome 6 Free";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0;
+    color: #333333;
+  }
+  .breadcrumb.triangle-separator .separator:before {
+    content: "\f054";
+    display: block;
+    font-size: 12px;
+  }
+  
+  /* breakpoints */
+  /**
+  regular -> "OpenSans-Regular",
+  italic -> "OpenSans-Regular-Italic",
+  medium -> "OpenSans-Medium",
+  semibold -> "OpenSans-SemiBold",
+  bold -> "OpenSans-Bold",
+  extrabold -> "OpenSans-ExtraBold",
+  To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+  **/
+  .breadcrumb.blue-background a {
+    color: #ffffff;
+  }
+  .breadcrumb.blue-background li.last span {
+    color: #ffffff;
+    font-family: "OpenSans-Regular";
+  }
+  .breadcrumb.blue-background li > .navigation-title > a:hover {
+    color: #ffffff;
+  }
+  .breadcrumb.blue-background .separator {
+    color: #ffffff;
+  }
+  
+  /* breakpoints */
+  /**
+  regular -> "OpenSans-Regular",
+  italic -> "OpenSans-Regular-Italic",
+  medium -> "OpenSans-Medium",
+  semibold -> "OpenSans-SemiBold",
+  bold -> "OpenSans-Bold",
+  extrabold -> "OpenSans-ExtraBold",
+  To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+  **/
+  .section-light-blue-background .breadcrumb.component {
+    margin-bottom: 40px;
+  }
+  .section-light-blue-background:has(.no-background) .breadcrumb.component {
+    margin-bottom: 0;
+  }
+  

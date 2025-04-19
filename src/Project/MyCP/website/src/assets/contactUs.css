@@ -1,0 +1,191 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.component-customer-service p {
+    margin-bottom: 0;
+  }
+  
+  .component-customer-service h3 {
+    margin-bottom: 0;
+  }
+  
+  .component-customer-service .section {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  @media (min-width: 992px) {
+    .component-customer-service .section {
+      flex-direction: row;
+    }
+  }
+  
+  .component-customer-service .section .left-container .gradient-border {
+    background: transparent linear-gradient(90deg, #0057af 0%, #007af3 100%) 0% 0% no-repeat padding-box;
+    height: 6px;
+    width: 100%;
+  }
+  
+  @media (min-width: 992px) {
+    .component-customer-service .section .left-container .gradient-border {
+      height: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  }
+  
+  .component-customer-service .section .left-container .desc-section {
+    padding: 30px 20px 30px 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-bottom: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .component-customer-service .section .left-container .desc-section {
+      padding: 30px 15px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .component-customer-service .section .left-container .desc-section {
+      padding: 40px 30px;
+      border-top-right-radius: 0;
+      border-top-left-radius: 10px;
+      border-right: 0;
+    }
+  }
+  
+  .component-customer-service .section .left-container .desc-section h2 {
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+  
+  .component-customer-service .section .left-container .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .component-customer-service .section .left-container .contact .icon-hours {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .component-customer-service .section .left-container .contact .icon-hours .call_icon_circle img {
+    max-width: none;
+    height: 60px;
+    width: 60px;
+  }
+  
+  .component-customer-service .section .left-container .contact .icon-hours .call-hours {
+    flex-direction: column;
+    display: flex;
+    padding-left: 15px;
+  }
+  
+  .component-customer-service .section .left-container .contact .icon-hours .call-hours h5 {
+    color: #0057af;
+    padding-bottom: 10px;
+    font-family: "OpenSans-Bold";
+  }
+  
+  .component-customer-service .section .left-container .contact .contacts-list {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .component-customer-service .section .left-container .contact .contacts-list::before {
+    content: "";
+    display: block;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #f2f2f2;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  @media (min-width: 992px) {
+    .component-customer-service .section .left-container .contact .contacts-list::before {
+      margin-left: 75px;
+      margin-right: 0;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .component-customer-service .section .left-container .contact .contacts-list::before {
+      margin-right: 25px;
+    }
+  }
+  
+  .component-customer-service .section .left-container .contact .contacts-list .col {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .component-customer-service .section .left-container .contact .contacts-list .col:last-child {
+    padding-bottom: 0;
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .component-customer-service .section .left-container .contact .contacts-list .col:nth-last-child(-n+2) {
+      padding-bottom: 0;
+    }
+    .component-customer-service .section .left-container .contact .contacts-list .col:last-child:nth-last-child(3),
+    .component-customer-service .section .left-container .contact .contacts-list .col:first-child:nth-last-child(3) ~ .col:nth-child(2) {
+      justify-content: flex-start;
+    }
+    .component-customer-service .section .left-container .contact .contacts-list .col:last-child:nth-last-child(3) a,
+    .component-customer-service .section .left-container .contact .contacts-list .col:first-child:nth-last-child(3) ~ .col:nth-child(2) a {
+      margin-left: 30px;
+    }
+    .component-customer-service .section .left-container .contact .contacts-list .col:nth-child(odd) a {
+      margin-right: 30px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .component-customer-service .section .left-container .contact .contacts-list .col {
+      margin-left: 75px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .component-customer-service .section .left-container .contact .contacts-list .col {
+      padding-right: 93px;
+    }
+  }
+  
+  .component-customer-service .section .right-container {
+    background-size: cover;
+    background-position: right;
+    height: 260px;
+  }
+  
+  @media (min-width: 768px) {
+    .component-customer-service .section .right-container {
+      height: 420px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .component-customer-service .section .right-container {
+      height: auto;
+      background-position: left;
+    }
+  }
+  

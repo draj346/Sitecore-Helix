@@ -1,0 +1,88 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.component-register-banner {
+    padding-top: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .component-register-banner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .component-register-banner {
+      padding-left: 38px;
+      padding-right: 15px;
+      padding-top: 25px;
+    }
+  }
+  
+  .component-register-banner p {
+    margin-bottom: 0;
+  }
+  
+  .component-register-banner .btn-mini {
+    font-family: "OpenSans-SemiBold";
+  }
+  
+  .component-register-banner .register-banner-box {
+    position: relative;
+    background: #FFFDE6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #EBBF82;
+    border-radius: 10px;
+  }
+  
+  .component-register-banner .register-banner-box .register-banner-content {
+    padding: 41px 15px 15px 15px;
+  }
+  
+  @media (min-width: 992px) {
+    .component-register-banner .register-banner-box .register-banner-content {
+      padding: 15px 20px 15px 50px;
+    }
+  }
+  
+  .component-register-banner .register-banner-box .register-banner-content p, .component-register-banner .register-banner-box .register-banner-content a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .component-register-banner .register-banner-box .register-banner-content a {
+    display: block;
+    padding-top: 10px;
+  }
+  
+  @media (min-width: 992px) {
+    .component-register-banner .register-banner-box .register-banner-content a {
+      padding-top: 0;
+    }
+  }
+  
+  .component-register-banner .register-banner-box .icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 40px;
+    position: absolute;
+    top: -25px;
+    left: 15px;
+  }
+  
+  @media (min-width: 992px) {
+    .component-register-banner .register-banner-box .icon {
+      top: 19px;
+      left: -25px;
+    }
+  }
+  

@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "C:\\inetpub\\wwwroot\\xm103cm.dev.local",
+    "apiKey": "{001DB0F5-A40B-4438-B71D-083ED0D49C77}",
+    "deploySecret": "83j4xvfmxhyj1v15c1fddgh2aypacmv96eoouioiq19",
+    "deployUrl": "https://xm103cm.dev.local/sitecore/api/jss/import",
+    "layoutServiceHost": "https://xm103cm.dev.local"
+  }
+}

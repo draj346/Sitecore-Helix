@@ -1,0 +1,115 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.page-title-section {
+    padding-top: 30px;
+  }
+  @media (min-width: 992px) {
+    .page-title-section {
+      padding-top: 40px;
+      text-align: center;
+    }
+  }
+  .page-title-section.title-left {
+    text-align: left;
+  }
+  .page-title-section.title-center {
+    text-align: center;
+  }
+  .page-title-section h2, .page-title-section p {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .page-title-section h2:not(h2), .page-title-section p:not(h2) {
+    font-family: "OpenSans-Bold";
+    font-size: 18px;
+  }
+  @media (min-width: 992px) {
+    .page-title-section h2:not(h2), .page-title-section p:not(h2) {
+      font-size: 20px;
+    }
+  }
+  .page-title-section .welcome-text {
+    margin-bottom: 5px;
+    font-family: "OpenSans-Regular";
+  }
+  
+  /* breakpoints */
+  /**
+  regular -> "OpenSans-Regular",
+  italic -> "OpenSans-Regular-Italic",
+  medium -> "OpenSans-Medium",
+  semibold -> "OpenSans-SemiBold",
+  bold -> "OpenSans-Bold",
+  extrabold -> "OpenSans-ExtraBold",
+  To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+  **/
+  .section-blue-background {
+    margin-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    .section-blue-background {
+      margin-bottom: 40px;
+    }
+  }
+  .section-blue-background .page-title-section {
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    .section-blue-background .page-title-section {
+      margin-bottom: 40px;
+    }
+  }
+  .section-blue-background .page-title-section .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  /* breakpoints */
+  /**
+  regular -> "OpenSans-Regular",
+  italic -> "OpenSans-Regular-Italic",
+  medium -> "OpenSans-Medium",
+  semibold -> "OpenSans-SemiBold",
+  bold -> "OpenSans-Bold",
+  extrabold -> "OpenSans-ExtraBold",
+  To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+  **/
+  .section-light-blue-background .page-title-section:not(.no-background) {
+    margin-bottom: 40px;
+  }
+  @media (min-width: 992px) {
+    .section-light-blue-background .page-title-section:not(.no-background) {
+      margin-bottom: 60px;
+    }
+  }
+  
+  /* breakpoints */
+  /**
+  regular -> "OpenSans-Regular",
+  italic -> "OpenSans-Regular-Italic",
+  medium -> "OpenSans-Medium",
+  semibold -> "OpenSans-SemiBold",
+  bold -> "OpenSans-Bold",
+  extrabold -> "OpenSans-ExtraBold",
+  To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+  **/
+  .with-overlap:not(.on-page-editor) .section-blue-background {
+    padding-bottom: 125px;
+    margin-bottom: 0;
+  }
+  @media (min-width: 992px) {
+    .with-overlap:not(.on-page-editor) .section-blue-background {
+      padding-bottom: 135px;
+    }
+  }
+  

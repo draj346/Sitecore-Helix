@@ -1,0 +1,75 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.component-make-payment .item {
+    padding: 0 0 20px;
+  }
+  
+  @media (min-width: 992px) {
+    .component-make-payment .item {
+      padding: 0 0 40px;
+    }
+  }
+  
+  .component-make-payment .item h4 {
+    padding: 0 0 10px;
+  }
+  
+  .component-make-payment .item .title-with-border {
+    padding-left: 15px;
+  }
+  
+  .component-make-payment .item .desc p {
+    margin-bottom: 20px;
+  }
+  
+  .component-make-payment .item .desc a {
+    font-family: "OpenSans-Regular";
+  }
+  
+  .component-make-payment .item .desc .h6 {
+    margin-bottom: 10px;
+  }
+  
+  .component-make-payment .header h6 {
+    padding-left: 15px;
+  }
+  
+  .component-make-payment .desc {
+    padding: 10px 0 0;
+  }
+  
+  @media (min-width: 992px) {
+    .component-make-payment .desc {
+      padding: 5px 0 0;
+    }
+  }
+  
+  .component-make-payment .disclaimer {
+    padding: 20px 0 25px;
+  }
+  
+  @media (min-width: 992px) {
+    .component-make-payment .disclaimer {
+      padding: 20px 0 45px 20px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .component-make-payment .disclaimer {
+      padding: 20px 0 60px 0;
+    }
+  }
+  
+  .component-make-payment .disclaimer p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  

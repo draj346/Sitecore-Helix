@@ -1,0 +1,293 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.login-section {
+    position: relative;
+    padding: 0 0 20px 0;
+  }
+  @media (min-width: 768px) {
+    .login-section {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+  }
+  @media (min-width: 992px) {
+    .login-section {
+      padding: 0 0 60px 0;
+    }
+  }
+  @media (min-width: 992px) {
+    .login-section .text-container {
+      padding-right: 39px;
+    }
+  }
+  .login-section .btn {
+    height: 60px;
+    border: none;
+  }
+  .login-section .title {
+    position: relative;
+    display: inline-block;
+    font-family: "OpenSans-Light";
+    margin: 0 0 5px 0;
+    z-index: 0;
+  }
+  @media (min-width: 992px) {
+    .login-section .title {
+      margin: 20px 0 10px 0;
+    }
+  }
+  .login-section .title::after {
+    content: "";
+    position: absolute;
+    border-top: 14px solid #dcedfd;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    width: 100%;
+    height: 45%;
+    top: auto;
+    bottom: 0px;
+    left: 1px;
+    z-index: -1;
+  }
+  .login-section .thanks {
+    display: none;
+  }
+  .login-section .login-text {
+    margin-bottom: 20px;
+  }
+  @media (min-width: 992px) {
+    .login-section .login-text {
+      margin-bottom: 0;
+      max-width: 350px;
+    }
+  }
+  .login-section .logout-text {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    .login-section .logout-text {
+      max-width: 570px;
+    }
+  }
+  .login-section p {
+    font-family: "OpenSans-SemiBold";
+    margin-bottom: 20px;
+  }
+  @media (min-width: 992px) {
+    .login-section p {
+      margin-bottom: 30px;
+    }
+  }
+  .login-section .login-wrap {
+    position: relative;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+    border-bottom: transparent;
+    box-shadow: 5px 10px 0 #E7EDF1;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+  @media (min-width: 992px) {
+    .login-section .login-wrap {
+      box-shadow: 10px 20px 0 #E7EDF1;
+      margin-bottom: 0;
+    }
+  }
+  .login-section .login-wrap::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background: transparent linear-gradient(90deg, #0057af 0%, #007af3 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  @media (min-width: 992px) {
+    .login-section .login-wrap::after {
+      height: 10px;
+    }
+  }
+  .login-section .login-wrap .login-content {
+    margin: 30px 15px 36px 15px;
+  }
+  @media (min-width: 768px) {
+    .login-section .login-wrap .login-content {
+      margin: 30px 65px 36px 65px;
+    }
+  }
+  @media (min-width: 992px) {
+    .login-section .login-wrap .login-content {
+      margin: 40px 40px 50px 40px;
+    }
+  }
+  .login-section .login-wrap .login-content .h4 {
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+  .login-section .login-wrap .login-content .login {
+    position: relative;
+  }
+  .login-section .login-wrap .login-content .login::before {
+    content: "Or";
+    position: absolute;
+    background-color: #ffffff;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 14px;
+    font-family: "OpenSans-SemiBold";
+    line-height: 19px;
+    width: 40px;
+    text-align: center;
+    z-index: 1;
+  }
+  @media (min-width: 992px) {
+    .login-section .login-wrap .login-content .login::before {
+      top: 154px;
+    }
+  }
+  .login-section .login-wrap .login-content .login::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #DCDCDC;
+    margin: 40px 0 40px 0;
+  }
+  .login-section .login-wrap .login-content .register {
+    position: relative;
+  }
+  .login-section .login-wrap .login-content .register::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #DCDCDC;
+    margin: 30px 0 20px 0;
+  }
+  .login-section .login-wrap .login-content .guest .forget-password a {
+    position: relative;
+    display: block;
+  }
+  @media (min-width: 768px) {
+    .login-section .login-wrap .login-content .guest .forget-password a {
+      display: inline-block;
+    }
+  }
+  .login-section .login-wrap .login-content .guest .forget-password a:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    .login-section .login-wrap .login-content .guest .forget-password a:not(:last-of-type) {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+  .login-section .login-wrap .login-content .guest .forget-password a:not(:last-of-type)::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: -13px;
+    display: inline-block;
+    width: 1px;
+    height: 22px;
+    background-color: #DCDCDC;
+  }
+  @media (min-width: 992px) {
+    .login-section .policy-links {
+      padding-top: 30px;
+      border-top-width: 1px;
+      border-top-style: solid;
+      border-top-color: #DCDCDC;
+      margin-top: 30px;
+    }
+  }
+  .login-section .policy-links p {
+    font-family: "OpenSans-SemiBold";
+    margin-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    .login-section .policy-links p {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (min-width: 768px) {
+    .login-section .policy-links ul {
+      display: flex;
+    }
+  }
+  .login-section .policy-links ul li.left-col {
+    padding-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    .login-section .policy-links ul li.left-col {
+      padding-right: 60px;
+      padding-bottom: 0;
+    }
+  }
+  .login-section .policy-links ul li a {
+    font-family: "OpenSans-SemiBold";
+    display: block;
+    max-width: fit-content;
+  }
+  .login-section .policy-links ul li a:not(:last-of-type) {
+    padding-bottom: 30px;
+  }
+  @media (min-width: 992px) {
+    .login-section .policy-links ul li a {
+      line-height: 27px;
+    }
+  }
+  .login-section .policy-links ul li a::after {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .login-section .policy-links .logout-links {
+    display: none;
+  }
+  .login-section.logout .title {
+    display: none;
+  }
+  .login-section.logout .title.thanks {
+    display: inline-block;
+  }
+  .login-section.logout .logout-text {
+    display: block;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 992px) {
+    .login-section.logout .logout-text {
+      margin-bottom: 0;
+    }
+  }
+  .login-section.logout .logout-text + p {
+    display: none;
+  }
+  .login-section.logout .login-text {
+    display: none;
+  }
+  .login-section.logout .policy-links .logout-links {
+    display: block;
+  }
+  .login-section.logout .policy-links .login-links {
+    display: none;
+  }
+  

@@ -1,0 +1,1146 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+html {
+  scroll-behavior: smooth;
+  font-family: "OpenSans-Regular";
+}
+
+body {
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+main {
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .before-login main {
+    margin-left: 0;
+  }
+}
+.before-login main .component.content > .component-content > .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 992px) {
+  .before-login main .component.content > .component-content > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.after-login:not(.on-page-editor) main {
+  background-color: #F7F7F7;
+  position: relative;
+  z-index: 0;
+}
+@media (min-width: 992px) {
+  .after-login:not(.on-page-editor) main {
+    margin-left: 90px;
+  }
+}
+@media (min-width: 1600px) {
+  .after-login:not(.on-page-editor) main {
+    margin-left: 310px;
+  }
+}
+main:has(.container-fluid .row .row-splitter .remove-container-fluid-spacing) .container-fluid .row .row-splitter {
+  padding: 0;
+}
+.with-overlap:not(.on-page-editor) main > .container-fluid > .row > .row-splitter > .container-fluid:nth-of-type(2) {
+  margin-top: -125px;
+  z-index: 1;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .with-overlap:not(.on-page-editor) main > .container-fluid > .row > .row-splitter > .container-fluid:nth-of-type(2) {
+    margin-top: -135px;
+  }
+}
+
+@media (min-width: 992px) {
+  .after-login:not(.on-page-editor) footer {
+    padding-left: 90px;
+  }
+}
+@media (min-width: 1600px) {
+  .after-login:not(.on-page-editor) footer {
+    padding-left: 310px;
+  }
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl,
+.container-fluid {
+  --bs-gutter-x: 30px;
+}
+
+.row {
+  --bs-gutter-x: 30px;
+}
+.row > * {
+  flex-shrink: 1;
+}
+
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 962px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1170px;
+  }
+  .after-login .container,
+  .after-login .container-sm,
+  .after-login .container-md,
+  .after-login .container-lg,
+  .after-login .container-xl {
+    max-width: 100%;
+  }
+}
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+h1,
+.h1 {
+  font-family: "OpenSans-Bold";
+  font-size: 26px;
+  line-height: 34px;
+}
+@media (min-width: 992px) {
+  h1,
+  .h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.before-login h1,
+.before-login .h1 {
+  font-family: "OpenSans-ExtraBold";
+  font-size: 32px;
+  line-height: 40px;
+}
+@media (min-width: 992px) {
+  .before-login h1,
+  .before-login .h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+.no-typography h1,
+.no-typography .h1 {
+  font-family: "OpenSans-Bold";
+  font-size: 26px;
+  line-height: 34px;
+}
+@media (min-width: 992px) {
+  .no-typography h1,
+  .no-typography .h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+h2,
+.h2,
+.no-typography .h2-small,
+.h2-small {
+  font-family: "OpenSans-Bold";
+  font-size: 26px;
+  line-height: 34px;
+}
+@media (min-width: 992px) {
+  h2,
+  .h2,
+  .no-typography .h2-small,
+  .h2-small {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+.before-login h2,
+.before-login .h2,
+.before-login .h2-small {
+  font-size: 28px;
+  line-height: 36px;
+}
+@media (min-width: 992px) {
+  .before-login h2,
+  .before-login .h2,
+  .before-login .h2-small {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+.no-typography h2,
+.no-typography .h2,
+.no-typography .h2-small {
+  font-family: "OpenSans-Bold";
+  font-size: 26px;
+  line-height: 34px;
+}
+@media (min-width: 992px) {
+  .no-typography h2,
+  .no-typography .h2,
+  .no-typography .h2-small {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+.h2-small {
+  font-family: "OpenSans-ExtraBold";
+}
+.before-login .h2-small {
+  font-size: 26px;
+  line-height: 34px;
+}
+@media (min-width: 992px) {
+  .before-login .h2-small {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+.no-typography .h2-small {
+  font-family: "OpenSans-ExtraBold";
+}
+
+h3,
+.h3 {
+  font-family: "OpenSans-SemiBold";
+  font-size: 24px;
+  line-height: 32px;
+}
+@media (min-width: 992px) {
+  h3,
+  .h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+h4,
+.h4 {
+  font-family: "OpenSans-ExtraBold";
+  font-size: 20px;
+  line-height: 28px;
+}
+@media (min-width: 992px) {
+  h4,
+  .h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.before-login h4,
+.before-login .h4 {
+  font-size: 22px;
+  line-height: 30px;
+}
+@media (min-width: 992px) {
+  .before-login h4,
+  .before-login .h4 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
+.no-typography h4,
+.no-typography .h4 {
+  font-family: "OpenSans-ExtraBold";
+  font-size: 20px;
+  line-height: 28px;
+}
+@media (min-width: 992px) {
+  .no-typography h4,
+  .no-typography .h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+h5,
+.h5 {
+  font-family: "OpenSans-SemiBold";
+  font-size: 18px;
+  line-height: 24px;
+}
+@media (min-width: 992px) {
+  h5,
+  .h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.before-login h5,
+.before-login .h5 {
+  font-family: "OpenSans-ExtraBold";
+  font-size: 20px;
+  line-height: 28px;
+}
+@media (min-width: 992px) {
+  .before-login h5,
+  .before-login .h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.no-typography h5,
+.no-typography .h5 {
+  font-family: "OpenSans-SemiBold";
+  font-size: 18px;
+  line-height: 24px;
+}
+@media (min-width: 992px) {
+  .no-typography h5,
+  .no-typography .h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+h6,
+.h6,
+.no-typography .h6-small,
+.h6-small {
+  font-family: "OpenSans-Bold";
+  font-size: 16px;
+  line-height: 22px;
+}
+@media (min-width: 992px) {
+  h6,
+  .h6,
+  .no-typography .h6-small,
+  .h6-small {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.before-login h6,
+.before-login .h6,
+.before-login .h6-small {
+  font-size: 18px;
+  line-height: 24px;
+}
+@media (min-width: 992px) {
+  .before-login h6,
+  .before-login .h6,
+  .before-login .h6-small {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.no-typography h6,
+.no-typography .h6,
+.no-typography .h6-small {
+  font-family: "OpenSans-Bold";
+  font-size: 16px;
+  line-height: 22px;
+}
+@media (min-width: 992px) {
+  .no-typography h6,
+  .no-typography .h6,
+  .no-typography .h6-small {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.h6-small {
+  font-family: "OpenSans-SemiBold";
+}
+.before-login .h6-small {
+  font-size: 16px;
+  line-height: 22px;
+}
+@media (min-width: 992px) {
+  .before-login .h6-small {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.no-typography .h6-small {
+  font-family: "OpenSans-SemiBold";
+}
+
+img {
+  max-width: 100%;
+}
+img.lozad {
+  height: auto;
+}
+
+p, .p, .p-small {
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  line-height: 22px;
+}
+p.small, .p.small, .small.p-small {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.p-small {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.regular {
+  font-family: "OpenSans-Regular";
+}
+
+.italic, i, em {
+  font-family: "OpenSans-Regular-Italic";
+}
+
+.light {
+  font-family: "OpenSans-Light";
+}
+
+.medium {
+  font-family: "OpenSans-Medium";
+}
+
+.semibold {
+  font-family: "OpenSans-SemiBold";
+}
+
+.bold,
+strong,
+b {
+  font-family: "OpenSans-Bold";
+}
+
+.extrabold {
+  font-family: "OpenSans-ExtraBold";
+}
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: #000000;
+}
+
+.dark {
+  color: #23222a;
+}
+
+.gray {
+  color: #666666;
+}
+
+.light-gray {
+  color: #f2f2f2;
+}
+
+.dark-gray {
+  color: #333333;
+}
+
+.dark-blue {
+  color: #0057af;
+}
+
+.light-blue {
+  color: #007af3;
+}
+
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.border-top-grey {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #dddddd;
+}
+
+sub, sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+
+.my-cp-tooltip {
+  cursor: pointer;
+}
+
+ol,
+ul,
+dl {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+a,
+.a {
+  font-family: "OpenSans-SemiBold";
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: underline;
+  color: #0057af;
+}
+a:hover, a:focus, a.active,
+.a:hover,
+.a:focus,
+.a.active {
+  color: #003366;
+  text-decoration: none;
+}
+a.basic-hover:hover, a.basic-hover:focus, a.basic-hover.active,
+.a.basic-hover:hover,
+.a.basic-hover:focus,
+.a.basic-hover.active {
+  color: #003366;
+}
+a.btn-mini,
+.a.btn-mini {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "OpenSans-Regular";
+}
+
+.a-medium {
+  font-family: "OpenSans-SemiBold";
+  font-size: 18px;
+  line-height: 24px;
+}
+@media (min-width: 992px) {
+  .a-medium {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.btn {
+  padding: 17px 30px;
+  font-family: "OpenSans-Bold";
+  font-size: 16px;
+  line-height: 22.8px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .btn {
+    width: auto;
+  }
+}
+.btn:hover {
+  border-color: transparent;
+}
+.btn.btn-mini {
+  padding: 11px 15px;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "OpenSans-SemiBold";
+  border-width: 1px;
+}
+@media (min-width: 992px) {
+  .btn.btn-mini {
+    padding: 7px 15px 7px;
+    line-height: 20px;
+  }
+}
+.btn.btn-large {
+  padding: 19px 40px;
+}
+
+.with-icon:after, .with-icon:before,
+.with-bs-icon:after,
+.with-bs-icon:before,
+.with-img-icon:after,
+.with-img-icon:before {
+  display: inline-block;
+  font: normal normal 600 14px "Font Awesome 6 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 5px;
+  right: 0px;
+  position: relative;
+}
+.with-icon.left:before,
+.with-bs-icon.left:before,
+.with-img-icon.left:before {
+  margin-left: 0px;
+  margin-right: 5px;
+}
+.with-icon.left:after,
+.with-bs-icon.left:after,
+.with-img-icon.left:after {
+  display: none;
+}
+.with-icon:not(.left):before,
+.with-bs-icon:not(.left):before,
+.with-img-icon:not(.left):before {
+  display: none;
+}
+
+.with-img-icon::after {
+  content: " ";
+  background-repeat: no-repeat;
+  background-position: right center;
+  width: 14px;
+  height: 19px;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.with-icon.chevron-up:after, .with-icon.chevron-up:before {
+  content: "\f077";
+}
+.with-icon.chevron-down:after, .with-icon.chevron-down:before {
+  content: "\f078";
+}
+.with-icon.check:after, .with-icon.check:before {
+  content: "\f00c";
+}
+.with-icon.download:after, .with-icon.download:before {
+  content: "\f019";
+}
+
+.with-bs-icon.external-link:after, .with-bs-icon.external-link:before {
+  content: "\f1c5";
+  vertical-align: unset;
+}
+.with-bs-icon.chevron-right:after, .with-bs-icon.chevron-right:before {
+  content: "\f285";
+  width: 11px;
+}
+.with-bs-icon.chevron-up-and-down:after, .with-bs-icon.chevron-up-and-down:before {
+  content: "\f283";
+}
+.with-bs-icon.chevron-up-and-down-inverted:after, .with-bs-icon.chevron-up-and-down-inverted:before {
+  content: "\f27d";
+}
+.with-bs-icon.download:after, .with-bs-icon.download:before {
+  content: "\f2ea";
+}
+.with-bs-icon.box-arrow-right:after, .with-bs-icon.box-arrow-right:before {
+  content: "\f1c3";
+}
+
+.with-bs-icon:after, .with-bs-icon:before {
+  font-family: "bootstrap-icons" !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+  -webkit-text-stroke: 1px;
+  transition: all 0.1s ease-out;
+}
+
+.btn-primary {
+  padding: 19px 30px;
+  line-height: 22px;
+  color: #ffffff;
+  background: transparent linear-gradient(90deg, #0057af 0%, #007af3 100%) 0% 0% no-repeat padding-box;
+  border: none;
+  text-decoration: none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+  background: transparent linear-gradient(90deg, #003366 0%, #0057af 100%) 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+.btn-primary:hover.with-bs-icon.chevron-right:after, .btn-primary:focus.with-bs-icon.chevron-right:after, .btn-primary:active.with-bs-icon.chevron-right:after, .btn-primary:not(:disabled):not(.disabled):active.with-bs-icon.chevron-right:after, .btn-primary:not(:disabled):not(.disabled):focus.with-bs-icon.chevron-right:after, .btn-primary:not(:disabled):not(.disabled):active:focus.with-bs-icon.chevron-right:after {
+  position: relative;
+  right: -5px;
+}
+.btn-primary.btn-mini {
+  background: #0057af;
+}
+.btn-primary.btn-mini:hover {
+  background: #003366;
+}
+
+.btn-secondary {
+  color: #333333;
+  background: transparent;
+  border-color: #0057af;
+  text-decoration: none;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled):focus, .btn-secondary:not(:disabled):not(.disabled):active:focus {
+  background-color: #0057af;
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+.btn-secondary:hover.with-bs-icon:after, .btn-secondary:focus.with-bs-icon:after, .btn-secondary:active.with-bs-icon:after, .btn-secondary:not(:disabled):not(.disabled):active.with-bs-icon:after, .btn-secondary:not(:disabled):not(.disabled):focus.with-bs-icon:after, .btn-secondary:not(:disabled):not(.disabled):active:focus.with-bs-icon:after {
+  position: relative;
+  right: -5px;
+}
+.btn-secondary[disabled] {
+  opacity: 1;
+  background: #ffffff;
+  border-color: #5371a2;
+}
+.btn-secondary[disabled]:hover {
+  background: #ffffff;
+  border-color: #5371a2;
+}
+
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.popover {
+  --bs-popover-font-size: 12px;
+  --bs-popover-arrow-width: 1.2rem;
+  --bs-popover-arrow-height: 0.6rem;
+  --bs-popover-arrow-border: #0057af;
+  --bs-popover-bg: #f6faff;
+  --bs-popover-border-radius: 0;
+  --bs-popover-max-width: 100%;
+  padding: 0 20px;
+  background-color: transparent;
+  border: none;
+}
+@media (min-width: 768px) {
+  .popover {
+    padding: 0;
+    --bs-popover-max-width: 276px;
+  }
+}
+.popover .popover-body {
+  --bs-popover-body-padding-y: 15px;
+  --bs-popover-body-padding-x: 15px;
+  --bs-popover-body-color: #0057af;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #0057af;
+  line-height: 18px;
+  font-family: "OpenSans-SemiBold";
+  background-color: #f6faff;
+}
+@media (min-width: 768px) {
+  .popover .popover-body {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .popover .popover-body {
+    margin-left: 0px;
+  }
+}
+.popover .popover-body a {
+  font-size: 12px;
+  font-family: "OpenSans-Bold";
+}
+.popover.bs-popover-auto[data-popper-placement^=top] > .popover-arrow {
+  bottom: -9px !important;
+  left: 3px !important;
+}
+.popover.bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow {
+  top: -9px !important;
+  left: 3px !important;
+}
+.popover.bs-popover-auto[data-popper-placement^=left] > .popover-arrow {
+  right: -9px !important;
+}
+.popover.bs-popover-auto[data-popper-placement^=right] > .popover-arrow {
+  left: -9px !important;
+}
+.popover.bs-popover-auto[data-popper-placement^=right] .popover-body {
+  margin-left: 0px;
+}
+.popover.img-popover {
+  --bs-popover-max-width: 100%;
+  padding: 0 15px;
+  background-color: transparent;
+  opacity: 0;
+  border: none;
+}
+@media (min-width: 768px) {
+  .popover.img-popover {
+    opacity: 1;
+    --bs-popover-max-width: 100%;
+  }
+}
+.popover.img-popover .popover-body {
+  background-color: #EEEEF0;
+}
+@media (min-width: 768px) {
+  .popover.img-popover .popover-body {
+    margin: 0;
+  }
+}
+.popover.img-popover .popover-body img {
+  max-width: 100%;
+}
+@media (min-width: 768px) {
+  .popover.img-popover .popover-body img {
+    max-width: 495px;
+  }
+}
+.popover.img-popover.bs-popover-auto[data-popper-placement^=right] {
+  left: 3px !important;
+}
+.popover.img-popover.bs-popover-auto[data-popper-placement^=right] > .popover-arrow::after {
+  border-right-color: #EEEEF0;
+}
+.popover.img-popover.bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::after {
+  border-bottom-color: #EEEEF0;
+}
+.popover.img-popover.bs-popover-auto[data-popper-placement^=top] > .popover-arrow::after {
+  border-top-color: #EEEEF0;
+}
+
+.popover-button::after {
+  content: "";
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: url(/public/images/info.svg) no-repeat center 0;
+  background-size: 15px;
+}
+.popover-button:hover::after {
+  background: url(/public/images/info-hover.svg) no-repeat center 0;
+  background-size: 15px;
+}
+
+.tab-nav {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+.tab-nav .common-tablist {
+  display: inline-block;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #DCDCDC;
+}
+@media (min-width: 768px) {
+  .tab-nav .common-tablist {
+    min-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .tab-nav .common-tablist {
+    display: flex;
+  }
+}
+.tab-nav .common-tablist li {
+  display: inline-block;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+.tab-nav .common-tablist li a {
+  display: inline-block;
+  cursor: pointer;
+  color: #595959;
+  padding-bottom: 19px;
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0;
+}
+.tab-nav .common-tablist li a:hover {
+  color: #333333;
+}
+.tab-nav .common-tablist li a.active {
+  position: relative;
+  color: #333333;
+}
+.tab-nav .common-tablist li a.active::before {
+  content: "";
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #EF3E33;
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+  border-radius: 5px;
+}
+.tab-nav .common-tablist li a.active:hover {
+  color: #333333;
+}
+.tab-nav .common-tablist li a:focus-visible {
+  box-shadow: none;
+  outline: -webkit-focus-ring-color auto 1px;
+}
+.tab-nav .common-tablist li:not(:last-child) a {
+  margin-right: 20px;
+}
+
+table.table tr td,
+table.table tr th {
+  padding: 15px;
+  vertical-align: middle;
+  line-height: 22px;
+  font-size: 16px;
+  font-family: "OpenSans-SemiBold";
+}
+@media (min-width: 992px) {
+  table.table tr td,
+  table.table tr th {
+    padding: 20px;
+  }
+}
+table.table thead tr th {
+  background-color: rgba(231, 237, 241, 0.6);
+}
+@media (min-width: 992px) {
+  table.table thead tr th {
+    line-height: 24px;
+    font-size: 18px;
+  }
+}
+table.table thead tr th:first-child {
+  border-radius: 5px 0 0 5px;
+}
+table.table thead tr th:last-child {
+  border-radius: 0 5px 5px 0;
+}
+table.table tbody tr td:first-child {
+  border-radius: 5px 0 0 5px;
+}
+table.table tbody tr td:last-child {
+  border-radius: 0 5px 5px 0;
+}
+table.table tbody tr:nth-of-type(even) > td {
+  background-color: #F7F7F7;
+}
+
+.section-blue-background {
+  background: transparent linear-gradient(281deg, #0057af 0%, #003366 100%) 0% 0% no-repeat padding-box;
+}
+.with-overlap:not(.on-page-editor) .section-blue-background {
+  position: relative;
+  background: none;
+}
+.with-overlap:not(.on-page-editor) .section-blue-background::after {
+  content: "";
+  background: transparent linear-gradient(281deg, #0057af 0%, #003366 100%) 0% 0% no-repeat padding-box;
+  position: absolute;
+  width: 100%;
+  height: 253px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+@media (min-width: 992px) {
+  .with-overlap:not(.on-page-editor) .section-blue-background::after {
+    height: 290px;
+  }
+}
+
+.section-full-light-blue-background:not(.no-background), .section-light-blue-background .page-title-section:not(.no-background)::after {
+  position: relative;
+}
+.section-full-light-blue-background:not(.no-background)::after, .section-light-blue-background .page-title-section:not(.no-background)::after {
+  content: "";
+  background: transparent linear-gradient(180deg, #ECF5FF 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.section-light-blue-background .page-title-section:not(.no-background) {
+  position: relative;
+}
+.section-light-blue-background .page-title-section:not(.no-background)::after {
+  height: 250px;
+}
+
+.remove-container-fluid-spacing > .row > .row {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.component-spacing-left, .after-login .component-box {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .component-spacing-left, .after-login .component-box {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .component-spacing-left, .after-login .component-box {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (min-width: 1920px) {
+  .component-spacing-left, .after-login .component-box {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.after-login .component-box > .component-content {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E7EDF1;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 30px 15px;
+}
+@media (min-width: 992px) {
+  .after-login .component-box > .component-content {
+    margin-bottom: 40px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .remove-tablet-default-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.component-spacing {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .component-spacing {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.title-with-border {
+  position: relative;
+  padding: 0 0 0 15px;
+}
+.title-with-border:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 5px;
+  height: 30px;
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+  background-color: #EF3E33;
+}
+@media (min-width: 992px) {
+  .title-with-border:before {
+    height: 36px;
+    top: -2px;
+  }
+}
+
+.hide {
+  display: none;
+}
