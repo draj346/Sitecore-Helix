@@ -5,13 +5,9 @@ Template: "96588962-5d57-4bb2-a701-b67c1c511788"
 Path: /sitecore/content/Learning JSS/MyCP/Home/Get a Form
 DB: master
 SharedFields:
-- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
-  Hint: NavigationFilter
-  Type: Checklist
-  Value: 
-- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
-  Hint: Page Design
-  Value: "{F436D17B-1C07-44DA-A995-3CDAD993222A}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -48,7 +44,7 @@ Languages:
       Value: 20250320T175518Z
     - ID: "3ee80800-66c2-48dc-bcdd-dda9af2c8a1c"
       Hint: Title
-      Value: Get A Form
+      Value: Get a Form
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Get a Form

@@ -1,0 +1,20 @@
+﻿---
+ID: "b81ba5bf-9ba1-4904-a50c-e323f2c0868c"
+Parent: "aa6e84bd-9ea3-4400-b4e9-15b6998c5251"
+Template: "5d68be50-fe6d-447a-9563-2182b9e5917b"
+Path: /sitecore/content/Learning JSS/MyCP/Home/Dashboard
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250420T080709Z
+    - ID: "3ee80800-66c2-48dc-bcdd-dda9af2c8a1c"
+      Hint: Title
+      Value: Dashboard
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Dashboard
