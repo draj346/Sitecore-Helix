@@ -1,0 +1,18 @@
+﻿---
+ID: "83d4705c-6377-46b8-8cbf-12c57c582ca7"
+Parent: "6e49dcd1-ceb6-4e82-88de-cd498f52337b"
+Template: "814c1dbb-b118-4511-ba2b-7288ed3d490b"
+Path: /sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/Custom Resolvers/Item and Multilist Resolver
+DB: master
+SharedFields:
+- ID: "de218ede-a9ad-4b04-86c5-9ff593ccf39d"
+  Hint: Type
+  Value: Learning.Foundation.RenderingContents.ItemAndMultilistResolver, Learning.Foundation.RenderingContents
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250224T111011Z
