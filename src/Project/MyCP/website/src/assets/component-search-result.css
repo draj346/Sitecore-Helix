@@ -1,0 +1,140 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.component-search-result .form-component .search-result-container {
+    padding: 0;
+  }
+  @media (min-width: 992px) {
+    .component-search-result .form-component .search-result-container {
+      margin: 0 -15px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .component-search-result .form-component .search-result-container {
+      margin: 0;
+    }
+  }
+  .component-search-result .form-component .search-result-container .mycp-page-selector .page-selector-list {
+    padding-top: 30px;
+  }
+  .component-search-result .form-component .search-result-container .mycp-search-box {
+    position: relative;
+  }
+  .component-search-result .form-component .search-result-container .mycp-search-box .form-group .form-control.search-box-input {
+    text-overflow: ellipsis;
+    padding-right: 66px;
+  }
+  .component-search-result .form-component .search-result-container .mycp-search-box .component-content {
+    margin: 0;
+  }
+  .component-search-result .form-component .search-result-container .mycp-search-box .search-box-button {
+    position: absolute;
+    right: 20px;
+    height: 60px;
+    background-image: url("../../public/images/search.svg");
+    background-position: calc(100% - 20px) center;
+    background-repeat: no-repeat;
+    color: transparent;
+    border: none;
+    background-color: transparent;
+    top: 0;
+  }
+  .component-search-result .form-component .search-result-container .mycp-search-box:hover .search-box-button {
+    background-image: url("../../public/images/search-hover.svg");
+  }
+  .component-search-result .form-component .search-result-container .search-results-count {
+    position: relative;
+    margin-top: 30px;
+  }
+  @media (min-width: 992px) {
+    .component-search-result .form-component .search-result-container .search-results-count {
+      margin-top: 40px;
+    }
+  }
+  .component-search-result .form-component .search-result-container .search-results-count .component-content {
+    margin: 0;
+    border-style: none;
+    box-shadow: none;
+  }
+  .component-search-result .form-component .search-result-container .search-results-count .results-count {
+    margin-bottom: 20px;
+    font-family: "OpenSans-Regular-Italic";
+    color: #595959;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .component-search-result .form-component .search-result-container .search-results-count .progress {
+    display: none;
+    margin: 0, 0, 0, 0;
+  }
+  .component-search-result .form-component .search-result-container .search-results .no-of-results {
+    margin-bottom: 20px;
+    font-family: "OpenSans-Regular-Italic";
+    color: #595959;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .component-search-result .form-component .search-result-container .search-results ul.search-result-list {
+    display: grid;
+    gap: 20px;
+  }
+  .component-search-result .form-component .search-result-container .search-results ul.search-result-list li {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DCDCDC;
+  }
+  .component-search-result .form-component .search-result-container .search-results ul.search-result-list li:last-child {
+    padding: 0;
+    border: none;
+  }
+  .component-search-result .form-component .search-result-container .search-results ul.search-result-list li a {
+    display: inline-block;
+  }
+  .component-search-result .form-component .search-result-container .search-results ul.search-result-list li a.h5 {
+    margin-bottom: 10px;
+    color: #0057af;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "OpenSans-SemiBold";
+  }
+  @media (min-width: 992px) {
+    .component-search-result .form-component .search-result-container .search-results ul.search-result-list li a.h5 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .component-search-result .form-component .search-result-container .search-results ul.search-result-list li a:hover {
+    color: #003366;
+    text-decoration: none;
+  }
+  .component-search-result .form-component .search-result-container .search-results ul.search-result-list li p {
+    margin-top: 0;
+    font-family: "OpenSans-Regular";
+  }
+  .component-search-result .form-component .search-result-container .search-results ul.search-result-list li p:last-child {
+    margin-bottom: 0;
+  }
+  .after-login .component-search-result .form-component .search-result-container {
+    padding: 0 15px;
+    margin: 0;
+  }
+  @media (min-width: 992px) {
+    .after-login .component-search-result .form-component .search-result-container {
+      padding: 0;
+    }
+  }
+  .after-login .component-search-result .form-component .search-result-container .search-box .component-content {
+    margin: 0;
+  }
+  @media (min-width: 992px) {
+    .after-login .component-search-result .form-component .search-result-container .mycp-page-selector .page-selector-list {
+      padding-top: 40px;
+    }
+  }
+  

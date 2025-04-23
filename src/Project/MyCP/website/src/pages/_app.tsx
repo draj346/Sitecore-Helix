@@ -24,6 +24,8 @@ import 'assets/payment.css';
 import 'assets/formList.css';
 import 'assets/breadcrumb.css';
 import 'assets/component-form.css';
+import 'assets/component-search-result.css';
+import 'assets/component-pagination.css';
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;

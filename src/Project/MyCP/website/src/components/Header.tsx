@@ -91,7 +91,6 @@ export const Default = ({ fields }: HeaderProps): JSX.Element => {
       if (id) {
         if (id === '0') {
           handleRouteChange('/');
-          // setSearch(true);
         }
       }
     },
@@ -99,7 +98,7 @@ export const Default = ({ fields }: HeaderProps): JSX.Element => {
   );
 
   const handleRouteChange = useCallback((pathName: string) => {
-    setSearch(fields.Search?.value?.href === pathName);
+    setSearch(fields.Search?.value?.href?.toLowerCase() === pathName.toLowerCase());
     const updatedHeaderData: Links = [...headerData].map((link: SubMenu) => {
       // Check if the clicked ID matches the parent
       if (link?.Link?.value?.href?.toLowerCase() === pathName.toLowerCase()) {

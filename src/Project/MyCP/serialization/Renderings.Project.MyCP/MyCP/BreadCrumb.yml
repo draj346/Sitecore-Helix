@@ -12,29 +12,29 @@ SharedFields:
   Hint: ComponentQuery
   Value: |
     fragment breadcrumbFields on Item {
-    	... on Page_0fa029cf427f4f7aa1dbdd526e92fe94 {
-    		navigationTitle {
-    			value
-    		}
-    		navigationFilter {
-    			value
-    		}
-    	}
-    	url {
-    		path
-    	}
+       	... on Page_0fa029cf427f4f7aa1dbdd526e92fe94 {
+       		navigationTitle {
+       			value
+       		}
+       		navigationFilter {
+       			value
+       		}
+       	}
+       	url {
+       		path
+       	}
     }
     
     query q2($contextItem: String!, $language: String!) {
-    	breadcrumbsdata: item(path: $contextItem, language: $language) {
-    		...breadcrumbFields
-    		ancestors (
-    			hasLayout: true
-    			includeTemplateIDs: "0fa029cf427f4f7aa1dbdd526e92fe94"
-    		) {
-    		...breadcrumbFields
-    		  }
-    	}
+       	breadcrumbsdata: item(path: $contextItem, language: $language) {
+       		...breadcrumbFields
+       		ancestors (
+       			hasLayout: true
+       			includeTemplateIDs: "0fa029cf427f4f7aa1dbdd526e92fe94"
+       		) {
+       		...breadcrumbFields
+       		  }
+       	}
     }
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template

@@ -143,7 +143,7 @@ To get font family we need to pass anyone from the above list like regular, ital
   }
   .form-component .policy-section-cloned .remove-policy-section {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     margin-top: -10px;
     margin-bottom: -20px;
   }

@@ -1,0 +1,83 @@
+/* breakpoints */
+/**
+regular -> "OpenSans-Regular",
+italic -> "OpenSans-Regular-Italic",
+medium -> "OpenSans-Medium",
+semibold -> "OpenSans-SemiBold",
+bold -> "OpenSans-Bold",
+extrabold -> "OpenSans-ExtraBold",
+To get font family we need to pass anyone from the above list like regular, italic, medium, semibold, bold
+**/
+.mycp-page-selector .page-selector-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+  }
+  @media (min-width: 992px) {
+    .mycp-page-selector .page-selector-list {
+      padding-top: 40px;
+    }
+  }
+  .mycp-page-selector .page-selector-list li {
+    font-family: "OpenSans-SemiBold";
+  }
+  .mycp-page-selector .page-selector-list li:not(:last-of-type) {
+    margin-right: 10px;
+  }
+  .mycp-page-selector .page-selector-list li > a:hover {
+    background-color: #ffffff;
+  }
+  .mycp-page-selector .page-selector-list li > a, .mycp-page-selector .page-selector-list li > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
+  .mycp-page-selector .page-selector-list li .page-selector-input {
+    justify-content: start;
+    width: 40px;
+    height: 40px;
+    color: #333333;
+    border: 1px solid #E7EDF1;
+    border-radius: 5px;
+    padding: 9px 15px;
+    webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .mycp-page-selector .page-selector-list li.page-selector-item-last span {
+    width: max-content;
+    color: #595959;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+  }
+  .mycp-page-selector .page-selector-list li.page-selector-item-last {
+    margin-right: 10px;
+  }
+  .mycp-page-selector .page-selector-list li.page-selector-item-previous span, .mycp-page-selector .page-selector-list li.page-selector-item-next span{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .mycp-page-selector .page-selector-list li.page-selector-item-previous span i::before, .mycp-page-selector .page-selector-list li.page-selector-item-next span i::before {
+    color: #333333;
+    font-size: 24px;
+  }
+  .mycp-page-selector .page-selector-list li.page-selector-item-previous span:hover i::before, .mycp-page-selector .page-selector-list li.page-selector-item-next span:hover i::before {
+    color: #0057af;
+  }
+  .mycp-page-selector .page-selector-list li.inactive span {
+    pointer-events: none;
+  }
+  .mycp-page-selector .page-selector-list li.inactive span i::before {
+    color: #808080;
+  }
+  .mycp-page-selector .page-selector-list li.select-container {
+    margin-right: 12.5px;
+  }
+  
