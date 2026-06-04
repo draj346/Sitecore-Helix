@@ -1,0 +1,31 @@
+﻿@using Sitecore.Resources.Media
+@model Learning.Feature.CustomComponents.Models.MedicareGuideViewModel
+
+<div class="component content col-12 remove-defaultcss">
+    <div class="component-content">
+        <h3 class="h4">@Model.Heading</h3>
+        <form>
+            <div class="input-group form-group">
+                <div class="select-container">
+                    <i class="bi bi-chevron-down" aria-hidden="true"></i>
+                    <div class="custom-select-option" id="selectHeroCoverageType">
+                        <span data-value="-1" value="" class="selected-value">@Model.PlaceHolder</span>
+                        <ul class="selct-dropdown">
+                            @foreach (var item in Model.CoverageTypes)
+                            {
+                                <li><span data-value="@item.Value" value="@item.RedirectLink.GetFriendlyUrl()">@item.Name</span></li>
+                            }
+                        </ul>
+                    </div>
+                    <span class="field-validation-error mt-0 text-left hide">@Model.ValidationMessage</span>
+                </div>
+                <div class="input-group-append button-container">
+                    <button class="btn btn-primary" type="button" id="btnHeroCoverageType" test-id="btnHeroCoverageType">@Model.GetStarted</button>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            @Html.Raw(Model.Description)
+        </div>
+    </div>
+</div>

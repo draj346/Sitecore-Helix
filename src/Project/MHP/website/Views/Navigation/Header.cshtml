@@ -1,0 +1,218 @@
+﻿@using Sitecore.Resources.Media
+@model Learning.Project.MHP.Models.HeaderViewModel
+
+
+<div id="header" class="container-fluid">
+    <div class="row">
+        <div class="component plain-html col-12">
+            <div class="component-content">
+            </div>
+        </div>
+        <div class="component content col-12 p-0 remove-defaultcss  geolocation-banner not-to-print">
+            <div class="component-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-md-flex justify-content-sm-between geo-banner-section">
+                                <div class="banner-text">
+                                    @Html.Raw(Model.BannerTitle)
+                                </div>
+                                <div class="location d-none d-md-block">
+                                    <a href="#" class="remove-defaultcss update d-block" data-toggle="modal" data-target="#geolocation-modal">@Html.Sitecore().Field("UpdateMyLocation", @Model.UpdateMyLocation)</a>
+                                    <a href="#" class="remove-defaultcss myloc d-none" data-toggle="modal" data-target="#geolocation-modal"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component content mhpHeader col-12 p-0 remove-defaultcss not-to-print" id="mhpHeader">
+            <div class="component-content">
+                <div id="box-shadow"></div>
+                <div class="mhp-navigation with-mobile-cta">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-7 col-sm-7 col-lg-2 d-flex align-self-center logo-wrap">
+                                <a href="/" title="My Health Policy" id="anchor_header_logo" class="logo remove-defaultcss">
+                                    <img src="@MediaManager.GetMediaUrl(Model.HeaderImage.MediaItem)" alt="@Model.HeaderImage.Alt">
+                                </a>
+                            </div>
+                            <div class="col-lg-10 d-lg-flex justify-content-between order-last menu-order">
+                                <nav class="navbar navbar-expand-lg">
+                                    <button class="navbar-toggler collapsed" id="navbar-hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar bar1"></span>
+                                        <span class="icon-bar bar2"></span>
+                                        <span class="icon-bar bar3"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav mr-auto">
+                                            @foreach (var menu in Model.MenuGroups)
+                                            {
+                                                <li class="nav-item dropdown header-menu-item">
+                                                    <a class="nav-link dropdown-toggle anchor-padding" href="#" id="headerNavbarDropdown0" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span>@menu.TabName</span>
+                                                        <i class="bi bi-chevron-down float-right"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="headerNavbarDropdown0" style="top: 124px;">
+                                                        <div class="container d-block">
+                                                            <div class="row megamenu ">
+                                                                <div class="col-lg-4 col-xl-3 megamenu-nav-tabs d-none d-lg-block">
+                                                                    <ul id="headerMegaMenuTabs" class="nav nav-tabs headerMegaMenuTabs" role="tablist">
+                                                                        @foreach (var subMenu in menu.GroupMenuItems)
+                                                                        {
+                                                                            <li class="nav-item" role="none">
+                                                                                <a id="header-tab-Medicare" class="" href="#header-content-@subMenu.TabName" data-id="header-tab-Medicare" data-toggle="tab" role="tab">
+                                                                                    <span class="h5 mb-0 d-block">@subMenu.TabName<i class="bi bi-chevron-right float-right"></i></span>
+                                                                                </a>
+                                                                            </li>
+                                                                        }
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-8 col-xl-6 megamenu-contents">
+                                                                    <div id="headerContent0" class="tab-content" role="tablist">
+                                                                        @foreach (var subMenu in menu.GroupMenuItems)
+                                                                        {
+                                                                            <div id="header-content-@subMenu.TabName" class="card tab-pane fade " role="tabpanel" aria-labelledby="header-tab-@subMenu.TabName">
+                                                                                <a class="d-lg-none tab-menu-mobile collapsed" data-id="header-tab-@subMenu.TabName" data-toggle="collapse" href="#header-collapse-@subMenu.TabName" role="button" aria-expanded="false" aria-controls="collapseMenuControls">
+                                                                                    @subMenu.TabName <i class="bi bi-chevron-down float-right"></i>
+                                                                                </a>
+                                                                                <div class="collapse d-lg-block" id="header-collapse-Medicare">
+                                                                                    <div class="card-body">
+                                                                                        <p class="menu-desc d-none d-lg-block">Navigate Medicare Options</p>
+                                                                                        <div class="row">
+                                                                                            <div class="col-lg-6 megamenu-item p-0  sub-menu-divider">
+                                                                                                @foreach (var menuItem in subMenu.MenuItems)
+                                                                                                {
+                                                                                                    <div class="megamenu-item-group">
+                                                                                                        <a id="anchor_header_menu_@menuItem.PageName" href="@menuItem.PageUrl" class="dropdown-item item-link ">
+                                                                                                            <span class="title m-0"><span>@menuItem.PageName </span><i class="bi bi-chevron-right"></i></span>
+                                                                                                        </a>
+                                                                                                    </div>
+                                                                                                }
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        }
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12 col-xl-3 d-none d-lg-block pl-xl-0">
+                                                                    <div class="mhp-nav-cta-block-web">
+                                                                        <div class="flex-col-wrap">
+                                                                            <div class="flex-left-col">
+                                                                                <h6>Don’t have a moment now to explore plans?</h6>
+                                                                                <span class="cta-text d-none d-lg-block d-xl-none">In one short step, provide your information for our team to contact you</span>
+                                                                            </div>
+                                                                            <span class="cta-text d-none d-xl-block">In one short step, provide your information for our team to contact you</span>
+                                                                            <div class="flex-right-col">
+                                                                                <div class="row">
+                                                                                    <div class="component content col-12 remove-defaultcss">
+                                                                                        <div class="component-content">
+                                                                                            <a class="btn btn-primary btn-smaller remove-defaultcss" id="btn_header_request_a_call" href="/request-a-call">Request a call</a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            }
+                                            <li class="nav-item dropdown header-menu-item d-lg-none mobile-header-search">
+                                                <a class="nav-link anchor-padding remove-defaultcss" href="@Model.Search.GetFriendlyUrl()">
+                                                    <span>@Model.Search.Text</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item dropdown header-menu-item d-lg-none mobile-header-cta">
+                                                <div class="position-relative">
+                                                    <div class="row">
+                                                        <div class="component content col-12 remove-defaultcss">
+                                                            <div class="component-content">
+                                                                @Html.Raw(Model.PhoneNumberBlock)
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#" class="cta-hours-operation remove-defaultcss" data-toggle="modal" data-target="#operation-modal">@Model.HoursOfOperation</a>
+
+                                                </div>
+                                            </li>
+                                            <li class="nav-item dropdown header-menu-item d-md-none mobile-header-location location">
+                                                <a href="#" class="remove-defaultcss update d-block" data-toggle="modal" data-target="#geolocation-modal">@Model.UpdateMyLocation</a>
+                                                <a href="#" class="remove-defaultcss myloc d-none" data-toggle="modal" data-target="#geolocation-modal"></a>
+                                            </li>
+                                        </ul>
+                                        <div class="row d-md-none">
+                                            <div class="component content col-12 remove-defaultcss">
+                                                <div class="component-content">
+                                                    <a class="btn btn-primary w-100 remove-defaultcss get-started-mobile" id="btn_header_mobile_get_started" href="@Model.GetStarted.GetFriendlyUrl()">@Model.GetStarted.Text</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mhp-nav-cta-block d-lg-none">
+                                            <div class="flex-col-wrap">
+                                                <div class="flex-left-col flex-left-margin-col">
+                                                    <h6>Don’t have a moment now to explore plans?</h6>
+                                                    <span class="cta-text">In one short step, provide your information for our team to contact you</span>
+                                                </div>
+                                                <div class="flex-right-col">
+                                                    <div class="row">
+                                                        <div class="component content col-12 remove-defaultcss">
+                                                            <div class="component-content">
+                                                                <a class="btn btn-primary btn-smaller remove-defaultcss" id="btn_header_request_a_call" href="/request-a-call">Request a call</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                                <div class="d-lg-flex">
+                                    <a href="@Model.Search.GetFriendlyUrl()" class="nav-cta d-none d-lg-flex align-items-center anchor-padding remove-defaultcss">
+                                        <div class="cta-icon search"></div>
+                                        <div class="cta-search d-none d-lg-block">@Model.Search.Text</div>
+                                    </a>
+                                    <div class="d-none d-lg-flex position-relative">
+                                        <div class="row">
+                                            <div class="component content col-12 remove-defaultcss">
+                                                <div class="component-content">
+                                                    @Html.Raw(Model.PhoneNumberBlock)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="cta-hours-operation remove-defaultcss" data-toggle="modal" data-target="#operation-modal">@Model.HoursOfOperation</a>
+                                    </div>
+                                    <div class="d-none d-lg-block d-lg-flex align-items-center">
+                                        <a class="btn btn-primary cta_get-started remove-defaultcss" id="btn_header_get_started" href="@Model.GetStarted.GetFriendlyUrl()">@Model.GetStarted.Text</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-right col-5 col-sm-5 col-lg-4 d-lg-none d-flex align-self-center justify-content-end">
+                                <a href="@Model.Search.GetFriendlyUrl()" class="nav-cta slide-left d-flex align-self-center remove-defaultcss">
+                                    <div class="cta-search d-none d-lg-block">@Model.Search.Text</div>
+                                    <div class="cta-icon search"></div>
+                                </a>
+                                <div class="row">
+                                    <div class="component content col-12 remove-defaultcss">
+                                        <div class="component-content">
+                                            @Html.Sitecore().Field("PhoneNumberBlock", @Model.PhoneNumberBlock)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-cta-button">
+                                    <a class="btn btn-primary cta_get-started remove-defaultcss" id="btn_header_get_started_desktop" href="@Model.GetStarted.GetFriendlyUrl()">@Model.GetStarted.Text</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -63,6 +63,7 @@
   <ItemGroup>
     <Content Include="Learning.Environment.CMS.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <None Include="Properties\PublishProfiles\LocalXM.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +85,10 @@
     <ProjectReference Include="..\..\Feature\Forms\website\Learning.Feature.Forms.csproj">
       <Project>{86557448-c12d-45a7-b22f-e1554a8b9f27}</Project>
       <Name>Learning.Feature.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Foundation\CustomFields\website\Learning.Foundation.CustomFields.csproj">
+      <Project>{8fb744a4-657b-4a68-8691-a9c928d3f499}</Project>
+      <Name>Learning.Foundation.CustomFields</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Foundation\DependencyInjection\website\Learning.Foundation.DependencyInjection.csproj">
       <Project>{4c1be5de-8577-4726-8b51-21c519a58964}</Project>
@@ -109,14 +114,20 @@
       <Project>{5e65d4dc-b7c5-4ada-baf0-067aaae22bd2}</Project>
       <Name>Learning.Project.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Project\Educity\website\Learning.Project.Educity.csproj">
-      <Project>{9cb85fa9-911c-42f0-a72c-5aa01a2b38fa}</Project>
-      <Name>Learning.Project.Educity</Name>
+    <ProjectReference Include="..\..\Project\MHP\website\Learning.Project.MHP.csproj">
+      <Project>{e0582f7d-30b6-4620-a47d-b8e1c05d8016}</Project>
+      <Name>Learning.Project.MHP</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="RichardSzalay.Helix.Publishing.WebRoot">
       <Version>1.5.6</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Kernel">
+      <Version>10.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Mvc">
+      <Version>10.3.0</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup>

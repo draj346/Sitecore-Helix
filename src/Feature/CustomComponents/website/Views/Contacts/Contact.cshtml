@@ -1,0 +1,54 @@
+﻿@model Learning.Feature.CustomComponents.Models.ContactViewModel
+@using Sitecore.Resources.Media
+
+
+<div class="shop-market-section">
+    <div class="container">
+        <div class="shop-wrapper">
+            <h2 class="h1 text-center heading mb-3">@Model.Heading</h2>
+            @*<h2 class="h1 text-center heading mb-3">@Html.Sitecore</h2>*@
+            <h3 class="h4 text-center sub-heading mb-4">
+                @Model.SubHeading
+            </h3>
+        </div>
+
+        <div class="contact-section">
+            <div class="row">
+                <div class="col-md-6 ps-md-0 ps-lg-4 d-flex justify-content-center">
+                    <div class="contact-block d-flex justify-content-center">
+                        <div class="contact-block-wrapper">
+                            <h3 class="h4 text-center">@Model.CallToAction</h3>
+                            <img class="cta-call-img" src="@MediaManager.GetMediaUrl(Model.CallToActionImage.MediaItem)" alt="@Model.CallToActionImage.Alt">
+                            <div class="contact">
+                                <div class="row">
+                                    <div class="col-12">
+                                        @Html.Sitecore().Field("PhoneNumberBlock", Model.PhoneNumberBlock)
+                                    </div>
+                                </div>
+
+                                <p class="mb-0">
+                                    <strong class="cta-hours-operation">@Model.HoursOperation</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pe-md-0 pe-lg-4 d-flex justify-content-center">
+                    <div class="contact-block">
+                        <div class="contact-block-wrapper">
+                            <h3 class="h4 text-center">@Model.CallRequest</h3>
+                            <img class="cta-call-img " src="@MediaManager.GetMediaUrl(Model.CallRequestImage.MediaItem)" alt="@Model.CallRequestImage">
+                            <div class="contact">
+                                <a href="@Model.CallRequestLink.GetFriendlyUrl()" class="request-call-link">
+                                    @Model.CallRequestLink.Text
+                                </a>
+                                <p class="mb-0">@Model.ContactInformation</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

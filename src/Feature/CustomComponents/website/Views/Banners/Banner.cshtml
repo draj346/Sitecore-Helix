@@ -1,0 +1,26 @@
+﻿@using Sitecore.Resources.Media
+@model Learning.Feature.CustomComponents.Models.BannerViewModel
+
+<div class="component content col-12 p-0 remove-defaultcss margin-bottom-30-60">
+    <div class="component-content">
+        <div class="hero-section-panel img-type-1 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 title-form-container">
+                        <div class="title-container">
+                            <h1 class="marketing-title ">@Html.Raw(Model.Heading)</h1>
+                        </div>
+                        <div class="form-container select-coverage-cta">
+                            <div class="row">
+                                @Html.Sitecore().Placeholder(Model.PlaceHolderKey)
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-5 col-xl-6 ">
+                        <img src="@MediaManager.GetMediaUrl(Model.BannerImage.MediaItem)" alt="@Model.BannerImage.Alt" width="958" height="574" style="bottom: 68px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

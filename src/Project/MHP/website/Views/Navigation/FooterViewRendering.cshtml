@@ -1,0 +1,107 @@
+﻿@using Sitecore.Resources.Media
+@model Learning.Project.MHP.Models.FooterViewRenderingModel
+
+@if (Model != null)
+{
+    <div id="footer" class="container-fluid">
+        <div class="row">
+            <div class="component content col-12 p-0 remove-defaultcss">
+                <div class="component-content">
+                    <div class="backto-top-section">
+                        <a class="remove-defaultcss" href="#" id="link_back_to_top"><i class="bi bi-arrow-up-short"></i> @Model.BackToTop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="component content col-12 p-0 remove-defaultcss">
+                <div class="component-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="footer-links-container d-lg-flex justify-content-between">
+                                    <div class="d-md-flex">
+                                        <div class="footer-links footer-links-1">
+                                            <a href="/" class="footer-logo">
+                                                <img src="@MediaManager.GetMediaUrl(Model.Logo.MediaItem)" alt="@Model.Logo.Alt">
+                                            </a>
+                                            <div class="row">
+                                                <div class="component content col-12 remove-defaultcss">
+                                                    <div class="component-content">
+                                                        <ul class="footer-cta m-0 p-0">
+                                                            <li class="d-inline-block">
+                                                                <div class="cta-icon"></div>
+                                                            </li>
+                                                            <li class="d-inline-block">
+                                                                <a id="anchor_footer_phone_number" test-id="anchor_footer_phone_number" href="tel:+18889281456" class="pt-0 branch-phone-number">
+                                                                    @Html.Raw(Model.PhoneNumberBlock)
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="footer-links footer-links-2">
+                                            <h6>Navigate Insurance Options</h6>
+                                            <ul class="m-0 p-0">
+                                                <li class="d-inline-block"><a id="anchor_footer_talk_with_agent" href="@Model.TalkWithAgentLink.GetFriendlyUrl()">@Model.TalkWithAgentLink.Text</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="footer-links footer-links-3">
+                                            <h6>Security &amp; Privacy</h6>
+                                            <ul class="m-0 p-0">
+                                                <li class="d-inline-block"><a target="" id="anchor_footer_terms_of_use" href="@Model.TermOfUseLink.GetFriendlyUrl()">@Model.TermOfUseLink.Text</a></li>
+                                                <li class="d-inline-block"><a target="" id="anchor_footer_privacy_policy" href="@Model.PrivacyPolicyLink.GetFriendlyUrl()">@Model.PrivacyPolicyLink.Text</a></li>
+                                                <li class="d-inline-block">
+                                                    <a target="_blank" id="anchor_footer_notify_info" href="@Model.NotificationAndDisasterLink.GetFriendlyUrl()">
+                                                        @Model.NotificationAndDisasterLink.Text
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="row">
+                                                <div class="component plain-html col-12">
+                                                    <div class="component-content">
+                                                        <div id="cookiebanner">
+                                                            <!-- Do Not Sell & Cookie Setting Button -->
+                                                            <!-- OneTrust Cookies Settings button start -->
+                                                            <button id="ot-sdk-btn" class="ot-sdk-show-settings">Do Not Sell or Share My Personal Information</button>
+                                                            <!-- OneTrust Cookies Settings button end -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="component content col-12 p-0 remove-defaultcss not-to-print">
+                <div class="component-content">
+                    <div class="footer-copyright">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 left-col">
+                                    @Html.Raw(Model.Copyright)
+                                </div>
+                                <div class="col-md-6 right-col">
+                                    @Model.PageNumber
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="component container mhp-footer-disclaimers">
+                <div class="component-content">
+                    <div class="row">
+                        @Html.Raw(Model.Disclaimer)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

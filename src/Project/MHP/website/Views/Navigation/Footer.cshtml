@@ -1,0 +1,69 @@
+﻿@using Sitecore.Resources.Media
+@model Learning.Project.MHP.Models.FooterViewModel
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="d-flex">
+                            <div>
+                                <div>
+                                    <a href="#">
+                                        <img class="footer-logo" src="@MediaManager.GetMediaUrl(Model.Logo.MediaItem)" alt="@Model.Logo.Alt">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="d-inline-block">
+                                        <div class="cta-icon"></div>
+                                    </div> @Html.Sitecore().Field("PhoneNumberBlock", @Model.PhoneNumberBlock)
+
+                                </div>
+                            </div>
+                            <div class="ps-4">
+                                <h6>@Model.Title</h6>
+                                <div><a href="@Model.TalkWithAgentLink.GetFriendlyUrl()" class="footer-link">@Model.TalkWithAgentLink.Text</a></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 text-sm-center">
+                        <div class="security-footer-links">
+                            <div>@Model.SecurityTitle</div>
+                            <ul class="d-flex m-0 p-0">
+                                <li class="footer-link"><strong><a href="@Model.TermOfUseLink.GetFriendlyUrl()">@Model.TermOfUseLink.Text</a></strong></li>
+                                <li class="footer-link"><strong><a href="@Model.PrivacyPolicyLink.GetFriendlyUrl()">@Model.PrivacyPolicyLink.Text</a></strong></li>
+                                <li class="footer-link">
+                                    <strong>
+                                        <a href="@Model.NotificationAndDisasterLink.GetFriendlyUrl()">
+                                            @Model.NotificationAndDisasterLink.Text
+                                        </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="container">
+                    <div class="footer-copyright">
+                        <div class="row">
+                            @Html.Sitecore().Field("Copyright", Model.Copyright)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                @*<div class="container">@Html.Raw(@Model.Disclaimer)</div>*@
+                <div class="container">@Html.Sitecore().Field("Disclaimer", Model.Disclaimer) </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
   <PropertyGroup>
-    <ExcludeFilesFromDeployment>bin\Sitecore.*.dll;bin\Newtonsoft.*.dll;bin\FiftyOne.*.dll;bin\HotChocolate.*.dll;bin\Microsoft.*.dll;bin\System.*.dll;bin\*.config;bin\*.pdb;</ExcludeFilesFromDeployment>
+    <ExcludeFilesFromDeployment>bin\Sitecore.*.dll;bin\Newtonsoft.*.dll;bin\FiftyOne.*.dll;bin\HotChocolate.*.dll;bin\Microsoft.*.dll;bin\System.*.dll;bin\*.config;bin\*.pdb;bin\Unicorn.dll;bin\Unicorn.*.dll;bin\Rainbow.dll</ExcludeFilesFromDeployment>
   </PropertyGroup>
 
   <!-- Copy Sitecore Support and Shared Source module files to output directory -->

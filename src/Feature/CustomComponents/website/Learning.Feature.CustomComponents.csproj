@@ -61,10 +61,25 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Contacts\Contact.cshtml" />
+    <Content Include="Views\Banners\Banner.cshtml" />
+    <Content Include="Views\Medicare\Guide.cshtml" />
+    <Content Include="Views\Banners\Banner - Copy.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\MedicareController.cs" />
+    <Compile Include="Controllers\BannersController.cs" />
+    <Compile Include="Controllers\ContactsController.cs" />
+    <Compile Include="Models\MedicareGuideViewModel.cs" />
+    <Compile Include="Models\CoverageViewModel.cs" />
+    <Compile Include="Models\BannerViewModel.cs" />
+    <Compile Include="Models\GroupMenuViewModel.cs" />
+    <Compile Include="Models\SubMenuViewModel.cs" />
+    <Compile Include="Models\MenuItemViewModel.cs" />
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
@@ -91,12 +106,23 @@
       <Version>2.0.1</Version>
     </PackageReference>
     <PackageReference Include="Sitecore.Kernel">
-      <Version>10.3.1</Version>
+      <Version>10.3.0</Version>
     </PackageReference>
     <PackageReference Include="Sitecore.Mvc">
-      <Version>10.3.1</Version>
+      <Version>10.3.0</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Log\website\Learning.Foundation.Log.csproj">
+      <Project>{3d552572-86e6-49d8-919d-6dff64c471bf}</Project>
+      <Name>Learning.Foundation.Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Utility\website\Learning.Foundation.Utility.csproj">
+      <Project>{6d9c3d4e-8a0b-497a-af45-b9d092dc3f50}</Project>
+      <Name>Learning.Foundation.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
